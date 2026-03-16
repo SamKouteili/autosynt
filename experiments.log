@@ -528,3 +528,8 @@
 [2026-03-16 06:16:19] instance: decision-tree-tic-tac-toe-un-formula_0.8_2021_atleast_127_max-6_reduced_incomplete_adaboost_3.wcnf | approach: SA-sweep | cost: 392 | time: 32.8 | notes: SA sweep
 [2026-03-16 06:16:49] instance: correlation-clustering_wt-Rounded_CorrelationClustering_Protein4_BINARY_N400.wcnf | approach: SA-sweep | cost: 46947894 | time: 29.7 | notes: SA sweep
 [2026-03-16 06:17:18] instance: correlation-clustering_wt-Rounded_CorrelationClustering_Protein4_BINARY_N360.wcnf | approach: SA-sweep | cost: 39851026 | time: 29.4 | notes: SA sweep
+[2026-03-16 06:25:24] instance: timetabling_wt-test4.wcnf | approach: random-greedy | cost: 448 | time: 60.4 | notes: rng greedy
+[2026-03-16 06:26:24] instance: timetabling_wt-comp02.wcnf | approach: random-greedy | cost: 66 | time: 120.1 | notes: rng greedy
+[2026-03-16 06:26:41] instance: abstraction-refinement_wt-polysite-bloat.wcnf | approach: greedy-continue | cost: 72 | time: 119.6 | notes: polysite cont
+[2026-03-16 06:27:23] instance: timetabling_wt-comp21.wcnf | approach: random-greedy | cost: 168 | time: 179.8 | notes: rng greedy
+[2026-03-16 06:28:27] instance: timetabling_wt-comp09.wcnf | approach: random-greedy | cost: 163 | time: 243.8 | notes: rng greedy

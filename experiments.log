@@ -697,3 +697,4 @@
 [2026-03-16 08:18:47] instance: timetabling_wt-comp09.wcnf | approach: rng-greedy | cost: 165 | time: 133.8 | notes: restore comp09
 [2026-03-16 08:23:16] instance: timetabling_wt-comp09.wcnf | approach: rc2-heavy-hard | cost: 165 | time: 73.3 | notes: RC2 heavy-hard
 [2026-03-16 08:24:43] instance: timetabling_wt-comp21.wcnf | approach: rc2-heavy-hard | cost: 120 | time: 86.8 | notes: RC2 heavy-hard
+[2026-03-16 08:46:35] instance: relational-inference_wt-pa-1.wcnf | approach: cwls-250s | cost: 500020 | time: 267.1 | notes: pa-1 cwls

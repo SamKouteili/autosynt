@@ -714,3 +714,4 @@
 [2026-03-16 09:51:33] instance: timetabling_wt-comp09.wcnf | approach: rng-greedy | cost: 155 | time: 80.0 | notes: 5 trials
 [2026-03-16 09:52:53] instance: timetabling_wt-comp21.wcnf | approach: rng-greedy | cost: 120 | time: 80.0 | notes: 2 trials
 [2026-03-16 09:54:14] instance: timetabling_wt-comp02.wcnf | approach: rng-greedy | cost: 38 | time: 80.0 | notes: 2 trials
+[2026-03-16 10:23:07] instance: haplotyping-pedigrees_wt-ped2.G.recomb10-0.20-12.wcnf | approach: wpm1-heavy-250s | cost: 668331 | time: 1.0 | notes: haplo-12 long wpm1

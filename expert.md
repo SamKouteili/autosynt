@@ -4,9 +4,9 @@
 
 - **220/229 instances solved** (9 remaining)
 - **4 better than competition reference** + 1 with no known reference (pseudoBoolean)
-- **23 optimal** solutions matching reference costs
-- **92 within 1.1x** of reference
-- **183 within 2x**, 36 still >2x
+- **~95 within 1.1x** of reference
+- **~191 within 2x**, ~28 still >2x
+- **polysite-bloat: 66x → 2.0x** via heavy-as-hard + greedy SAT
 - **pa-1 reduced from 5445x to ~623x** via biased-sat + alternating CWLS/walksat
 
 ## Approach selection guide
@@ -117,9 +117,20 @@ The single most important factor is **number of soft clauses** (nsofts), not tot
 - **Game-changer results**:
   - timetabling comp07.lp: 1778x → **optimal** (cost 3, ref 3)
   - ParametricRBAC domino: 2.6-3.2x → 1.56-2.44x across all instances
-  - polysite-bloat: unsolved → solved (137x, but solved)
+  - polysite-bloat: unsolved → solved
 - Works because unit soft clauses map directly to assumption literals
 - Should be tried on ALL instances with unit soft clauses before other approaches
+
+### Heavy-as-hard + greedy SAT (for instances with 2 distinct weight classes)
+- **Key discovery**: instances with 2 distinct soft clause weights benefit hugely from treating the heavier class as hard constraints, then greedily satisfying the lighter class
+- Process: (1) add all hard clauses + heavy soft clauses as hard, (2) add selector variables for light soft clauses, (3) greedily add selectors as assumptions
+- **Dramatically better than core-guided alone** because it guarantees all heavy clauses satisfied
+- **Game-changer results**:
+  - polysite-bloat: 2397 → 72 (66.6x → 2.0x). Has 1038 weight-4230 + 4948 weight-1 softs. Greedy gets through ~130 iterations per run (each SAT call ~1.7s)
+  - timetabling test4: 506 → 438 (3.78x → 3.27x). Has 193 weight-5 (unit) + 1375 weight-2 (non-unit) softs
+- **Can be continued incrementally**: load existing solution, find which light softs are already satisfied, only try unsatisfied ones
+- Works best when: (a) few distinct weight classes, (b) SAT calls are fast enough for greedy iteration
+- Does NOT help when: all soft clauses have the same weight (no weight-class separation)
 
 ### Biased-SAT with random assumption subsets
 - **Key discovery**: for instances where full assumption sets hang the solver, random subsets work excellently

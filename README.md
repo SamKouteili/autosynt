@@ -49,29 +49,26 @@ An autonomous AI agent that teaches itself to become the world's top expert on M
 ```
 
 ```bash
-# Launch locally (benchmarks must already be in benchmarks/)
-./run_local.sh
-
 # Launch on EC2 (handles everything: installs deps, clones repo,
-# downloads 4.3GB benchmarks from Helsinki, launches agent in tmux)
-./run.sh ec2-user@<ip>
+# downloads benchmarks from Helsinki, launches agents in tmux)
+./run.sh --host ec2-user@<ip> --agents 3
 ```
 
 Requires a `.env` file with `CLAUDE_CODE_API_KEY` and `GITHUB_ACCESS_TOKEN`. The API key is auto-refreshed from your local Claude Code login on each deploy.
 
 Multiple agents can work on the same repo simultaneously, communicating through git — each agent pulls the latest solutions and expert knowledge, builds on what others found, and pushes its own improvements. No coordination needed beyond `git pull` and `git push`.
 
-## Results so far (running around 15 hour)
+## Results so far
 
 | Metric | Count |
 |--------|-------|
 | Instances solved | **220 / 229** |
-| Optimal (matching competition best) | **25** |
+| Optimal (matching competition best) | **22** |
 | **Better than competition** | **4** |
 | Novel solve (no known solution existed) | **1** |
-| Within 1.1x of reference | 95 |
-| Within 1.5x | 151 |
-| Within 2x | 189 |
+| Within 1.1x of reference | 99 |
+| Within 1.5x | 160 |
+| Within 2x | 195 |
 | Unsolved | 9 |
 
 ### Beat the 2024 MaxSAT Competition
@@ -89,10 +86,11 @@ Multiple agents can work on the same repo simultaneously, communicating through 
 | Instance | Ratio | Why it's hard |
 |----------|-------|---------------|
 | relational-inference pa-1 | 612x | 2.5M vars, 1.1M soft clauses |
-| polysite-bloat | 67x | 11.7M vars |
-| haplotyping-13 | 13x | 215K vars, 18K softs |
-| haplotyping-12 | 12x | 215K vars, 18K softs |
-| twitter | 10x | 51K softs, 9.7M hard clauses |
+| haplotyping-13 | 12.6x | 215K vars, 18K softs |
+| haplotyping-12 | 12.2x | 215K vars, 18K softs |
+| twitter | 9.7x | 51K softs, 9.7M hard clauses |
+| causal-discovery Water | 4.4x | 8.3M cost vs 1.9M ref |
+| timetabling test4 | 3.3x | 131K vars |
 
 9 instances remain unsolved — mostly >16M variables or no known reference solution.
 
@@ -118,7 +116,7 @@ All code the agent writes lives in `library/`:
 | Module | Functions | Purpose |
 |--------|-----------|---------|
 | `solvers.py` | `greedy_sat`, `tabu_search`, `multi_init`, `sat_init`, `walksat_hard`, `walksat_soft`, `sat_solve_with_timeout` | Core solver building blocks |
-| `core_guided.py` | `core_guided_solve`, `wpm1_solve` | UNSAT core-based optimization for unit soft clauses |
+| `core_guided.py` | `core_guided_solve`, `core_guided_budget`, `wpm1_solve` | UNSAT core-based optimization for unit soft clauses |
 | `clause_weight_ls.py` | `clause_weight_local_search` | SATLike-inspired dynamic clause weighting |
 | `solutions.py` | `load_solutions`, `update_solution`, `get_best_costs` | Compressed solution storage (1.7GB → 1.5MB) |
 | `wcnf_parser.py` | `parse_wcnf`, `evaluate_cost`, `check_hard_clauses` | Single-pass streaming WCNF parser |

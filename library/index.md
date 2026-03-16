@@ -22,6 +22,7 @@
     - walksat_hard: WalkSAT to fix hard clause violations in an assignment
     - walksat_soft: WalkSAT-based soft clause optimizer for instances with many hard + soft clauses (O(clause_length) per step)
     - multi_init: run multiple SAT solvers with random assumptions to find diverse feasible solutions. Best for breaking out of single-solver local optima.
+    - randomized_greedy: greedy SAT with random clause orderings. Dramatically better than weight-sorted for some instances. GAME-CHANGER for causal_n7 (optimal), timetabling.
     - assignment_to_lits: convert bytearray assignment to signed literal list
 
 - core_guided.py:

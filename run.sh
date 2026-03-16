@@ -4,8 +4,10 @@
 #   IP: 44.211.98.254
 #
 # Launch (or reattach):  ./run.sh ec2-user@44.211.98.254
+# Custom agent count:    NUM_AGENTS=4 ./run.sh ec2-user@44.211.98.254
 # Detach:                Ctrl-b d
 # Reattach:              ssh -t ec2-user@44.211.98.254 'tmux attach -t maxsat'
+# Switch agent windows:  Ctrl-b n (next) / Ctrl-b p (prev) / Ctrl-b <number>
 # Kill:                  ssh ec2-user@44.211.98.254 'tmux kill-session -t maxsat'
 set -e
 
@@ -24,7 +26,7 @@ if [ -n "$HOST" ]; then
   fi
   ssh "$HOST" "test -f ~/.env" 2>/dev/null || scp "$SCRIPT_DIR/.env" "$HOST":~/
   # Pipe the setup script, then attach to tmux
-  ssh "$HOST" 'bash -s' < "$SCRIPT_DIR/run.sh"
+  ssh "$HOST" "NUM_AGENTS=${NUM_AGENTS:-3} bash -s" < "$SCRIPT_DIR/run.sh"
   ssh -t "$HOST" 'tmux attach -t maxsat'
   exit 0
 fi
@@ -56,27 +58,34 @@ cat > ~/.claude/settings.json <<'EOF'
 {"permissions":{"defaultMode":"bypassPermissions"},"model":"opus[1m]","skipDangerousModePermissionPrompt":true}
 EOF
 
-# Clone repo (or pull if already cloned)
-REPO_DIR="/tmp/np-hard-agent"
-if [ -d "$REPO_DIR/.git" ]; then
-  git -C "$REPO_DIR" pull
-else
-  git clone "https://${GITHUB_ACCESS_TOKEN}@github.com/iliazintchenko/np-hard-agent.git" "$REPO_DIR"
-fi
+NUM_AGENTS="${NUM_AGENTS:-3}"
+BENCH_DIR="/tmp/np-hard-benchmarks"
 
-# Git identity
-git -C "$REPO_DIR" config user.name "Ilia Zintchenko"
-git -C "$REPO_DIR" config user.email "iliazin@gmail.com"
-
-# Download and set up benchmarks if not already present
-if [ ! -d "$REPO_DIR/benchmarks/max-sat-2024/mse24-anytime-weighted" ]; then
-  mkdir -p "$REPO_DIR/benchmarks/max-sat-2024/mse24-anytime-weighted"
+# Download benchmarks once into a shared location
+if [ ! -d "$BENCH_DIR/max-sat-2024/mse24-anytime-weighted" ]; then
+  mkdir -p "$BENCH_DIR/max-sat-2024/mse24-anytime-weighted"
   curl -L -o /tmp/mse24.zip https://www.cs.helsinki.fi/group/coreo/MSE2024-instances/mse24-anytime-weighted.zip
-  unzip -o /tmp/mse24.zip -d "$REPO_DIR/benchmarks/max-sat-2024/"
-  cd "$REPO_DIR/benchmarks/max-sat-2024"
+  unzip -o /tmp/mse24.zip -d "$BENCH_DIR/max-sat-2024/"
+  cd "$BENCH_DIR/max-sat-2024"
   for f in *.wcnf.xz; do xz -d "$f" && mv "${f%.xz}" mse24-anytime-weighted/; done
   rm -f /tmp/mse24.zip
 fi
+
+# Clone repos — each agent gets its own directory
+for i in $(seq 1 "$NUM_AGENTS"); do
+  REPO_DIR="/tmp/np-hard-agent-$i"
+  if [ -d "$REPO_DIR/.git" ]; then
+    git -C "$REPO_DIR" pull
+  else
+    git clone "https://${GITHUB_ACCESS_TOKEN}@github.com/iliazintchenko/np-hard-agent.git" "$REPO_DIR"
+  fi
+  git -C "$REPO_DIR" config user.name "Ilia Zintchenko"
+  git -C "$REPO_DIR" config user.email "iliazin@gmail.com"
+  # Symlink shared benchmarks into each clone
+  rm -rf "$REPO_DIR/benchmarks/max-sat-2024/mse24-anytime-weighted"
+  mkdir -p "$REPO_DIR/benchmarks/max-sat-2024"
+  ln -sf "$BENCH_DIR/max-sat-2024/mse24-anytime-weighted" "$REPO_DIR/benchmarks/max-sat-2024/mse24-anytime-weighted"
+done
 
 # If already running, just reattach
 if tmux has-session -t maxsat 2>/dev/null; then
@@ -88,14 +97,21 @@ if ! command -v tmux &> /dev/null; then
   sudo dnf install -y tmux
 fi
 
-cd "$REPO_DIR"
-LOG="$REPO_DIR/agent.log"
-
-# Launch in tmux: agent log top, costs bottom-left, agent steps bottom-right
-tmux new-session -s maxsat -d \
-  "claude -p 'Read program.md and go.' --dangerously-skip-permissions --verbose --output-format stream-json 2>&1 | tee $LOG"
-tmux split-window -v -t maxsat \
-  "tail -f $LOG | jq -r 'select(.type==\"assistant\" and .message.usage) | .message.usage | \"in: \\(.input_tokens) cache: \\(.cache_read_input_tokens) out: \\(.output_tokens)\"'"
-tmux split-window -h -t maxsat:0.1 \
-  "tail -f $LOG | jq -r 'select(.type==\"assistant\" and .message.content) | .message.content[] | select(.type==\"text\") | .text' 2>/dev/null"
-tmux select-pane -t maxsat:0.0
+# Launch tmux session — one window per agent
+for i in $(seq 1 "$NUM_AGENTS"); do
+  REPO_DIR="/tmp/np-hard-agent-$i"
+  LOG="$REPO_DIR/agent.log"
+  if [ "$i" -eq 1 ]; then
+    tmux new-session -s maxsat -n "agent-$i" -d \
+      "cd $REPO_DIR && claude -p 'Read program.md and go.' --dangerously-skip-permissions --verbose --output-format stream-json 2>&1 | tee $LOG"
+  else
+    tmux new-window -t maxsat -n "agent-$i" \
+      "cd $REPO_DIR && claude -p 'Read program.md and go.' --dangerously-skip-permissions --verbose --output-format stream-json 2>&1 | tee $LOG"
+  fi
+  # Add monitoring panes: costs bottom-left, agent steps bottom-right
+  tmux split-window -v -t "maxsat:agent-$i" \
+    "tail -f $LOG | jq -r 'select(.type==\"assistant\" and .message.usage) | .message.usage | \"in: \\(.input_tokens) cache: \\(.cache_read_input_tokens) out: \\(.output_tokens)\"'"
+  tmux split-window -h -t "maxsat:agent-$i.1" \
+    "tail -f $LOG | jq -r 'select(.type==\"assistant\" and .message.content) | .message.content[] | select(.type==\"text\") | .text' 2>/dev/null"
+  tmux select-pane -t "maxsat:agent-$i.0"
+done

@@ -473,3 +473,20 @@
 [2026-03-15 23:38:39] instance: decision-tree-primary-tumor-un-formula_0.8_2021_atleast_127_max-6_reduced_incomplete_adaboost_4.wcnf | approach: core-guided-budget | cost: None | notes: remaining budget
 [2026-03-15 23:39:58] instance: decision-tree-tic-tac-toe-un-formula_0.8_2021_atleast_127_max-6_reduced_incomplete_adaboost_5.wcnf | approach: core-guided-budget | cost: None | notes: remaining budget
 [2026-03-15 23:41:07] instance: switchingactivitymaximization-SwitchingActivityMaximization_OpenRISC1200_66.wcnf | approach: core-guided-budget | cost: None | notes: remaining budget
+[2026-03-16 04:10:54] instance: MaxSATQueriesinInterpretableClassifiers_wt-heart_train_1_CNF_3_5.wcnf | approach: wpm1+greedy+multi-init | cost: 258 | time: 0.8 | notes: small instance improvement
+[2026-03-16 04:11:45] instance: synplicate_new-synplicate_synthetic_dag_run1_16_size_4_ms_0_25_0_erm.wcnf | approach: core-guided+wpm1+greedy | cost: 271 | time: 8.9 | notes: synplicate improvement
+[2026-03-16 04:12:06] instance: timetabling_wt-comp09.wcnf | approach: core-guided+greedy | cost: 216 | time: 73.2 | notes: timetabling improvement
+[2026-03-16 04:12:26] instance: synplicate_new-synplicate_synthetic_dag_run1_17_size_5_ms_0_25_0_erm.wcnf | approach: core-guided+wpm1+greedy | cost: 116 | time: 50.3 | notes: synplicate improvement
+[2026-03-16 04:12:30] instance: quantum-circuit-grover-noancilla_4_52_ibmq-casablanca_7.wcnf | approach: wpm1+greedy+multi-init | cost: 48 | time: 97.2 | notes: small instance improvement
+[2026-03-16 04:12:38] instance: timetabling_wt-comp02.wcnf | approach: core-guided+greedy | cost: 66 | time: 104.6 | notes: timetabling improvement
+[2026-03-16 04:13:28] instance: synplicate_new-synplicate_synthetic_dag_run1_14_size_5_ms_0_25_0_erm.wcnf | approach: core-guided+wpm1+greedy | cost: 403 | time: 112.7 | notes: synplicate improvement
+[2026-03-16 04:13:40] instance: timetabling_wt-comp21.wcnf | approach: core-guided+greedy | cost: 168 | time: 166.7 | notes: timetabling improvement
+[2026-03-16 04:14:08] instance: timetabling_wt-comp06.wcnf | approach: core-guided+greedy | cost: 50 | time: 194.4 | notes: timetabling improvement
+[2026-03-16 04:14:45] instance: decision-tree-heart-cleveland-un-formula_0.8_2021_atleast_15_max-3_reduced_incomplete_adaboost_5.wcnf | approach: greedy+multi-init | cost: 229 | time: 189.8 | notes: decision-tree improvement
+[2026-03-16 04:14:49] instance: decision-tree-heart-cleveland-un-formula_0.8_2021_atleast_15_max-3_reduced_incomplete_adaboost_6.wcnf | approach: greedy+multi-init | cost: 271 | time: 193.5 | notes: decision-tree improvement
+[2026-03-16 04:15:19] instance: decision-tree-australian-credit-un-formula_0.8_2021_atleast_15_max-3_reduced_incomplete_adaboost_5.wcnf | approach: greedy+multi-init | cost: 611 | time: 223.5 | notes: decision-tree improvement
+[2026-03-16 04:25:42] instance: haplotyping-pedigrees_wt-ped2.G.recomb10-0.20-13.wcnf | approach: cwls+walksat deep | cost: 511985 | time: 250.5 | notes: haplotyping-13 deep
+[2026-03-16 04:27:49] instance: abstraction-refinement_wt-polysite-bloat.wcnf | approach: core-guided+wpm1 | cost: 2397 | time: 79.1 | notes: polysite-bloat deep
+[2026-03-16 04:29:43] instance: abstraction-refinement_wt-polysite-bloat.wcnf | approach: heavy-as-hard | cost: 204 | time: 91.0 | notes: polysite-bloat heavy-as-hard strategy
+[2026-03-16 04:32:22] instance: abstraction-refinement_wt-polysite-bloat.wcnf | approach: core-guided-deep | cost: 204 | time: 142.5 | notes: polysite-bloat deep
+[2026-03-16 04:42:20] instance: abstraction-refinement_wt-polysite-bloat.wcnf | approach: cwls-heavy-hard | cost: 203 | time: 267.9 | notes: polysite cwls

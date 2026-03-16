@@ -3,8 +3,7 @@
 #   Instance ID: i-02d0c8c6970c9915f
 #   IP: 44.211.98.254
 #
-# Launch (or reattach):  ./run.sh ec2-user@44.211.98.254
-# Custom agent count:    NUM_AGENTS=4 ./run.sh ec2-user@44.211.98.254
+# Launch (or reattach):  ./run.sh ec2-user@44.211.98.254 3
 # Detach:                Ctrl-b d
 # Reattach:              ssh -t ec2-user@44.211.98.254 'tmux attach -t maxsat'
 # Switch agent windows:  Ctrl-b n (next) / Ctrl-b p (prev) / Ctrl-b <number>
@@ -13,6 +12,7 @@ set -e
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 HOST="$1"
+NUM_AGENTS="${2:-3}"
 
 if [ -n "$HOST" ]; then
   # Refresh API key from local Claude Code login if available
@@ -26,7 +26,7 @@ if [ -n "$HOST" ]; then
   fi
   ssh "$HOST" "test -f ~/.env" 2>/dev/null || scp "$SCRIPT_DIR/.env" "$HOST":~/
   # Pipe the setup script, then attach to tmux
-  ssh "$HOST" "NUM_AGENTS=${NUM_AGENTS:-3} bash -s" < "$SCRIPT_DIR/run.sh"
+  ssh "$HOST" "NUM_AGENTS=$NUM_AGENTS bash -s" < "$SCRIPT_DIR/run.sh"
   ssh -t "$HOST" 'tmux attach -t maxsat'
   exit 0
 fi
@@ -58,7 +58,7 @@ cat > ~/.claude/settings.json <<'EOF'
 {"permissions":{"defaultMode":"bypassPermissions"},"model":"opus[1m]","skipDangerousModePermissionPrompt":true}
 EOF
 
-NUM_AGENTS="${NUM_AGENTS:-3}"
+NUM_AGENTS="${NUM_AGENTS:-3}"  # passed via env from SSH caller
 BENCH_DIR="/tmp/agent-sat-benchmarks"
 
 # Download benchmarks once into a shared location

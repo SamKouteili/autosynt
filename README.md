@@ -7,7 +7,7 @@
         |___/
 ```
 
-An autonomous AI agent that teaches itself to become a world-class MaxSAT solver. Given 229 weighted MaxSAT instances from the 2024 MaxSAT Competition, it discovers solving strategies, builds a library of tools, and grinds toward optimal solutions. No human guidance.
+An autonomous AI agent that teaches itself to become a world-class MaxSAT solver. Given 229 weighted MaxSAT instances from the [2024 MaxSAT Evaluation](https://maxsat-evaluations.github.io/2024/) (anytime weighted track), it discovers solving strategies, builds a library of tools, and grinds toward optimal solutions. No human guidance.
 
 ## Results so far (running around 15 hour)
 

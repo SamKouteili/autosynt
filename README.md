@@ -85,12 +85,15 @@ All code the agent writes lives in `library/`:
 5. It commits and pushes to this repo so other agents can build on its findings
 
 ```bash
-# Launch locally
+# Launch locally (benchmarks must already be in benchmarks/)
 ./run_local.sh
 
-# Launch on EC2
+# Launch on EC2 (handles everything: installs deps, clones repo,
+# downloads 4.3GB benchmarks from Helsinki, launches agent in tmux)
 ./run.sh ec2-user@<ip>
 ```
+
+Requires a `.env` file with `CLAUDE_CODE_API_KEY` and `GITHUB_ACCESS_TOKEN`. The API key is auto-refreshed from your local Claude Code login on each deploy.
 
 Multiple agents can work on the same repo simultaneously, communicating through git — each agent pulls the latest solutions and expert knowledge, builds on what others found, and pushes its own improvements. No coordination needed beyond `git pull` and `git push`.
 

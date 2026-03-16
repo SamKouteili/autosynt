@@ -512,3 +512,8 @@
 [2026-03-16 04:45:53] instance: abstraction-refinement_wt-polysite-bloat.wcnf | approach: greedy-sat-split | cost: 86 | time: 256.2 | notes: polysite-bloat greedy light
 [2026-03-16 04:51:15] instance: abstraction-refinement_wt-polysite-bloat.wcnf | approach: greedy-sat-split-v2 | cost: 86 | time: 286.2 | notes: polysite-bloat greedy light v2
 [2026-03-16 04:55:52] instance: haplotyping-pedigrees_wt-ped2.G.recomb10-0.20-13.wcnf | approach: cwls+walksat | cost: 511985 | time: 269.5 | notes: haplo-13 deep
+[2026-03-16 05:07:35] instance: timetabling_wt-test4.wcnf | approach: re-solve | cost: 506 | time: 176.6 | notes: re-apply improvements
+[2026-03-16 05:10:48] instance: decision-tree-primary-tumor-un-formula_0.8_2021_atleast_127_max-6_reduced_incomplete_adaboost_4.wcnf | approach: re-solve | cost: 218 | time: 193.3 | notes: re-apply improvements
+[2026-03-16 05:13:21] instance: decision-tree-australian-credit-un-formula_0.8_2021_atleast_63_max-5_reduced_incomplete_adaboost_3.wcnf | approach: re-solve | cost: 376 | time: 152.8 | notes: re-apply improvements
+[2026-03-16 05:15:53] instance: decision-tree-australian-credit-un-formula_0.8_2021_atleast_63_max-5_reduced_incomplete_adaboost_5.wcnf | approach: re-solve | cost: 484 | time: 152.1 | notes: re-apply improvements
+[2026-03-16 05:21:47] instance: abstraction-refinement_wt-polysite-bloat.wcnf | approach: greedy-continue | cost: 72 | time: 117.6 | notes: polysite greedy continue

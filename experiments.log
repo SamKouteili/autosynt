@@ -678,5 +678,6 @@
 [2026-03-16 07:25:05] instance: haplotyping-pedigrees_wt-ped2.G.recomb10-0.20-12.wcnf | approach: bimodal-wpm1 | cost: 206835 | time: 16.5 | notes: bimodal sweep
 [2026-03-16 07:25:42] instance: timetabling_wt-test4.wcnf | approach: bimodal-wpm1 | cost: 448 | time: 36.5 | notes: bimodal sweep
 [2026-03-16 07:26:07] instance: switchingactivitymaximization-SwitchingActivityMaximization_OpenRISC1200_66.wcnf | approach: bimodal-wpm1 | cost: 6 | time: 24.0 | notes: bimodal sweep
-[2026-03-16 07:40:23] instance: haplotyping-pedigrees_wt-ped2.G.recomb10-0.20-12.wcnf | approach: wpm1-heavy-250s | cost: 206835 | time: 1.2 | notes: haplo-12 wpm1
-[2026-03-16 07:51:09] instance: relational-inference_wt-pa-1.wcnf | approach: cwls+walksat | cost: 500807 | time: 251.3 | notes: pa-1 continue
+[2026-03-16 07:42:22] instance: haplotyping-pedigrees_wt-ped2.G.recomb10-0.20-12.wcnf | approach: wpm1-heavy | cost: 206835 | time: 1.2 | notes: haplo-12 wpm1
+[2026-03-16 07:43:38] instance: timetabling_wt-test4.wcnf | approach: bimodal+multi | cost: 448 | time: 0 | notes: 2x sweep
+[2026-03-16 07:44:13] instance: decision-tree-tic-tac-toe-un-formula_0.8_2021_atleast_127_max-6_reduced_incomplete_adaboost_3.wcnf | approach: bimodal+multi | cost: 392 | time: 0 | notes: 2x sweep

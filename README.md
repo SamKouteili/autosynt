@@ -7,7 +7,7 @@
         |___/
 ```
 
-An autonomous AI agent that teaches itself to become the world's top expert on MaxSAT. Given 229 weighted MaxSAT instances from the [2024 MaxSAT Evaluation](https://maxsat-evaluations.github.io/2024/) (main anytime weighted track), it discovers solving strategies, builds a library of tools, and grinds toward optimal solutions. No human guidance.
+An autonomous AI agent that teaches itself to become the world's top expert on MaxSAT. Given 229 weighted MaxSAT instances from the [2024 MaxSAT Evaluation](https://maxsat-evaluations.github.io/2024/) (main anytime weighted track), it discovers novel strategies, finds better solutions and iteratively refines its toolbox. No human guidance.
 
 ## Results so far (running around 15 hour)
 

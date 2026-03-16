@@ -546,3 +546,16 @@
 [2026-03-16 05:32:18] instance: ...Protein1_UNARY_N250.wcnf | approach: greedy-sat | cost: 26485351 | time: 40.3 | notes: corr-clust
 [2026-03-16 05:32:26] instance: ...Protein4_TRANSITIVE_N190.wcnf | approach: greedy-sat | cost: 4122666 | time: 6.2 | notes: corr-clust
 [2026-03-16 05:32:52] instance: ...Ionosphere_BINARY_N280_D0.200.wcnf | approach: greedy-sat | cost: 45347755 | time: 25.1 | notes: corr-clust
+[2026-03-16 05:34:00] instance: causal-discovery_wt-causal_n7_i4_N500_uai14_log_int.wcnf | approach: greedy-sat | cost: 94924010740 | time: 5.1 | notes: causal greedy
+[2026-03-16 05:34:37] instance: causal-discovery_wt-causal_insurance_8_10000.wcnf | approach: greedy-sat | cost: 44500019 | time: 23.5 | notes: causal greedy
+[2026-03-16 05:34:58] instance: causal-discovery_wt-causal_Mildew_8_1000.wcnf | approach: greedy-sat | cost: 77993673 | time: 20.9 | notes: causal greedy
+[2026-03-16 05:36:01] instance: causal-discovery_wt-causal_Water_10_100.wcnf | approach: greedy-sat | cost: 15750563 | time: 60.7 | notes: causal greedy
+[2026-03-16 05:36:14] instance: causal-discovery_wt-causal_Bands_6_277.wcnf | approach: greedy-sat | cost: 111967 | time: 0.2 | notes: causal greedy
+[2026-03-16 05:37:11] instance: timetabling_wt-test4.wcnf | approach: greedy-sat | cost: 1193 | time: 31.2 | notes: sweep
+[2026-03-16 05:37:42] instance: switchingactivitymaximization-SwitchingActivityMaximization_ | approach: greedy-sat | cost: 6 | time: 30.5 | notes: sweep
+[2026-03-16 05:38:13] instance: timetabling_wt-comp02.wcnf | approach: greedy-sat | cost: 260 | time: 30.0 | notes: sweep
+[2026-03-16 05:38:52] instance: decision-tree-primary-tumor-un-formula_0.8_2021_atleast_127_ | approach: greedy-sat | cost: 252 | time: 38.2 | notes: sweep
+[2026-03-16 05:39:25] instance: decision-tree-tic-tac-toe-un-formula_0.8_2021_atleast_127_ma | approach: greedy-sat | cost: 565 | time: 31.0 | notes: sweep
+[2026-03-16 05:39:29] instance: causal-discovery_wt-causal_n7_i4_N500_uai14_log_int.wcnf | approach: greedy-sat | cost: 94924010740 | time: 3.9 | notes: sweep
+[2026-03-16 05:40:04] instance: decision-tree-tic-tac-toe-un-formula_0.8_2021_atleast_127_ma | approach: greedy-sat | cost: 968 | time: 33.9 | notes: sweep
+[2026-03-16 05:40:48] instance: synplicate_new-synplicate_synthetic_dag_run2_12_size_8_ms_26 | approach: greedy-sat | cost: 1033 | time: 24.3 | notes: sweep

@@ -3,11 +3,12 @@
 ## Overall results summary
 
 - **220/229 instances solved** (9 remaining)
-- **4 better than competition reference** + 1 with no known reference (pseudoBoolean)
+- **4 better than competition reference** + 1 with no known reference (pseudoBoolean) + 1 matching optimal (causal_n7)
+- **24 optimal** solutions matching reference costs
 - **~95 within 1.1x** of reference
-- **~191 within 2x**, ~28 still >2x
-- **polysite-bloat: 66x → 2.0x** via heavy-as-hard + greedy SAT
+- **~189 within 2x**, ~30 still >2x
 - **pa-1 reduced from 5445x to ~623x** via biased-sat + alternating CWLS/walksat
+- **polysite-bloat reduced from 66x to 2.4x** via split-heavy approach
 
 ## Approach selection guide
 
@@ -165,6 +166,24 @@ The single most important factor is **number of soft clauses** (nsofts), not tot
   - N300: 34.3M→16.5M (4.25x→2.04x)
 - Also improved Vowel N700: 144.9M→119.9M (2.00x→1.66x)
 - Works less well on Protein variants (same or worse cost)
+
+### Split-heavy approach for bimodal weight instances
+- **Key discovery**: when soft clauses have bimodal weight distribution (few heavy + many light), treat heavy clauses as hard constraints and optimize only light clauses
+- Works when: enforcing all heavy as hard is SAT (otherwise need partial enforcement or skip)
+- **Game-changer results**:
+  - polysite-bloat: 2397→86 (66x→2.4x). Add 1038 w=4230 clauses as hard, greedy SAT on 4948 w=1 clauses
+  - timetabling_test4: 629→448. Add w=5 as hard, greedy on w=2
+- Does NOT work when heavy clauses conflict (e.g. haplotyping: adding all 18400 w=581 clauses → UNSAT)
+
+### Randomized greedy SAT ordering
+- **Key discovery**: standard greedy SAT sorts by weight descending, but random orderings can find dramatically better solutions
+- The weight-descending order is a greedy heuristic that can get stuck in suboptimal local optima
+- Random orderings explore different corners of the solution space
+- **Game-changer results**:
+  - causal_n7: 94.9B→37.5B (2.53x→**optimal**, matching reference)
+  - Found optimal in just 43 trials of random ordering
+- Most effective for instances with <5000 soft clauses where each greedy iteration is fast
+- Run 50-100 random orderings to find good solutions
 
 ## Current bottleneck: single-flip local optima
 Most solved instances are at single-flip local optima — no single variable flip can improve soft cost without breaking hard constraints. Further improvements require:

@@ -706,3 +706,4 @@
 [2026-03-16 09:08:53] instance: timetabling_wt-comp02.wcnf | approach: randomized-greedy | cost: 52 | time: 69.0
 [2026-03-16 09:10:18] instance: synplicate_new-synplicate_synthetic_dag_run2_12_size_8_ms_26_50_0_erm.wcnf | approach: randomized-greedy | cost: 577 | time: 85.3
 [2026-03-16 09:10:53] instance: decision-tree-tic-tac-toe-un-formula_0.8_2021_atleast_127_max-6_reduced_incomplete_adaboost_3.wcnf | approach: randomized-greedy | cost: 392 | time: 34.5
+[2026-03-16 09:15:56] instance: relational-inference_wt-pa-1.wcnf | approach: cwls | cost: 497394 | notes: pa-1

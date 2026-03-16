@@ -708,3 +708,4 @@
 [2026-03-16 09:10:53] instance: decision-tree-tic-tac-toe-un-formula_0.8_2021_atleast_127_max-6_reduced_incomplete_adaboost_3.wcnf | approach: randomized-greedy | cost: 392 | time: 34.5
 [2026-03-16 09:15:56] instance: relational-inference_wt-pa-1.wcnf | approach: cwls | cost: 497394 | notes: pa-1
 [2026-03-16 09:23:58] instance: relational-inference_wt-pa-1.wcnf | approach: cwls+walksat | cost: 496656 | notes: pa-1
+[2026-03-16 09:42:10] instance: timetabling_wt-comp02.wcnf | approach: rng-heavy-hard-500 | cost: 46 | time: 282.9 | notes: comp02 500 trials

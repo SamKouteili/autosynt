@@ -697,3 +697,4 @@
 [2026-03-16 08:18:47] instance: timetabling_wt-comp09.wcnf | approach: rng-greedy | cost: 165 | time: 133.8 | notes: restore comp09
 [2026-03-16 08:24:00] instance: timetabling_wt-comp02.wcnf | approach: rng-heavy-hard-200 | cost: 36 | time: 284.8 | notes: comp02 200 trials
 [2026-03-16 08:29:19] instance: abstraction-refinement_wt-polysite-bloat.wcnf | approach: greedy-continue | cost: 72 | time: 114.2 | notes: polysite restore
+[2026-03-16 08:32:18] instance: timetabling_wt-test4.wcnf | approach: rng-heavy-hard-100 | cost: 440 | time: 279.2 | notes: test4 100 trials

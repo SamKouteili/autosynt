@@ -523,39 +523,14 @@
 [2026-03-16 05:12:18] instance: decision-tree-primary-tumor-un-formula_0.8_2021_atleast_127_ | approach: comprehensive | cost: 207 | time: 58.2 | notes: comp sweep
 [2026-03-16 05:13:01] instance: timetabling_wt-comp02.wcnf | approach: comprehensive | cost: 66 | time: 42.6 | notes: comp sweep
 [2026-03-16 05:32:27] instance: abstraction-refinement_wt-polysite-bloat.wcnf | approach: greedy-continue | cost: 72 | time: 119.4 | notes: polysite greedy cont
-[2026-03-16 05:14:47] instance: timetabling_wt-test4.wcnf | approach: split-heavy | cost: 448 | time: 59.1 | notes: timetabling split
-[2026-03-16 05:15:32] instance: timetabling_wt-comp02.wcnf | approach: split-heavy | cost: 66 | time: 45.2 | notes: timetabling split
-[2026-03-16 05:16:11] instance: timetabling_wt-comp09.wcnf | approach: split-heavy | cost: 216 | time: 38.3 | notes: timetabling split
-[2026-03-16 05:16:56] instance: timetabling_wt-comp21.wcnf | approach: split-heavy | cost: 168 | time: 45.2 | notes: timetabling split
-[2026-03-16 05:17:42] instance: timetabling_wt-comp06.wcnf | approach: split-heavy | cost: 50 | time: 45.2 | notes: timetabling split
-[2026-03-16 05:18:54] instance: ...2021_atleast_127_max-6_reduced_incomplet | approach: greedy-sat | cost: 565 | time: 44.9 | notes: dt greedy
-[2026-03-16 05:19:33] instance: ...2021_atleast_127_max-6_reduced_incomplet | approach: greedy-sat | cost: 252 | time: 36.8 | notes: dt greedy
-[2026-03-16 05:20:06] instance: ...2021_atleast_127_max-6_reduced_incomplet | approach: greedy-sat | cost: 968 | time: 31.3 | notes: dt greedy
-[2026-03-16 05:20:39] instance: ...2021_atleast_63_max-5_reduced_incomplete | approach: greedy-sat | cost: 419 | time: 31.7 | notes: dt greedy
-[2026-03-16 05:21:12] instance: ...2021_atleast_15_max-3_reduced_incomplete | approach: greedy-sat | cost: 241 | time: 32.5 | notes: dt greedy
-[2026-03-16 05:21:53] instance: ...2021_atleast_63_max-5_reduced_incomplete | approach: greedy-sat | cost: 484 | time: 39.4 | notes: dt greedy
-[2026-03-16 05:22:27] instance: ...2021_atleast_127_max-6_reduced_incomplet | approach: greedy-sat | cost: 152 | time: 30.4 | notes: dt greedy
-[2026-03-16 05:22:44] instance: ...2021_atleast_15_max-3_reduced_incomplete | approach: greedy-sat | cost: 307 | time: 16.6 | notes: dt greedy
-[2026-03-16 05:26:29] instance: ...Protein4_BINARY_N360.wcnf | approach: greedy-sat | cost: 18366140 | time: 20.5 | notes: corr-clust greedy
-[2026-03-16 05:27:16] instance: ...Protein4_BINARY_N400.wcnf | approach: greedy-sat | cost: 22126606 | time: 33.0 | notes: corr-clust greedy
-[2026-03-16 05:28:09] instance: ...Protein1_BINARY_N320.wcnf | approach: greedy-sat | cost: 21607400 | time: 39.0 | notes: corr-clust greedy
-[2026-03-16 05:29:23] instance: ...Protein1_TRANSITIVE_N270.wcnf | approach: greedy-sat | cost: 18930186 | time: 40.2 | notes: corr-clust
-[2026-03-16 05:30:17] instance: ...Protein1_BINARY_N400.wcnf | approach: greedy-sat | cost: 37052650 | time: 40.0 | notes: corr-clust
-[2026-03-16 05:30:52] instance: ...Protein3_TRANSITIVE_N200.wcnf | approach: greedy-sat | cost: 14058626 | time: 18.2 | notes: corr-clust
-[2026-03-16 05:31:36] instance: ...Protein3_TRANSITIVE_N220.wcnf | approach: greedy-sat | cost: 14542878 | time: 26.9 | notes: corr-clust
-[2026-03-16 05:32:18] instance: ...Protein1_UNARY_N250.wcnf | approach: greedy-sat | cost: 26485351 | time: 40.3 | notes: corr-clust
-[2026-03-16 05:32:26] instance: ...Protein4_TRANSITIVE_N190.wcnf | approach: greedy-sat | cost: 4122666 | time: 6.2 | notes: corr-clust
-[2026-03-16 05:32:52] instance: ...Ionosphere_BINARY_N280_D0.200.wcnf | approach: greedy-sat | cost: 45347755 | time: 25.1 | notes: corr-clust
-[2026-03-16 05:34:00] instance: causal-discovery_wt-causal_n7_i4_N500_uai14_log_int.wcnf | approach: greedy-sat | cost: 94924010740 | time: 5.1 | notes: causal greedy
-[2026-03-16 05:34:37] instance: causal-discovery_wt-causal_insurance_8_10000.wcnf | approach: greedy-sat | cost: 44500019 | time: 23.5 | notes: causal greedy
-[2026-03-16 05:34:58] instance: causal-discovery_wt-causal_Mildew_8_1000.wcnf | approach: greedy-sat | cost: 77993673 | time: 20.9 | notes: causal greedy
-[2026-03-16 05:36:01] instance: causal-discovery_wt-causal_Water_10_100.wcnf | approach: greedy-sat | cost: 15750563 | time: 60.7 | notes: causal greedy
-[2026-03-16 05:36:14] instance: causal-discovery_wt-causal_Bands_6_277.wcnf | approach: greedy-sat | cost: 111967 | time: 0.2 | notes: causal greedy
-[2026-03-16 05:37:11] instance: timetabling_wt-test4.wcnf | approach: greedy-sat | cost: 1193 | time: 31.2 | notes: sweep
-[2026-03-16 05:37:42] instance: switchingactivitymaximization-SwitchingActivityMaximization_ | approach: greedy-sat | cost: 6 | time: 30.5 | notes: sweep
-[2026-03-16 05:38:13] instance: timetabling_wt-comp02.wcnf | approach: greedy-sat | cost: 260 | time: 30.0 | notes: sweep
-[2026-03-16 05:38:52] instance: decision-tree-primary-tumor-un-formula_0.8_2021_atleast_127_ | approach: greedy-sat | cost: 252 | time: 38.2 | notes: sweep
-[2026-03-16 05:39:25] instance: decision-tree-tic-tac-toe-un-formula_0.8_2021_atleast_127_ma | approach: greedy-sat | cost: 565 | time: 31.0 | notes: sweep
-[2026-03-16 05:39:29] instance: causal-discovery_wt-causal_n7_i4_N500_uai14_log_int.wcnf | approach: greedy-sat | cost: 94924010740 | time: 3.9 | notes: sweep
-[2026-03-16 05:40:04] instance: decision-tree-tic-tac-toe-un-formula_0.8_2021_atleast_127_ma | approach: greedy-sat | cost: 968 | time: 33.9 | notes: sweep
-[2026-03-16 05:40:48] instance: synplicate_new-synplicate_synthetic_dag_run2_12_size_8_ms_26 | approach: greedy-sat | cost: 1033 | time: 24.3 | notes: sweep
+[2026-03-16 05:34:18] instance: correlation-clustering_wt-Rounded_CorrelationClustering_Protein1_TRANSITIVE_N270.wcnf | approach: multi-init | cost: 41442663 | time: 64.9 | notes: corr deep
+[2026-03-16 05:34:48] instance: correlation-clustering_wt-Rounded_CorrelationClustering_Protein4_BINARY_N400.wcnf | approach: multi-init | cost: 46947894 | time: 95.2 | notes: corr deep
+[2026-03-16 05:35:15] instance: correlation-clustering_wt-Rounded_CorrelationClustering_Protein4_BINARY_N360.wcnf | approach: multi-init | cost: 39851026 | time: 122.0 | notes: corr deep
+[2026-03-16 05:35:46] instance: correlation-clustering_wt-Rounded_CorrelationClustering_Protein1_BINARY_N320.wcnf | approach: multi-init | cost: 40663926 | time: 153.0 | notes: corr deep
+[2026-03-16 05:37:27] instance: synplicate_new-synplicate_synthetic_dag_run2_12_size_8_ms_26_50_0_erm.wcnf | approach: mixed | cost: 959 | time: 242.1 | notes: misc sweep
+[2026-03-16 05:37:48] instance: decision-tree-tic-tac-toe-un-formula_0.8_2021_atleast_127_max-6_reduced_incomplete_adaboost_3.wcnf | approach: multi+greedy | cost: 392 | time: 0 | notes: dt deep
+[2026-03-16 05:38:40] instance: ParametricRBACMaintenance_mse20_wt-role_domino_multiple_0.1_1.wcnf | approach: mixed | cost: 93726 | time: 72.2 | notes: misc sweep
+[2026-03-16 05:39:47] instance: ParametricRBACMaintenance_mse20_wt-role_domino_multiple_0.7_7.wcnf | approach: mixed | cost: 362817 | time: 67.7 | notes: misc sweep
+[2026-03-16 05:42:03] instance: setcover_wt-rail2536.wcnf | approach: mixed | cost: 1490 | time: 135.8 | notes: misc sweep
+[2026-03-16 05:42:28] instance: decision-tree-tic-tac-toe-un-formula_0.8_2021_atleast_127_max-6_reduced_incomplete_adaboost_5.wcnf | approach: multi+greedy | cost: 653 | time: 0 | notes: dt deep
+[2026-03-16 05:44:16] instance: setcover_wt-rail4284.wcnf | approach: mixed | cost: 2315 | time: 132.8 | notes: misc sweep

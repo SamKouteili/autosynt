@@ -9,12 +9,8 @@
 - **polysite-bloat: 66x → 2.0x** via heavy-as-hard + greedy SAT
 - **comp02: 2.75x → 1.58x**, **comp09: 2.25x → 1.70x**, **comp21: 2.27x → 1.89x** via randomized heavy-as-hard greedy
 - **pa-1 reduced from 5445x to ~623x** via biased-sat + alternating CWLS/walksat
-<<<<<<< HEAD
-=======
-- **polysite-bloat reduced from 66x to 2.4x** via split-heavy approach
 - **haplotyping-13: 12.6x→1.01x** via WPM1 on heavy softs (bimodal weight decomposition)
 - **downcast-pmd: 2.08x→1.21x** via same approach
->>>>>>> 1d3c4e8 (Add bimodal weight decomposition to expert.md + SA + ongoing improvements)
 
 ## Approach selection guide
 

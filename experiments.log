@@ -540,6 +540,7 @@
 [2026-03-16 06:38:20] instance: haplotyping-pedigrees_wt-ped2.G.recomb10-0.20-12.wcnf | approach: wpm1-heavy | cost: 206835 | time: 2.9 | notes: haplotyping wpm1
 [2026-03-16 06:38:53] instance: haplotyping-pedigrees_wt-ped2.G.recomb10-0.20-13.wcnf | approach: wpm1-heavy | cost: 41250 | time: 120 | notes: WPM1 on heavy softs - near optimal
 [2026-03-16 06:38:53] instance: haplotyping-pedigrees_wt-ped2.G.recomb10-0.20-12.wcnf | approach: core-guided-heavy | cost: 206835 | time: 16 | notes: core-guided heavy only
+<<<<<<< HEAD
 [2026-03-16 06:25:24] instance: timetabling_wt-test4.wcnf | approach: random-greedy | cost: 448 | time: 60.4 | notes: rng greedy
 [2026-03-16 06:26:24] instance: timetabling_wt-comp02.wcnf | approach: random-greedy | cost: 66 | time: 120.1 | notes: rng greedy
 [2026-03-16 06:26:41] instance: abstraction-refinement_wt-polysite-bloat.wcnf | approach: greedy-continue | cost: 72 | time: 119.6 | notes: polysite cont
@@ -645,3 +646,11 @@
 [2026-03-16 06:36:58] instance: timetabling_wt-comp02.wcnf | approach: rnd-greedy-ext | cost: 66 | time: 35.2 | notes: extended rnd-greedy
 [2026-03-16 06:37:36] instance: decision-tree-tic-tac-toe-un-formula_0.8_2021 | approach: rnd-greedy-ext | cost: 392 | time: 36.2 | notes: extended rnd-greedy
 [2026-03-16 06:38:53] instance: decision-tree-tic-tac-toe-un-formula_0.8_2021 | approach: rnd-greedy-ext | cost: 653 | time: 74.9 | notes: extended rnd-greedy
+=======
+[2026-03-16 06:39:07] instance: haplotyping-pedigrees_wt-ped2.G.recomb10-0.20-12.wcnf | approach: wpm1-heavy | cost: 668331 | time: 240 | notes: haplotyping-12 wpm1
+[2026-03-16 06:39:43] instance: haplotyping-pedigrees_wt-ped2.G.recomb10-0.20-13.wcnf | approach: wpm1-heavy-redo | cost: 41250 | time: 17.0 | notes: redo after merge
+[2026-03-16 06:40:02] instance: haplotyping-pedigrees_wt-ped2.G.recomb10-0.20-12.wcnf | approach: wpm1-heavy-redo | cost: 206835 | time: 18.5 | notes: redo after merge
+[2026-03-16 06:44:56] instance: MaxSATQueriesinInterpretableClassifiers_wt-twitter_train_5_CNF_4_10.wcnf | approach: wpm1-heavy | cost: 138480 | time: 175.4 | notes: bimodal heavy wpm1
+[2026-03-16 06:45:42] instance: abstraction-refinement_wt-downcast-pmd.wcnf | approach: wpm1-heavy | cost: 5115 | time: 46.0 | notes: bimodal heavy wpm1
+[2026-03-16 06:46:10] instance: ParametricRBACMaintenance_mse20_wt-role_domino_multiple_0.1_1.wcnf | approach: wpm1-heavy | cost: 83120 | time: 27.9 | notes: bimodal heavy wpm1
+>>>>>>> bd7a834 (WPM1-on-heavy-softs: breakthrough on haplotyping + downcast-pmd + ParametricRBAC)

@@ -63,12 +63,12 @@ Multiple agents can work on the same repo simultaneously, communicating through 
 | Metric | Count |
 |--------|-------|
 | Instances solved | **220 / 229** |
-| Optimal (matching competition best) | **22** |
+| Optimal (matching competition best) | **29** |
 | **Better than competition** | **4** |
 | Novel solve (no known solution existed) | **1** |
-| Within 1.1x of reference | 99 |
-| Within 1.5x | 160 |
-| Within 2x | 195 |
+| Within 1.1x of reference | 110 |
+| Within 1.5x | 172 |
+| Within 2x | 206 |
 | Unsolved | 9 |
 
 ### Beat the 2024 MaxSAT Competition
@@ -85,11 +85,10 @@ Multiple agents can work on the same repo simultaneously, communicating through 
 
 | Instance | Ratio | Why it's hard |
 |----------|-------|---------------|
-| relational-inference pa-1 | 612x | 2.5M vars, 1.1M soft clauses |
-| haplotyping-13 | 12.6x | 215K vars, 18K softs |
-| haplotyping-12 | 12.2x | 215K vars, 18K softs |
+| relational-inference pa-1 | 603x | 2.5M vars, 1.1M soft clauses |
 | twitter | 9.7x | 51K softs, 9.7M hard clauses |
 | causal-discovery Water | 4.4x | 8.3M cost vs 1.9M ref |
+| haplotyping-12 | 3.8x | 215K vars, 18K softs |
 | timetabling test4 | 3.3x | 131K vars |
 
 9 instances remain unsolved — mostly >16M variables or no known reference solution.

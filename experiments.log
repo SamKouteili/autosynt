@@ -698,3 +698,5 @@
 [2026-03-16 08:24:00] instance: timetabling_wt-comp02.wcnf | approach: rng-heavy-hard-200 | cost: 36 | time: 284.8 | notes: comp02 200 trials
 [2026-03-16 08:29:19] instance: abstraction-refinement_wt-polysite-bloat.wcnf | approach: greedy-continue | cost: 72 | time: 114.2 | notes: polysite restore
 [2026-03-16 08:32:18] instance: timetabling_wt-test4.wcnf | approach: rng-heavy-hard-100 | cost: 440 | time: 279.2 | notes: test4 100 trials
+[2026-03-16 08:36:02] instance: decision-tree-primary-tumor-un-formula_0.8_2021_atleast_127_max-6_reduced_incomplete_adaboost_4.wcnf | approach: multi-init-20 | cost: 197 | time: 0 | notes: dt multi
+[2026-03-16 08:37:10] instance: decision-tree-tic-tac-toe-un-formula_0.8_2021_atleast_127_max-6_reduced_incomplete_adaboost_3.wcnf | approach: multi-init-20 | cost: 392 | time: 0 | notes: dt multi

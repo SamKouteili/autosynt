@@ -543,3 +543,5 @@
 [2026-03-16 06:53:13] instance: setcover_wt-rail2536.wcnf | approach: cgb | cost: 1490 | time: 61.4 | notes: setcover cgb
 [2026-03-16 06:54:48] instance: setcover_wt-rail4284.wcnf | approach: cgb | cost: 2315 | time: 92.9 | notes: setcover cgb
 [2026-03-16 06:56:37] instance: timetabling_wt-test4.wcnf | approach: rng-heavy-hard | cost: 422 | time: 275.3 | notes: test4 more trials
+[2026-03-16 06:58:55] instance: abstraction-refinement_wt-polysite-bloat.wcnf | approach: greedy-continue | cost: 72 | time: 97.4 | notes: polysite cont
+[2026-03-16 07:01:07] instance: timetabling_wt-test4.wcnf | approach: rng-heavy-hard | cost: 422 | time: 243.7 | notes: test4 40 trials

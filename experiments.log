@@ -681,3 +681,9 @@
 [2026-03-16 07:42:22] instance: haplotyping-pedigrees_wt-ped2.G.recomb10-0.20-12.wcnf | approach: wpm1-heavy | cost: 206835 | time: 1.2 | notes: haplo-12 wpm1
 [2026-03-16 07:43:38] instance: timetabling_wt-test4.wcnf | approach: bimodal+multi | cost: 448 | time: 0 | notes: 2x sweep
 [2026-03-16 07:44:13] instance: decision-tree-tic-tac-toe-un-formula_0.8_2021_atleast_127_max-6_reduced_incomplete_adaboost_3.wcnf | approach: bimodal+multi | cost: 392 | time: 0 | notes: 2x sweep
+[2026-03-16 07:58:51] instance: ParametricRBACMaintenance_mse20_wt-role_domino_multiple_0.1_1.wcnf | approach: wpm1-bimodal | cost: 93726 | time: 2.8 | notes: rbac wpm1
+[2026-03-16 07:58:54] instance: ParametricRBACMaintenance_mse20_wt-role_domino_multiple_0.3_1.wcnf | approach: wpm1-bimodal | cost: 206280 | time: 2.8 | notes: rbac wpm1
+[2026-03-16 07:58:57] instance: ParametricRBACMaintenance_mse20_wt-role_domino_multiple_0.7_7.wcnf | approach: wpm1-bimodal | cost: 362817 | time: 3.0 | notes: rbac wpm1
+[2026-03-16 07:59:45] instance: ParametricRBACMaintenance_mse20_wt-role_domino_multiple_0.1_1.wcnf | approach: cgb-heavy | cost: 93726 | time: 36.5 | notes: rbac cgb heavy
+[2026-03-16 08:00:22] instance: ParametricRBACMaintenance_mse20_wt-role_domino_multiple_0.3_1.wcnf | approach: cgb-heavy | cost: 206280 | time: 36.0 | notes: rbac cgb heavy
+[2026-03-16 08:01:01] instance: ParametricRBACMaintenance_mse20_wt-role_domino_multiple_0.7_7.wcnf | approach: cgb-heavy | cost: 362817 | time: 39.7 | notes: rbac cgb heavy

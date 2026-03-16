@@ -9,6 +9,12 @@
 - **polysite-bloat: 66x → 2.0x** via heavy-as-hard + greedy SAT
 - **comp02: 2.75x → 1.58x**, **comp09: 2.25x → 1.70x**, **comp21: 2.27x → 1.89x** via randomized heavy-as-hard greedy
 - **pa-1 reduced from 5445x to ~623x** via biased-sat + alternating CWLS/walksat
+<<<<<<< HEAD
+=======
+- **polysite-bloat reduced from 66x to 2.4x** via split-heavy approach
+- **haplotyping-13: 12.6x→1.01x** via WPM1 on heavy softs (bimodal weight decomposition)
+- **downcast-pmd: 2.08x→1.21x** via same approach
+>>>>>>> 1d3c4e8 (Add bimodal weight decomposition to expert.md + SA + ongoing improvements)
 
 ## Approach selection guide
 
@@ -112,6 +118,19 @@ The single most important factor is **number of soft clauses** (nsofts), not tot
 - Does NOT help for judgment-aggregation (all SAT baselines are terrible for these)
 
 
+### Bimodal weight decomposition (GAME-CHANGER)
+- **Key discovery**: many instances have bimodal weight distributions (e.g., weights {1, 581} or {1, 4230})
+- Running WPM1 or core-guided specifically on the HEAVY soft clauses finds dramatically better solutions
+- The light softs are essentially "free" — the solver satisfies most of them as a side effect
+- **Why it works**: with all softs combined, the solver loses precision on heavy clauses because it trades off too many of them against light ones. Focusing on heavy softs alone finds tighter relaxations.
+- **Haplotyping-13**: 511K → 41K (12.6x → 1.01x, near-optimal!) — weights {1: 580, 581: 18400}
+- **Haplotyping-12**: 668K → 207K (12.2x → 3.78x)
+- **polysite-bloat**: 2397 → 86 (66x → 2.4x) — weights {1: 4948, 4230: 1038}
+- **downcast-pmd**: 8791 → 5115 (2.08x → 1.21x) — weights {1: 4605, 4186: 420}
+- **When to use**: any instance with ≥2 distinct weights where max_weight > 5 × min_weight
+- **How**: separate heavy (w > min_w * 2) from light, run WPM1 on heavy, evaluate full cost
+- If WPM1 times out, use core_guided_budget on heavy softs as fallback
+
 ### Core-guided search for unit soft clauses
 - **Key discovery**: many of the worst-ratio instances have unit (single-literal) soft clauses
 - Core-guided approach: use SAT solver assumptions to iteratively find and relax unsatisfiable cores
@@ -203,10 +222,10 @@ Most solved instances are at single-flip local optima — no single variable fli
 - **Greedy SAT with >15K vars per soft call**: each SAT call takes >10s, so greedy loop times out
 
 ## Next steps for improvement
-1. **haplotyping (23-29x)**: need clause-weighting LS or tabu from existing best
-2. **polysite-bloat (137x)**: solved but terrible ratio, needs core-guided on unit softs
-3. **relational-inference pa-1 (5445x)**: 2.5M vars, 1.1M softs — needs fundamentally different approach
-4. **timetabling comp09/test4/comp21 (2-4.7x)**: try core-guided (unit softs)
-5. **correlation-clustering (2-4.5x)**: need domain-specific clustering algorithm
-6. **Faster implementations** (Cython/C) for tabu and WalkSAT on large instances
-7. **Solve remaining 9**: 4 MinWeightDomSet too large, 2 lisbon-wedding + 1 MinWeightDomSet have no known ref, 2 relational-inference 18M+ vars
+1. **haplotyping-12 (3.78x)**: WPM1 on heavy softs timed out, try with more time or different solver
+2. **pa-1 (612x)**: continue CWLS+walksat iterations, bimodal approach not applicable (uniform weights?)
+3. **twitter (9.65x)**: 51K softs bimodal {1, 10}, try WPM1/core-guided on heavy
+4. **timetabling (2.3-3.3x)**: non-unit softs, stuck at local optima, need cardinality encoding or decomposition
+5. **correlation-clustering (1.6-2.6x)**: need domain-specific clustering or 2-opt moves
+6. **ParametricRBAC domino (1.6-2.2x)**: 34K unit softs, 4 weight levels — try WPM1 on top-2 weight levels
+7. **Solve remaining 9**: 4 MinWeightDomSet too large, 2 lisbon-wedding extremely hard SAT, 1 MinWeightDomSet no ref, 2 relational-inference 18M+ vars

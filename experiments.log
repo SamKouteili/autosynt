@@ -711,3 +711,6 @@
 [2026-03-16 09:42:10] instance: timetabling_wt-comp02.wcnf | approach: rng-heavy-hard-500 | cost: 46 | time: 282.9 | notes: comp02 500 trials
 [2026-03-16 09:44:44] instance: timetabling_wt-comp09.wcnf | approach: rng-greedy-20 | cost: 174 | time: 133.4 | notes: more trials
 [2026-03-16 09:46:58] instance: timetabling_wt-comp02.wcnf | approach: rng-greedy-20 | cost: 38 | time: 133.4 | notes: more trials
+[2026-03-16 09:51:33] instance: timetabling_wt-comp09.wcnf | approach: rng-greedy | cost: 155 | time: 80.0 | notes: 5 trials
+[2026-03-16 09:52:53] instance: timetabling_wt-comp21.wcnf | approach: rng-greedy | cost: 120 | time: 80.0 | notes: 2 trials
+[2026-03-16 09:54:14] instance: timetabling_wt-comp02.wcnf | approach: rng-greedy | cost: 38 | time: 80.0 | notes: 2 trials

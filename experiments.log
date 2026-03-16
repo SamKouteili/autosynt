@@ -674,8 +674,7 @@
 [2026-03-16 07:01:07] instance: timetabling_wt-test4.wcnf | approach: rng-heavy-hard | cost: 422 | time: 243.7 | notes: test4 40 trials
 [2026-03-16 07:10:01] instance: timetabling_wt-comp02.wcnf | approach: rnd-greedy | cost: 55 | time: 120.0 | notes: timetabling rnd-greedy
 [2026-03-16 07:12:05] instance: timetabling_wt-test4.wcnf | approach: rnd-greedy | cost: 448 | time: 123.5 | notes: timetabling rnd-greedy
-[2026-03-16 07:18:45] instance: synplicate_new-synplicate_synthetic_dag_run2_ | approach: rnd-greedy | cost: 577 | time: 39.6 | notes: focused rnd-greedy
-[2026-03-16 07:19:24] instance: synplicate_new-synplicate_synthetic_dag_run1_ | approach: rnd-greedy | cost: 369 | time: 38.9 | notes: focused rnd-greedy
-[2026-03-16 07:20:03] instance: synplicate_new-synplicate_complete_tree_arity | approach: rnd-greedy | cost: 674 | time: 38.9 | notes: focused rnd-greedy
-[2026-03-16 07:20:50] instance: synplicate_new-synplicate_synthetic_dag_run2_ | approach: rnd-greedy | cost: 1134 | time: 45.1 | notes: focused rnd-greedy
-[2026-03-16 07:21:52] instance: synplicate_new-synplicate_synthetic_dag_run2_ | approach: rnd-greedy | cost: 1259 | time: 60.3 | notes: focused rnd-greedy
+[2026-03-16 07:24:46] instance: haplotyping-pedigrees_wt-ped2.G.recomb10-0.20-13.wcnf | approach: bimodal-wpm1 | cost: 41250 | time: 26.4 | notes: bimodal sweep
+[2026-03-16 07:25:05] instance: haplotyping-pedigrees_wt-ped2.G.recomb10-0.20-12.wcnf | approach: bimodal-wpm1 | cost: 206835 | time: 16.5 | notes: bimodal sweep
+[2026-03-16 07:25:42] instance: timetabling_wt-test4.wcnf | approach: bimodal-wpm1 | cost: 448 | time: 36.5 | notes: bimodal sweep
+[2026-03-16 07:26:07] instance: switchingactivitymaximization-SwitchingActivityMaximization_OpenRISC1200_66.wcnf | approach: bimodal-wpm1 | cost: 6 | time: 24.0 | notes: bimodal sweep

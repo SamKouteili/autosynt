@@ -84,6 +84,37 @@ All code the agent writes lives in `library/`:
 4. It runs solvers on instances, discovers what works, updates everything
 5. It commits and pushes to this repo so other agents can build on its findings
 
+```
+                              ┌─────────────────┐
+                              │    GitHub Repo   │
+                              │                  │
+                              │  expert.md       │
+                              │  library/        │
+                              │  best-solutions  │
+                              │  experiments.log │
+                              └────────┬─────────┘
+                           git pull/push │
+                 ┌─────────────┬────────┴────────┬─────────────┐
+                 │             │                 │             │
+          ┌──────▼──────┐ ┌───▼────────┐ ┌──────▼──────┐     ...
+          │   VM  1     │ │   VM  2    │ │   VM  3     │
+          │             │ │            │ │             │
+          │ ┌─────────┐ │ │ ┌────────┐ │ │ ┌─────────┐ │
+          │ │ Agent 1 │ │ │ │Agent 3 │ │ │ │ Agent 5 │ │
+          │ │ ┌─┬─┬─┐ │ │ │ │┌─┬─┬─┐│ │ │ │ ┌─┬─┬─┐ │ │
+          │ │ │S│S│S│ │ │ │ ││S│S│S││ │ │ │ │S│S│S│ │ │
+          │ │ └─┴─┴─┘ │ │ │ │└─┴─┴─┘│ │ │ │ └─┴─┴─┘ │ │
+          │ ├─────────┤ │ │ ├────────┤ │ │ ├─────────┤ │
+          │ │ Agent 2 │ │ │ │Agent 4 │ │ │ │ Agent 6 │ │
+          │ │ ┌─┬─┬─┐ │ │ │ │┌─┬─┬─┐│ │ │ │ ┌─┬─┬─┐ │ │
+          │ │ │S│S│S│ │ │ │ ││S│S│S││ │ │ │ │S│S│S│ │ │
+          │ │ └─┴─┴─┘ │ │ │ │└─┴─┴─┘│ │ │ │ └─┴─┴─┘ │ │
+          │ └─────────┘ │ │ └────────┘ │ │ └─────────┘ │
+          └─────────────┘ └────────────┘ └─────────────┘
+
+          S = solver process (python)
+```
+
 ```bash
 # Launch locally (benchmarks must already be in benchmarks/)
 ./run_local.sh

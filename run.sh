@@ -3,7 +3,7 @@
 #   Instance ID: i-02d0c8c6970c9915f
 #   IP: 44.211.98.254
 #
-# Launch (or reattach):  ./run.sh ec2-user@44.211.98.254 3
+# Launch (or reattach):  ./run.sh --host ec2-user@44.211.98.254 --agents 3
 # Detach:                Ctrl-b d
 # Reattach:              ssh -t ec2-user@44.211.98.254 'tmux attach -t maxsat'
 # Switch agent windows:  Ctrl-b n (next) / Ctrl-b p (prev) / Ctrl-b <number>
@@ -11,8 +11,16 @@
 set -e
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-HOST="$1"
-NUM_AGENTS="${2:-3}"
+HOST=""
+NUM_AGENTS=3
+
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --host) HOST="$2"; shift 2 ;;
+    --agents) NUM_AGENTS="$2"; shift 2 ;;
+    *) echo "Unknown option: $1"; exit 1 ;;
+  esac
+done
 
 if [ -n "$HOST" ]; then
   # Refresh API key from local Claude Code login if available

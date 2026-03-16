@@ -225,3 +225,11 @@ Most solved instances are at single-flip local optima — no single variable fli
 5. **correlation-clustering (1.6-2.6x)**: need domain-specific clustering or 2-opt moves
 6. **ParametricRBAC domino (1.6-2.2x)**: 34K unit softs, 4 weight levels — try WPM1 on top-2 weight levels
 7. **Solve remaining 9**: 4 MinWeightDomSet too large, 2 lisbon-wedding extremely hard SAT, 1 MinWeightDomSet no ref, 2 relational-inference 18M+ vars
+
+### RC2 (pysat MaxSAT solver) - REVIVED
+- **Previously dismissed as unreliable**, but with CaDiCaL backend (solver='cd19') and proper timeout, RC2 finds OPTIMAL solutions
+- **comp06: 50→27 (OPTIMAL)**, **quantum-circuit: 48→27 (OPTIMAL)** in <45s each
+- Key: use `signal.alarm()` to enforce timeout since RC2 can hang
+- Works best on instances with <200K vars, <1M hards, <5K softs
+- Does NOT work on timetabling test4/comp02 (too large), decision-tree (2.5M hards too slow)
+- Always try RC2 first on any instance within its size limits

@@ -695,11 +695,7 @@
 [2026-03-16 08:14:18] instance: timetabling_wt-comp02.wcnf | approach: rng-heavy-hard | cost: 46 | time: 120.1 | notes: restore
 [2026-03-16 08:16:32] instance: timetabling_wt-comp09.wcnf | approach: rng-heavy-hard | cost: 174 | time: 133.8 | notes: restore
 [2026-03-16 08:18:47] instance: timetabling_wt-comp09.wcnf | approach: rng-greedy | cost: 165 | time: 133.8 | notes: restore comp09
-[2026-03-16 08:24:00] instance: timetabling_wt-comp02.wcnf | approach: rng-heavy-hard-200 | cost: 36 | time: 284.8 | notes: comp02 200 trials
-[2026-03-16 08:29:19] instance: abstraction-refinement_wt-polysite-bloat.wcnf | approach: greedy-continue | cost: 72 | time: 114.2 | notes: polysite restore
-[2026-03-16 08:32:18] instance: timetabling_wt-test4.wcnf | approach: rng-heavy-hard-100 | cost: 440 | time: 279.2 | notes: test4 100 trials
-[2026-03-16 08:36:02] instance: decision-tree-primary-tumor-un-formula_0.8_2021_atleast_127_max-6_reduced_incomplete_adaboost_4.wcnf | approach: multi-init-20 | cost: 197 | time: 0 | notes: dt multi
-[2026-03-16 08:37:10] instance: decision-tree-tic-tac-toe-un-formula_0.8_2021_atleast_127_max-6_reduced_incomplete_adaboost_3.wcnf | approach: multi-init-20 | cost: 392 | time: 0 | notes: dt multi
-[2026-03-16 08:39:06] instance: abstraction-refinement_wt-polysite-bloat.wcnf | approach: greedy-continue | cost: 72 | time: 87.1 | notes: polysite cont 2
-[2026-03-16 08:43:59] instance: abstraction-refinement_wt-polysite-bloat.wcnf | approach: rng-greedy | cost: 72 | time: 268.5 | notes: polysite rng
-[2026-03-16 08:48:40] instance: synplicate_new-synplicate_synthetic_dag_run2_12_size_8_ms_26_50_0_erm.wcnf | approach: cgb+rng | cost: 959 | time: 259.3 | notes: synp deep
+[2026-03-16 08:23:16] instance: timetabling_wt-comp09.wcnf | approach: rc2-heavy-hard | cost: 165 | time: 73.3 | notes: RC2 heavy-hard
+[2026-03-16 08:24:43] instance: timetabling_wt-comp21.wcnf | approach: rc2-heavy-hard | cost: 120 | time: 86.8 | notes: RC2 heavy-hard
+[2026-03-16 08:46:35] instance: relational-inference_wt-pa-1.wcnf | approach: cwls-250s | cost: 500020 | time: 267.1 | notes: pa-1 cwls
+[2026-03-16 08:51:37] instance: relational-inference_wt-pa-1.wcnf | approach: cwls+walksat | cost: 499753 | time: 250.4 | notes: pa-1

@@ -22,8 +22,7 @@ if [ -n "$HOST" ]; then
       echo "CLAUDE_CODE_API_KEY=\"$KEY\"" >> "$SCRIPT_DIR/.env"
     fi
   fi
-  ssh "$HOST" "test -f ~/.env && test -f ~/best-costs.csv && test -f ~/instructions.txt" 2>/dev/null || \
-    scp "$SCRIPT_DIR/.env" "$SCRIPT_DIR/benchmarks/max-sat-2024/best-costs.csv" "$SCRIPT_DIR/benchmarks/max-sat-2024/instructions.txt" "$HOST":~/
+  ssh "$HOST" "test -f ~/.env" 2>/dev/null || scp "$SCRIPT_DIR/.env" "$HOST":~/
   # Pipe the setup script, then attach to tmux
   ssh "$HOST" 'bash -s' < "$SCRIPT_DIR/run.sh"
   ssh -t "$HOST" 'tmux attach -t maxsat'
@@ -72,7 +71,6 @@ git -C "$REPO_DIR" config user.email "iliazin@gmail.com"
 # Download and set up benchmarks if not already present
 if [ ! -d "$REPO_DIR/benchmarks/max-sat-2024/mse24-anytime-weighted" ]; then
   mkdir -p "$REPO_DIR/benchmarks/max-sat-2024/mse24-anytime-weighted"
-  cp ~/best-costs.csv ~/instructions.txt "$REPO_DIR/benchmarks/max-sat-2024/"
   curl -L -o /tmp/mse24.zip https://www.cs.helsinki.fi/group/coreo/MSE2024-instances/mse24-anytime-weighted.zip
   unzip -o /tmp/mse24.zip -d "$REPO_DIR/benchmarks/max-sat-2024/"
   cd "$REPO_DIR/benchmarks/max-sat-2024"

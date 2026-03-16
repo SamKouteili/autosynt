@@ -63,7 +63,7 @@ python3.14 -m pip install -q python-sat numpy 2>/dev/null || true
 # Claude Code settings
 mkdir -p ~/.claude
 cat > ~/.claude/settings.json <<'EOF'
-{"permissions":{"defaultMode":"bypassPermissions"},"model":"opus[1m]","skipDangerousModePermissionPrompt":true}
+{"permissions":{"defaultMode":"bypassPermissions"},"model":"opus[1m]","effortLevel":"max","skipDangerousModePermissionPrompt":true}
 EOF
 
 NUM_AGENTS="${NUM_AGENTS:-3}"  # passed via env from SSH caller

@@ -59,7 +59,7 @@ cat > ~/.claude/settings.json <<'EOF'
 EOF
 
 NUM_AGENTS="${NUM_AGENTS:-3}"
-BENCH_DIR="/tmp/np-hard-benchmarks"
+BENCH_DIR="/tmp/agent-sat-benchmarks"
 
 # Download benchmarks once into a shared location
 if [ ! -d "$BENCH_DIR/max-sat-2024/mse24-anytime-weighted" ]; then
@@ -73,11 +73,11 @@ fi
 
 # Clone repos — each agent gets its own directory
 for i in $(seq 1 "$NUM_AGENTS"); do
-  REPO_DIR="/tmp/np-hard-agent-$i"
+  REPO_DIR="/tmp/agent-sat-$i"
   if [ -d "$REPO_DIR/.git" ]; then
     git -C "$REPO_DIR" pull
   else
-    git clone "https://${GITHUB_ACCESS_TOKEN}@github.com/iliazintchenko/np-hard-agent.git" "$REPO_DIR"
+    git clone "https://${GITHUB_ACCESS_TOKEN}@github.com/iliazintchenko/agent-sat.git" "$REPO_DIR"
   fi
   git -C "$REPO_DIR" config user.name "Ilia Zintchenko"
   git -C "$REPO_DIR" config user.email "iliazin@gmail.com"
@@ -99,7 +99,7 @@ fi
 
 # Launch tmux session — one window per agent
 for i in $(seq 1 "$NUM_AGENTS"); do
-  REPO_DIR="/tmp/np-hard-agent-$i"
+  REPO_DIR="/tmp/agent-sat-$i"
   LOG="$REPO_DIR/agent.log"
   if [ "$i" -eq 1 ]; then
     tmux new-session -s maxsat -n "agent-$i" -d \

@@ -719,3 +719,5 @@
 [2026-03-16 10:54:24] instance: ParametricRBACMaintenance_mse20_wt-role_domino_multiple_0.7_7.wcnf | approach: sa | cost: 362817 | time: 81.0 | notes: rbac sa
 [2026-03-16 10:55:45] instance: ParametricRBACMaintenance_mse20_wt-role_domino_multiple_0.3_1.wcnf | approach: sa | cost: 206280 | time: 80.8 | notes: rbac sa
 [2026-03-16 11:19:38] instance: abstraction-refinement_wt-downcast-pmd.wcnf | approach: wpm1-heavy | cost: 5115 | time: 34.2 | notes: downcast wpm1
+[2026-03-16 11:22:22] instance: setcover_wt-rail2536.wcnf | approach: cgb-high | cost: 1490 | time: 87.5 | notes: setcover cgb
+[2026-03-16 11:24:06] instance: setcover_wt-rail4284.wcnf | approach: cgb-high | cost: 2315 | time: 103.0 | notes: setcover cgb

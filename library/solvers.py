@@ -530,3 +530,60 @@ def multi_init(nvars, hard_clauses, soft_clauses, timeout=60, max_trials=500,
 def assignment_to_lits(assignment):
     """Convert bytearray assignment to signed literal list."""
     return [v if assignment[v] else -v for v in range(1, len(assignment))]
+
+
+def simulated_annealing(assignment, soft_clauses, hard_clauses, occ_lists, timeout=240,
+                        t_start=1.0, t_end=0.001, candidates=None):
+    """Simulated annealing on soft-clause cost, preserving hard clause feasibility.
+
+    Accepts worse solutions with probability exp(-delta/temperature), where temperature
+    decreases exponentially from t_start to t_end. This can escape local optima that
+    tabu search cannot.
+
+    Returns (best_assignment, best_cost).
+    """
+    import math
+    hard_pos, hard_neg, soft_pos, soft_neg, soft_weights, soft_vars = occ_lists
+    if candidates is None:
+        candidates = soft_vars
+    nvars = len(assignment) - 1
+    nsoft = len(soft_clauses)
+
+    hard_sat_count, soft_sat_count = compute_sat_counts(assignment, hard_clauses, soft_clauses)
+    current_cost = sum(soft_weights[i] for i in range(nsoft) if soft_sat_count[i] == 0)
+    best_cost = current_cost
+    best_assign = bytearray(assignment)
+
+    t0 = time.time()
+    step = 0
+    ncands = len(candidates)
+
+    while True:
+        elapsed = time.time() - t0
+        if elapsed >= timeout:
+            break
+
+        # Temperature schedule
+        frac = elapsed / timeout
+        temp = t_start * ((t_end / t_start) ** frac)
+
+        # Pick random candidate
+        v = candidates[random.randint(0, ncands - 1)]
+
+        if not flip_preserves_hard(v, assignment, hard_pos, hard_neg, hard_sat_count):
+            continue
+
+        delta = compute_flip_delta(v, assignment, soft_pos, soft_neg, soft_sat_count, soft_weights)
+
+        # Accept improving moves always, worse moves probabilistically
+        if delta <= 0 or random.random() < math.exp(-delta / (temp * best_cost + 1e-10)):
+            flip_variable(v, assignment, hard_pos, hard_neg, soft_pos, soft_neg,
+                          hard_sat_count, soft_sat_count)
+            current_cost += delta
+            step += 1
+
+            if current_cost < best_cost:
+                best_cost = current_cost
+                best_assign = bytearray(assignment)
+
+    return best_assign, best_cost

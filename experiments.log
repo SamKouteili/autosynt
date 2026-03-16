@@ -509,3 +509,22 @@
 [2026-03-16 05:03:20] instance: decision-tree-primary-tumor-un-formula_0.8_2021_atleast_127_max-6_reduced_incomplete_adaboost_4.wcnf | approach: multi-init-1000 | cost: 218 | time: 42.4 | notes: multi-init deep
 [2026-03-16 05:23:17] instance: causal-discovery_wt-causal_Water_10_100.wcnf | approach: cwls | cost: 8305142 | time: 250.4 | notes: Water cwls
 [2026-03-16 05:32:55] instance: timetabling_wt-test4.wcnf | approach: greedy-random | cost: 448 | time: 252.3 | notes: random ordering greedy
+[2026-03-16 05:50:19] instance: ParametricRBACMaintenance_mse20_wt-role_domino_multiple_0.1_1.wcnf | approach: heavy-hard+core | cost: 93726 | time: 8.4 | notes: parametric heavy-hard
+[2026-03-16 05:50:29] instance: ParametricRBACMaintenance_mse20_wt-role_domino_multiple_0.7_7.wcnf | approach: heavy-hard+core | cost: 362817 | time: 10.0 | notes: parametric heavy-hard
+[2026-03-16 05:50:38] instance: ParametricRBACMaintenance_mse20_wt-role_domino_multiple_0.3_1.wcnf | approach: heavy-hard+core | cost: 206280 | time: 9.0 | notes: parametric heavy-hard
+[2026-03-16 06:00:18] instance: lisbon-wedding_wt-lisbon-wedding-3-18.wcnf | approach: greedy-budget | cost: inf | time: 242.1 | notes: lisbon budget-limited
+[2026-03-16 06:03:25] instance: timetabling_wt-test4.wcnf | approach: SA | cost: 448 | time: 98.9 | notes: simulated annealing
+[2026-03-16 06:04:22] instance: lisbon-wedding_wt-lisbon-wedding-1-19.wcnf | approach: greedy-budget | cost: inf | time: 244.3 | notes: lisbon budget-limited
+[2026-03-16 06:05:06] instance: timetabling_wt-comp02.wcnf | approach: SA | cost: 66 | time: 100.3 | notes: simulated annealing
+[2026-03-16 06:06:47] instance: timetabling_wt-comp21.wcnf | approach: SA | cost: 168 | time: 101.4 | notes: simulated annealing
+[2026-03-16 06:08:44] instance: decision-tree-tic-tac-toe-un-formula_0.8_2021_atleast_127_max-6_reduced_incomplete_adaboost_3.wcnf | approach: SA | cost: 392 | time: 117.4 | notes: simulated annealing
+[2026-03-16 06:10:26] instance: timetabling_wt-comp06.wcnf | approach: SA | cost: 50 | time: 101.2 | notes: simulated annealing
+[2026-03-16 06:12:06] instance: timetabling_wt-comp09.wcnf | approach: SA | cost: 216 | time: 100.2 | notes: simulated annealing
+[2026-03-16 06:13:13] instance: MaxSATQueriesinInterpretableClassifiers_wt-twitter_train_5_CNF_4_10.wcnf | approach: SA-sweep | cost: 138480 | time: 37.7 | notes: SA sweep
+[2026-03-16 06:14:04] instance: timetabling_wt-test4.wcnf | approach: SA-sweep | cost: 448 | time: 29.8 | notes: SA sweep
+[2026-03-16 06:14:37] instance: decision-tree-primary-tumor-un-formula_0.8_2021_atleast_127_max-6_reduced_incomplete_adaboost_4.wcnf | approach: SA-sweep | cost: 218 | time: 32.1 | notes: SA sweep
+[2026-03-16 06:15:07] instance: timetabling_wt-comp02.wcnf | approach: SA-sweep | cost: 66 | time: 29.9 | notes: SA sweep
+[2026-03-16 06:15:46] instance: correlation-clustering_wt-Rounded_CorrelationClustering_Protein1_TRANSITIVE_N270.wcnf | approach: SA-sweep | cost: 41442663 | time: 38.9 | notes: SA sweep
+[2026-03-16 06:16:19] instance: decision-tree-tic-tac-toe-un-formula_0.8_2021_atleast_127_max-6_reduced_incomplete_adaboost_3.wcnf | approach: SA-sweep | cost: 392 | time: 32.8 | notes: SA sweep
+[2026-03-16 06:16:49] instance: correlation-clustering_wt-Rounded_CorrelationClustering_Protein4_BINARY_N400.wcnf | approach: SA-sweep | cost: 46947894 | time: 29.7 | notes: SA sweep
+[2026-03-16 06:17:18] instance: correlation-clustering_wt-Rounded_CorrelationClustering_Protein4_BINARY_N360.wcnf | approach: SA-sweep | cost: 39851026 | time: 29.4 | notes: SA sweep

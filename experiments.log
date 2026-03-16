@@ -702,7 +702,7 @@
 [2026-03-16 08:56:42] instance: relational-inference_wt-pa-1.wcnf | approach: cwls | cost: 500649 | notes: pa-1 cwls round
 [2026-03-16 09:01:23] instance: relational-inference_wt-pa-1.wcnf | approach: cwls | cost: 500216 | notes: pa-1 cwls round
 [2026-03-16 09:06:03] instance: relational-inference_wt-pa-1.wcnf | approach: cwls | cost: 500807 | notes: pa-1 cwls round
-[2026-03-16 09:02:00] instance: timetabling_wt-test4.wcnf | approach: rc2 | cost: 448 | time: 69.4 | notes: rc2 sweep
-[2026-03-16 09:03:35] instance: timetabling_wt-comp02.wcnf | approach: rc2 | cost: 55 | time: 164.7 | notes: rc2 sweep
-[2026-03-16 09:04:34] instance: timetabling_wt-comp09.wcnf | approach: rc2 | cost: 202 | time: 223.9 | notes: rc2 sweep
-[2026-03-16 09:05:53] instance: decision-tree-tic-tac-toe-un-formula_0.8_2021 | approach: rc2 | cost: 336 | time: 302.2 | notes: rc2 sweep
+[2026-03-16 09:07:44] instance: timetabling_wt-test4.wcnf | approach: randomized-greedy | cost: 448 | time: 55.2
+[2026-03-16 09:08:53] instance: timetabling_wt-comp02.wcnf | approach: randomized-greedy | cost: 52 | time: 69.0
+[2026-03-16 09:10:18] instance: synplicate_new-synplicate_synthetic_dag_run2_12_size_8_ms_26_50_0_erm.wcnf | approach: randomized-greedy | cost: 577 | time: 85.3
+[2026-03-16 09:10:53] instance: decision-tree-tic-tac-toe-un-formula_0.8_2021_atleast_127_max-6_reduced_incomplete_adaboost_3.wcnf | approach: randomized-greedy | cost: 392 | time: 34.5

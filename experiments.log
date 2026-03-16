@@ -687,3 +687,4 @@
 [2026-03-16 07:59:45] instance: ParametricRBACMaintenance_mse20_wt-role_domino_multiple_0.1_1.wcnf | approach: cgb-heavy | cost: 93726 | time: 36.5 | notes: rbac cgb heavy
 [2026-03-16 08:00:22] instance: ParametricRBACMaintenance_mse20_wt-role_domino_multiple_0.3_1.wcnf | approach: cgb-heavy | cost: 206280 | time: 36.0 | notes: rbac cgb heavy
 [2026-03-16 08:01:01] instance: ParametricRBACMaintenance_mse20_wt-role_domino_multiple_0.7_7.wcnf | approach: cgb-heavy | cost: 362817 | time: 39.7 | notes: rbac cgb heavy
+[2026-03-16 08:06:21] instance: MaxSATQueriesinInterpretableClassifiers_wt-twitter_train_5_CNF_4_10.wcnf | approach: cgb-heavy | cost: 138480 | time: 250.7 | notes: twitter cgb heavy

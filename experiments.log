@@ -490,3 +490,25 @@
 [2026-03-16 04:29:43] instance: abstraction-refinement_wt-polysite-bloat.wcnf | approach: heavy-as-hard | cost: 204 | time: 91.0 | notes: polysite-bloat heavy-as-hard strategy
 [2026-03-16 04:32:22] instance: abstraction-refinement_wt-polysite-bloat.wcnf | approach: core-guided-deep | cost: 204 | time: 142.5 | notes: polysite-bloat deep
 [2026-03-16 04:42:20] instance: abstraction-refinement_wt-polysite-bloat.wcnf | approach: cwls-heavy-hard | cost: 203 | time: 267.9 | notes: polysite cwls
+[2026-03-16 04:14:07] instance: setcover_wt-rail2536.wcnf | approach: greedy-sat-cd19 | cost: 1537 | time: 60.5 | notes: setcover greedy
+[2026-03-16 04:17:31] instance: timetabling_wt-test4.wcnf | approach: greedy+multi+cwls | cost: 629 | time: 122.3 | notes: timetabling v2
+[2026-03-16 04:19:16] instance: timetabling_wt-comp02.wcnf | approach: greedy+multi+cwls | cost: 66 | time: 227.7 | notes: timetabling v2
+[2026-03-16 04:20:08] instance: timetabling_wt-comp09.wcnf | approach: greedy+multi+cwls | cost: 216 | time: 279.2 | notes: timetabling v2
+[2026-03-16 04:21:02] instance: ...x-6_reduced_incomple | approach: multi+cwls | cost: 392 | time: 52.7 | notes: dt v2
+[2026-03-16 04:21:42] instance: ...max-6_reduced_incomp | approach: multi+cwls | cost: 218 | time: 92.0 | notes: dt v2
+[2026-03-16 04:22:22] instance: ...x-6_reduced_incomple | approach: multi+cwls | cost: 653 | time: 132.1 | notes: dt v2
+[2026-03-16 04:23:01] instance: ...63_max-5_reduced_inc | approach: multi+cwls | cost: 382 | time: 171.6 | notes: dt v2
+[2026-03-16 04:23:41] instance: ...63_max-5_reduced_inc | approach: multi+cwls | cost: 484 | time: 211.2 | notes: dt v2
+[2026-03-16 04:24:17] instance: ..._max-3_reduced_incom | approach: multi+cwls | cost: 229 | time: 247.7 | notes: dt v2
+[2026-03-16 04:24:37] instance: ..._max-3_reduced_incom | approach: multi+cwls | cost: 271 | time: 267.9 | notes: dt v2
+[2026-03-16 04:25:54] instance: setcover_wt-rail2536.wcnf | approach: greedy+cwls | cost: 1537 | time: 67.0 | notes: medium improve
+[2026-03-16 04:27:02] instance: setcover_wt-rail4284.wcnf | approach: greedy+cwls | cost: 2315 | time: 135.6 | notes: medium improve
+[2026-03-16 04:28:11] instance: setcover_wt-rail4872.wcnf | approach: greedy+cwls | cost: 2970 | time: 204.4 | notes: medium improve
+[2026-03-16 04:29:15] instance: setcover_wt-rail507.wcnf | approach: greedy+cwls | cost: 300 | time: 268.8 | notes: medium improve
+[2026-03-16 04:30:25] instance: abstraction-refinement_wt-polysite-bloat.wcnf | approach: wpm1 | cost: inf | time: 29.4 | notes: polysite-bloat wpm1
+[2026-03-16 04:35:13] instance: abstraction-refinement_wt-polysite-bloat.wcnf | approach: greedy-sat | cost: 4948 | time: 255.7 | notes: polysite-bloat greedy
+[2026-03-16 04:37:55] instance: abstraction-refinement_wt-polysite-bloat.wcnf | approach: core-guided-variants | cost: 2397 | time: 138.5 | notes: polysite-bloat core-guided
+[2026-03-16 04:40:48] instance: abstraction-refinement_wt-polysite-bloat.wcnf | approach: split-heavy-core-guided | cost: 204 | time: 140.0 | notes: polysite-bloat split heavy/light
+[2026-03-16 04:45:53] instance: abstraction-refinement_wt-polysite-bloat.wcnf | approach: greedy-sat-split | cost: 86 | time: 256.2 | notes: polysite-bloat greedy light
+[2026-03-16 04:51:15] instance: abstraction-refinement_wt-polysite-bloat.wcnf | approach: greedy-sat-split-v2 | cost: 86 | time: 286.2 | notes: polysite-bloat greedy light v2
+[2026-03-16 04:55:52] instance: haplotyping-pedigrees_wt-ped2.G.recomb10-0.20-13.wcnf | approach: cwls+walksat | cost: 511985 | time: 269.5 | notes: haplo-13 deep

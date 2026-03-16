@@ -678,3 +678,4 @@
 [2026-03-16 07:25:05] instance: haplotyping-pedigrees_wt-ped2.G.recomb10-0.20-12.wcnf | approach: bimodal-wpm1 | cost: 206835 | time: 16.5 | notes: bimodal sweep
 [2026-03-16 07:25:42] instance: timetabling_wt-test4.wcnf | approach: bimodal-wpm1 | cost: 448 | time: 36.5 | notes: bimodal sweep
 [2026-03-16 07:26:07] instance: switchingactivitymaximization-SwitchingActivityMaximization_OpenRISC1200_66.wcnf | approach: bimodal-wpm1 | cost: 6 | time: 24.0 | notes: bimodal sweep
+[2026-03-16 07:42:22] instance: haplotyping-pedigrees_wt-ped2.G.recomb10-0.20-12.wcnf | approach: wpm1-heavy | cost: 206835 | time: 1.2 | notes: haplo-12 wpm1

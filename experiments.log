@@ -722,3 +722,6 @@
 [2026-03-16 11:22:22] instance: setcover_wt-rail2536.wcnf | approach: cgb-high | cost: 1490 | time: 87.5 | notes: setcover cgb
 [2026-03-16 11:24:06] instance: setcover_wt-rail4284.wcnf | approach: cgb-high | cost: 2315 | time: 103.0 | notes: setcover cgb
 [2026-03-16 11:30:37] instance: timetabling_wt-test4.wcnf | approach: rng-greedy-lib | cost: 448 | time: 240 | notes: test4 lib rng
+[2026-03-16 12:29:19] instance: role_domino_multiple_0.1_1.wcnf | approach: cwls+ws | cost: 93676 | notes: rbac deep
+[2026-03-16 12:30:11] instance: role_domino_multiple_0.7_7.wcnf | approach: cwls+ws | cost: 362817 | notes: rbac deep
+[2026-03-16 12:30:22] instance: role_domino_multiple_0.3_1.wcnf | approach: cwls+ws | cost: 206280 | notes: rbac deep

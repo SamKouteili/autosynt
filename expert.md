@@ -4,8 +4,8 @@
 
 - **220/229 instances solved** (9 remaining)
 - **5 better than competition reference** + 1 with no known reference (pseudoBoolean) + 1 matching optimal (causal_n7)
-- **~100 within 1.1x** of reference
-- **~199 within 2x**, ~20 still >2x
+- **~107 within 1.1x** of reference
+- **~204 within 2x**, ~15 still >2x
 - **polysite-bloat: 66x → 2.0x** via heavy-as-hard + greedy SAT
 - **comp02: 2.75x → 1.58x**, **comp09: 2.25x → 1.70x**, **comp21: 2.27x → 1.89x** via randomized heavy-as-hard greedy
 - **pa-1 reduced from 5445x to ~623x** via biased-sat + alternating CWLS/walksat

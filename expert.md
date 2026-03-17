@@ -4,13 +4,16 @@
 
 - **220/229 instances solved** (9 remaining)
 - **5 better than competition reference** + 1 with no known reference (pseudoBoolean) + 1 matching optimal (causal_n7)
-- **~107 within 1.1x** of reference
-- **~204 within 2x**, ~15 still >2x
-- **polysite-bloat: 66x → 2.0x** via heavy-as-hard + greedy SAT
-- **comp02: 2.75x → 1.58x**, **comp09: 2.25x → 1.70x**, **comp21: 2.27x → 1.89x** via randomized heavy-as-hard greedy
-- **pa-1 reduced from 5445x to ~623x** via biased-sat + alternating CWLS/walksat
+- **~112 within 1.1x** of reference
+- **~209 within 2x**, ~10 still >2x
+- **haplotyping-12: 3.78x→1.01x** via RC2 on heavy softs (w=581)
 - **haplotyping-13: 12.6x→1.01x** via WPM1 on heavy softs (bimodal weight decomposition)
-- **downcast-pmd: 2.08x→1.21x** via same approach
+- **setcover: all 6 instances dramatically improved** via domain-specific greedy set cover: rail2536 2.12x→1.23x, rail4284 2.07x→1.22x, rail4872 1.89x→1.23x, rail507 1.72x→1.20x, rail582 1.75x→1.17x
+- **ParametricRBAC domino 0.7_0: 1.82x→1.25x**, **domino 0.4_0: 1.56x→1.24x** via CGB on top-2 weight levels
+- **comp09: 2.25x → 1.50x** via randomized greedy
+- **polysite-bloat: 66x → 2.0x** via heavy-as-hard + greedy SAT
+- **downcast-pmd: 2.08x→1.21x** via WPM1 on heavy softs
+- **pa-1 reduced from 5445x to ~602x** via biased-sat + alternating CWLS/walksat
 
 ## Approach selection guide
 
@@ -67,7 +70,7 @@ The single most important factor is **number of soft clauses** (nsofts), not tot
 | correlation-clustering (12) | 12/12 | 0 | 1.16-4.5x | Multi-init dramatically improved |
 | abstraction-refinement (11) | 11/11 | 0 | 1.02-137x | polysite-bloat solved via CaDiCaL |
 | timetabling (8) | 8/8 | 2 | 1.0-11.7x | comp07.lp now optimal via core-guided |
-| setcover (6) | 6/6 | 0 | 1.1-1.8x | SAT+tabu |
+| setcover (6) | 6/6 | 0 | 1.1-1.2x | Domain-specific greedy set cover |
 | planning (3) | 3/3 | 1 | 1.0-1.29x | |
 | max-realizability (4) | 4/4 | 0 | 1.10-1.29x | Multi-init improved |
 | CSG (2) | 2/2 | 2 | both optimal | |
@@ -210,26 +213,48 @@ Most solved instances are at single-flip local optima — no single variable fli
 ## Approaches that DON'T work
 - **WalkSAT soft on correlation-clustering**: SAT baseline is at hard local optimum, no single flip improves
 - **CaDiCaL baseline for haplotyping**: glucose4 baseline is BETTER for haplotyping (1.2M vs 6.6M)
-- **Tabu search on large occurrence lists**: too slow per step with >1M hard clauses
+- **Tabu search on large occurrence lists**: too slow per step with >1M hard clauses (ParametricRBAC domino, timetabling)
 - **RC2 on synplicate/timetabling**: times out even with 120s budget — formula too complex
 - **Core-guided with full assumptions on synplicate**: SAT solver hangs — use biased-sat instead
-- **WPM1 on large instances**: returns inf (solver overwhelmed by relaxation constraints)
+- **WPM1 on >40K assumptions**: returns None (too many cores to process). Failed on twitter (45K heavy softs) and haplotyping-12 (18.4K heavy softs, though RC2 worked)
+- **Multi-init on setcover**: gives 1000-3000x ratios because random SAT assignments select way too many sets. Use domain-specific greedy instead.
 - **Biased-sat on twitter (51K softs, 9.7M hards)**: each SAT call too expensive (~5s), no improvement
 - **Greedy SAT with >15K vars per soft call**: each SAT call takes >10s, so greedy loop times out
+- **walksat_soft and CWLS on twitter**: both fail to escape the existing local optimum (138K cost vs 14K ref)
+- **SA/tabu from existing on decision-tree**: stuck at single-flip local optima with expensive per-step operations
+- **Nested signal.alarm() calls**: inner finally block clears outer alarm, causing processes to hang indefinitely. Use subprocess timeout instead.
 
 ## Next steps for improvement
-1. **haplotyping-12 (3.78x)**: WPM1 on heavy softs timed out, try with more time or different solver
-2. **pa-1 (612x)**: continue CWLS+walksat iterations, bimodal approach not applicable (uniform weights?)
-3. **twitter (9.65x)**: 51K softs bimodal {1, 10}, try WPM1/core-guided on heavy
-4. **timetabling (2.3-3.3x)**: non-unit softs, stuck at local optima, need cardinality encoding or decomposition
-5. **correlation-clustering (1.6-2.6x)**: need domain-specific clustering or 2-opt moves
-6. **ParametricRBAC domino (1.6-2.2x)**: 34K unit softs, 4 weight levels — try WPM1 on top-2 weight levels
+1. **pa-1 (602x)**: 2.5M vars, 1.9M hards, 1.1M softs — too large for SAT-based approaches. Continue CWLS+walksat iterations.
+2. **twitter (9.65x)**: 45K heavy unit softs (w=10) + 6K light (w=1). WPM1/CGB/walksat/CWLS all fail. Need fundamentally different approach.
+3. **causal_Water (4.40x)**: 869K vars, biased-sat helps slightly but not enough. Need more aggressive multi-init or decomposition.
+4. **timetabling test4 (3.31x)**: RC2 (cd19, g4) times out, CWLS/tabu from existing don't improve. Bimodal {2, 5} with 69K vars.
+5. **decision-tree (2.5x)**: 3 instances, 268-765 softs, 2.5M hards. RC2 times out, SA doesn't improve. Need faster SAT per call.
+6. **ParametricRBAC domino (2.0-2.4x)**: 3 instances, 34K unit softs. CGB-heavy only helps when heavy/light ratio is >100x. walksat_soft doesn't improve. Need different decomposition.
 7. **Solve remaining 9**: 4 MinWeightDomSet too large, 2 lisbon-wedding extremely hard SAT, 1 MinWeightDomSet no ref, 2 relational-inference 18M+ vars
 
 ### RC2 (pysat MaxSAT solver) - REVIVED
 - **Previously dismissed as unreliable**, but with CaDiCaL backend (solver='cd19') and proper timeout, RC2 finds OPTIMAL solutions
 - **comp06: 50→27 (OPTIMAL)**, **quantum-circuit: 48→27 (OPTIMAL)** in <45s each
-- Key: use `signal.alarm()` to enforce timeout since RC2 can hang
+- **haplotyping-12: 206K→55K (3.78x→1.01x)** — RC2 on heavy softs (w=581) where WPM1 failed
+- Key: use subprocess with timeout (NOT nested signal.alarm, which has bug where inner finally clears outer alarm)
 - Works best on instances with <200K vars, <1M hards, <5K softs
+- **Also works on SUBSETS of soft clauses**: when bimodal, run RC2 on just the heavy softs
 - Does NOT work on timetabling test4/comp02 (too large), decision-tree (2.5M hards too slow)
 - Always try RC2 first on any instance within its size limits
+
+### Domain-specific greedy set cover (GAME-CHANGER for setcover family)
+- **Key discovery**: setcover instances have special structure (few coverage constraints, many set variables)
+- Standard MaxSAT solvers (SAT-based, multi-init) are terrible for these: they select random sets, getting 1000-3000x ratios
+- **Greedy set cover**: iteratively pick set with best (uncovered_elements / weight) ratio
+  - Multiple randomized trials with noise on ratio scoring to explore different solutions
+  - Local optimization: remove redundant sets (sets whose covered elements are all covered by other selected sets)
+- **Game-changer results**: rail2536: 2.12x→1.23x, rail4284: 2.07x→1.22x, rail4872: 1.89x→1.23x, rail507: 1.72x→1.20x, rail582: 1.75x→1.17x
+- Structure detection: nhards << nsofts, soft clauses are unit negative literals (-x), hard clauses are positive disjunctions
+- Could potentially be improved further with swap neighborhoods or LP relaxation
+
+### CGB on top-2 weight levels (for ParametricRBAC domino)
+- **Key discovery**: when instances have 4+ weight levels, running CGB on just the top-2 weight classes can dramatically improve solutions
+- Works when: (a) top-2 weight classes have few clauses (< 200), (b) heavy-to-light weight ratio is large (>100x)
+- **Results**: domino_0.7_0: 1.82x→1.25x (weights 7000/3590 vs 39/9), domino_0.4_0: 1.56x→1.24x
+- Does NOT work when heavy-to-light ratio is small (domino_0.1_1: weights 1045/526 vs 28/6, got 7x worse)

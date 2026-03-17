@@ -4,7 +4,7 @@
 
 - **220/229 instances solved** (9 remaining)
 - **5 better than competition reference** + 1 with no known reference (pseudoBoolean) + 1 matching optimal (causal_n7)
-- **123 within 1.1x** of reference, **30 optimal** (matching reference exactly)
+- **125 within 1.1x** of reference, **36 optimal** (matching reference exactly)
 - **209 within 2x**, 10 still >2x
 - **quantum-circuit qgan: OPTIMAL** via RC2 with CaDiCaL
 - **SA from existing is a universal improver**: improved judgment-aggregation (1.47x→1.04x), railway-transport (1.64x→1.32x), drmx-cryptogen (1.08x→1.05x), and more
@@ -240,12 +240,12 @@ Most solved instances are at single-flip local optima — no single variable fli
 - **Nested signal.alarm() calls**: inner finally block clears outer alarm, causing processes to hang indefinitely. Use subprocess timeout instead.
 
 ## Next steps for improvement
-1. **pa-1 (602x)**: 2.5M vars, 1.9M hards, 1.1M softs — too large for SAT-based approaches. Continue CWLS+walksat iterations.
-2. **twitter (9.65x)**: 45K heavy unit softs (w=10) + 6K light (w=1). WPM1/CGB/walksat/CWLS all fail. Need fundamentally different approach.
-3. **causal_Water (4.40x)**: 869K vars, biased-sat helps slightly but not enough. Need more aggressive multi-init or decomposition.
-4. **timetabling test4 (3.31x)**: RC2 (cd19, g4) times out, CWLS/tabu from existing don't improve. Bimodal {2, 5} with 69K vars.
-5. **decision-tree (2.5x)**: 3 instances, 268-765 softs, 2.5M hards. RC2 times out, SA doesn't improve. Need faster SAT per call.
-6. **ParametricRBAC domino (2.0-2.4x)**: 3 instances, 34K unit softs. CGB-heavy only helps when heavy/light ratio is >100x. walksat_soft doesn't improve. Need different decomposition.
+1. **pa-1 (601x)**: 2.5M vars, 1.9M hards, 1.1M softs — CWLS+walksat iterations produce ~100-300 improvement per round. Very slow convergence.
+2. **twitter (8.46x)**: SA from existing improved 138K→121K, but now stuck. CWLS/tabu running but very slow per step (9.7M hards). Need faster local search or fundamentally different approach.
+3. **causal_Water (4.40x)**: 869K vars, 3.1M hards, 11.5K unit softs. SA/WPM1/CGB all fail. CWLS running.
+4. **timetabling test4 (2.97x)**: Heavy-as-hard + randomized greedy improved 444→398. 50 more trials didn't improve. SA from 398 didn't help.
+5. **decision-tree (2.5x)**: 3 instances, 268-765 softs, 2.5M hards. RC2 times out (30s), randomized greedy doesn't help, SA stuck. Per-SAT-call cost too high.
+6. **ParametricRBAC domino (2.0-2.25x)**: SA sweep produced marginal improvements on 5/9 domino instances but not fundamental. CWLS doesn't help.
 7. **Solve remaining 9**: 4 MinWeightDomSet too large, 2 lisbon-wedding extremely hard SAT, 1 MinWeightDomSet no ref, 2 relational-inference 18M+ vars
 
 ### RC2 (pysat MaxSAT solver) - REVIVED

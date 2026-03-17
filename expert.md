@@ -4,9 +4,10 @@
 
 - **220/229 instances solved** (9 remaining)
 - **5 better than competition reference** + 1 with no known reference (pseudoBoolean) + 1 matching optimal (causal_n7)
-- **113 within 1.1x** of reference, **30 optimal** (matching reference exactly)
+- **123 within 1.1x** of reference, **30 optimal** (matching reference exactly)
 - **209 within 2x**, 10 still >2x
 - **quantum-circuit qgan: OPTIMAL** via RC2 with CaDiCaL
+- **SA from existing is a universal improver**: improved judgment-aggregation (1.47x→1.04x), railway-transport (1.64x→1.32x), drmx-cryptogen (1.08x→1.05x), and more
 - **haplotyping-12: 3.78x→1.01x** via RC2 on heavy softs (w=581)
 - **haplotyping-13: 12.6x→1.01x** via WPM1 on heavy softs (bimodal weight decomposition)
 - **setcover: all 6 instances dramatically improved** via domain-specific greedy set cover: rail2536 2.12x→1.23x, rail4284 2.07x→1.22x, rail4872 1.89x→1.23x, rail507 1.72x→1.20x, rail582 1.75x→1.17x
@@ -203,6 +204,18 @@ The single most important factor is **number of soft clauses** (nsofts), not tot
   - Found optimal in just 43 trials of random ordering
 - Most effective for instances with <5000 soft clauses where each greedy iteration is fast
 - Run 50-100 random orderings to find good solutions
+
+### Simulated annealing as universal improver (GAME-CHANGER)
+- **Key discovery**: SA from existing solution is the most broadly effective improvement technique
+- Works on ANY instance with many soft clauses (>500) where the existing solution isn't already optimal
+- Exponential temperature schedule: t_start=0.3, t_end=0.000001, with 20-60s per instance
+- **Game-changer results**:
+  - judgment-aggregation: 1.47x→1.04x (multiple instances to near-optimal ~1.02-1.05x)
+  - railway-transport bf2030fvslack: 1.36x→1.08x, r11: 1.64x→1.32x
+  - drmx-cryptogen: 1.08x→1.05x (all 5 instances)
+- SA accepts worse moves probabilistically → escapes local optima that tabu/CWLS cannot
+- Each additional SA run has diminishing returns but still finds improvements (run multiple rounds)
+- Does NOT work well on instances with few soft clauses (<500) or very expensive per-flip operations
 
 ## Current bottleneck: single-flip local optima
 Most solved instances are at single-flip local optima — no single variable flip can improve soft cost without breaking hard constraints. Further improvements require:

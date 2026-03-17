@@ -725,3 +725,13 @@
 [2026-03-16 12:29:19] instance: role_domino_multiple_0.1_1.wcnf | approach: cwls+ws | cost: 93676 | notes: rbac deep
 [2026-03-16 12:30:11] instance: role_domino_multiple_0.7_7.wcnf | approach: cwls+ws | cost: 362817 | notes: rbac deep
 [2026-03-16 12:30:22] instance: role_domino_multiple_0.3_1.wcnf | approach: cwls+ws | cost: 206280 | notes: rbac deep
+[2026-03-16 18:45:00] instance: haplotyping-pedigrees_wt-ped2.G.recomb10-0.20-12.wcnf | approach: RC2 on heavy softs (w=581) with cd19 | cost: 55194 | time: 120s | notes: 3.78x→1.01x! RC2 on heavy softs game-changer for haplotyping
+[2026-03-16 18:45:00] instance: timetabling_wt-comp09.wcnf | approach: randomized greedy cd19 | cost: 144 | time: 55s | notes: 1.69x→1.50x
+[2026-03-16 18:46:00] instance: ParametricRBACMaintenance_mse20_wt-role_domino_multiple_0.7_0.wcnf | approach: CGB on top-2 weight levels | cost: 211998 | time: 20s | notes: 1.82x→1.25x
+[2026-03-16 18:46:00] instance: ParametricRBACMaintenance_mse20_wt-role_domino_multiple_0.4_0.wcnf | approach: CGB on top-2 weight levels | cost: 152291 | time: 20s | notes: 1.56x→1.24x
+[2026-03-16 18:50:00] instance: setcover_wt-rail2536.wcnf | approach: greedy set cover with local opt | cost: 892 | time: 264s | notes: 2.12x→1.23x! Domain-specific greedy set cover dramatically better
+[2026-03-16 18:55:00] instance: setcover_wt-rail4284.wcnf | approach: greedy set cover | cost: 1464 | time: 53s | notes: 2.07x→1.31x
+[2026-03-16 18:55:00] instance: setcover_wt-rail4872.wcnf | approach: greedy set cover | cost: 2004 | time: 78s | notes: 1.89x→1.27x
+[2026-03-16 18:55:00] instance: setcover_wt-rail507.wcnf | approach: greedy set cover with local opt | cost: 213 | time: 51s | notes: 1.72x→1.22x
+[2026-03-16 18:55:00] instance: setcover_wt-rail516.wcnf | approach: greedy set cover | cost: 205 | time: 50s | notes: 1.13x
+[2026-03-16 18:55:00] instance: setcover_wt-rail582.wcnf | approach: greedy set cover with local opt | cost: 256 | time: 45s | notes: 1.75x→1.21x

@@ -236,6 +236,7 @@ Most solved instances are at single-flip local optima — no single variable fli
 - **Greedy SAT with >15K vars per soft call**: each SAT call takes >10s, so greedy loop times out
 - **walksat_soft and CWLS on twitter**: both fail to escape the existing local optimum (138K cost vs 14K ref)
 - **SA/tabu from existing on decision-tree**: stuck at single-flip local optima with expensive per-step operations
+- **SA on pa-1 (1.1M softs)**: incremental cost tracking diverges from reality — stored cost -21 but actual was 2.99M. Bug in initial sat_count computation when loading large configurations. Always verify SA solutions with evaluate_cost().
 - **Nested signal.alarm() calls**: inner finally block clears outer alarm, causing processes to hang indefinitely. Use subprocess timeout instead.
 
 ## Next steps for improvement

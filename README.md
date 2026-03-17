@@ -66,8 +66,8 @@ Multiple agents can work on the same repo simultaneously, communicating through 
 | Optimal (matching competition best) | **30** |
 | **Better than competition** | **5** |
 | Novel solve (no known solution existed) | **1** |
-| Within 1.1x of reference | 113 |
-| Within 1.5x | 182 |
+| Within 1.1x of reference | 123 |
+| Within 1.5x | 183 |
 | Within 2x | 209 |
 | Unsolved | 9 |
 

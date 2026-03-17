@@ -735,3 +735,28 @@
 [2026-03-16 18:55:00] instance: setcover_wt-rail507.wcnf | approach: greedy set cover with local opt | cost: 213 | time: 51s | notes: 1.72x→1.22x
 [2026-03-16 18:55:00] instance: setcover_wt-rail516.wcnf | approach: greedy set cover | cost: 205 | time: 50s | notes: 1.13x
 [2026-03-16 18:55:00] instance: setcover_wt-rail582.wcnf | approach: greedy set cover with local opt | cost: 256 | time: 45s | notes: 1.75x→1.21x
+[2026-03-17 11:33:00] instance: domino_0.3_9 | approach: SA (t_start=0.5/0.1/1.0, t_end=1e-4/1e-5/1e-3, 25s each) | cost: 184663 | time: 298s | notes: marginal improvement from 184807
+[2026-03-17 11:33:00] instance: JA-287 | approach: SA (3 schedules, 15s each) | cost: 793 | time: ~50s | notes: improved from 802
+[2026-03-17 11:33:00] instance: JA-614 | approach: SA | cost: 809 | time: ~50s | notes: improved from 816
+[2026-03-17 11:33:00] instance: JA-454 | approach: SA | cost: 642 | time: ~50s | notes: improved from 643
+[2026-03-17 11:33:00] instance: drmx-128_6 | approach: SA | cost: 838 | time: ~50s | notes: improved from 844
+[2026-03-17 11:33:00] instance: pa-1 | approach: CWLS+walksat (4 rounds) | cost: 493904 | time: 273s | notes: improved from 494162
+[2026-03-17 11:34:00] instance: downcast-xalan | approach: SA (2 schedules, 12s) | cost: 67710 | time: ~25s | notes: improved from 70055
+[2026-03-17 11:34:00] instance: downcast-antlr | approach: SA | cost: 78873 | time: ~25s | notes: improved from 79566
+[2026-03-17 11:34:00] instance: polysite-avrora | approach: SA | cost: 55020 | time: ~25s | notes: improved from 57355
+[2026-03-17 11:34:00] instance: polysite-xalan | approach: SA | cost: 117742 | time: ~25s | notes: improved from 119606
+[2026-03-17 11:34:00] instance: polysite-hsqldb | approach: SA | cost: 175626 | time: ~25s | notes: improved from 177778
+[2026-03-17 11:34:00] instance: JA-377 | approach: multi-start-SA (5 perturbed trials, 20s SA each) | cost: 656 | time: ~100s | notes: improved from 658
+[2026-03-17 11:35:00] instance: twitter | approach: SA (t_start=0.3, 50s) | cost: 121368 | time: 228s | notes: MAJOR improvement from 138480 (9.65x→8.46x)
+[2026-03-17 11:36:00] instance: mpe-net60 | approach: SA | cost: 55540 | time: ~15s | notes: improved from 57311
+[2026-03-17 11:36:00] instance: mpe-net30 | approach: SA | cost: 30218 | time: ~15s | notes: improved from 30498
+[2026-03-17 11:37:00] instance: pa-1 | approach: CWLS R2-R4 | cost: 493295→493524 | time: ~270s each | notes: marginal improvements each round
+[2026-03-17 11:38:00] instance: twitter | approach: SA R2 (6 schedules, 35s each from 121K) | cost: 121368 | time: 225s | notes: SA stuck at 121K local optimum
+[2026-03-17 11:38:00] instance: correlation-clustering (all) | approach: SA (deep, 55s) | cost: no improvement | time: ~280s | notes: all at local optima
+[2026-03-17 11:38:00] instance: causal (4 instances) | approach: SA (3 schedules) | cost: no improvement | time: ~280s | notes: all at local optima
+[2026-03-17 11:38:00] instance: decision-tree (8 instances) | approach: RC2 (30s timeout) | cost: FAIL | time: 240s | notes: all timed out, 2.5M hards too large for RC2
+[2026-03-17 11:38:00] instance: timetabling (4 instances) | approach: randomized_greedy (300 trials) | cost: no improvement | time: 252s | notes: SAT calls too slow
+[2026-03-17 11:38:00] instance: ParametricRBAC domino (8 instances) | approach: CWLS (28s each) | cost: no improvement | time: 238s | notes: all at local optima
+[2026-03-17 11:38:00] instance: setcover (6 instances) | approach: SA | cost: no improvement | time: 231s | notes: all at local optima
+[2026-03-17 11:38:00] instance: BTBNSL (5 instances) | approach: SA | cost: no improvement | time: 282s | notes: all at local optima
+[2026-03-17 11:38:00] instance: MinWeightDomSet (3 instances) | approach: SA | cost: no improvement | time: 298s | notes: channel at local optimum

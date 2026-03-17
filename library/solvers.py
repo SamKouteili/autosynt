@@ -654,7 +654,8 @@ def simulated_annealing(assignment, soft_clauses, hard_clauses, occ_lists, timeo
         delta = compute_flip_delta(v, assignment, soft_pos, soft_neg, soft_sat_count, soft_weights)
 
         # Accept improving moves always, worse moves probabilistically
-        if delta <= 0 or random.random() < math.exp(-delta / (temp * best_cost + 1e-10)):
+        exponent = -delta / (temp * best_cost + 1e-10)
+        if delta <= 0 or (exponent > -500 and random.random() < math.exp(max(-500, min(500, exponent)))):
             flip_variable(v, assignment, hard_pos, hard_neg, soft_pos, soft_neg,
                           hard_sat_count, soft_sat_count)
             current_cost += delta

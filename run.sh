@@ -63,7 +63,7 @@ python3.14 -m pip install -q python-sat numpy 2>/dev/null || true
 # Claude Code settings
 mkdir -p ~/.claude
 cat > ~/.claude/settings.json <<'EOF'
-{"permissions":{"defaultMode":"bypassPermissions"},"model":"opus[1m]","skipDangerousModePermissionPrompt":true}
+{"permissions":{"defaultMode":"bypassPermissions"},"model":"opus[1m]","effortLevel":"max","skipDangerousModePermissionPrompt":true}
 EOF
 
 NUM_AGENTS="${NUM_AGENTS:-3}"  # passed via env from SSH caller
@@ -111,10 +111,10 @@ for i in $(seq 1 "$NUM_AGENTS"); do
   LOG="$REPO_DIR/agent.log"
   if [ "$i" -eq 1 ]; then
     tmux new-session -s maxsat -n "agent-$i" -d \
-      "cd $REPO_DIR && claude -p 'Read program.md and go.' --effort max --dangerously-skip-permissions --verbose --output-format stream-json 2>&1 | tee $LOG"
+      "cd $REPO_DIR && claude -p 'Read program.md and go.' --dangerously-skip-permissions --verbose --output-format stream-json 2>&1 | tee $LOG"
   else
     tmux new-window -t maxsat -n "agent-$i" \
-      "cd $REPO_DIR && claude -p 'Read program.md and go.' --effort max --dangerously-skip-permissions --verbose --output-format stream-json 2>&1 | tee $LOG"
+      "cd $REPO_DIR && claude -p 'Read program.md and go.' --dangerously-skip-permissions --verbose --output-format stream-json 2>&1 | tee $LOG"
   fi
   # Add monitoring panes: costs bottom-left, agent steps bottom-right
   tmux split-window -v -t "maxsat:agent-$i" \

@@ -4,8 +4,8 @@
 
 - **220/229 instances solved** (9 remaining)
 - **5 better than competition reference** + 1 with no known reference (pseudoBoolean) + 1 matching optimal (causal_n7)
-- **~112 within 1.1x** of reference
-- **~209 within 2x**, ~10 still >2x
+- **112 within 1.1x** of reference
+- **209 within 2x**, 10 still >2x
 - **haplotyping-12: 3.78x→1.01x** via RC2 on heavy softs (w=581)
 - **haplotyping-13: 12.6x→1.01x** via WPM1 on heavy softs (bimodal weight decomposition)
 - **setcover: all 6 instances dramatically improved** via domain-specific greedy set cover: rail2536 2.12x→1.23x, rail4284 2.07x→1.22x, rail4872 1.89x→1.23x, rail507 1.72x→1.20x, rail582 1.75x→1.17x

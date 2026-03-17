@@ -63,12 +63,12 @@ Multiple agents can work on the same repo simultaneously, communicating through 
 | Metric | Count |
 |--------|-------|
 | Instances solved | **220 / 229** |
-| Optimal (matching competition best) | **29** |
-| **Better than competition** | **4** |
+| Optimal (matching competition best) | **30** |
+| **Better than competition** | **5** |
 | Novel solve (no known solution existed) | **1** |
-| Within 1.1x of reference | 110 |
-| Within 1.5x | 172 |
-| Within 2x | 206 |
+| Within 1.1x of reference | 113 |
+| Within 1.5x | 182 |
+| Within 2x | 209 |
 | Unsolved | 9 |
 
 ### Beat the 2024 MaxSAT Competition
@@ -76,6 +76,7 @@ Multiple agents can work on the same repo simultaneously, communicating through 
 | Instance | Our cost | Competition best | Improvement |
 |----------|----------|-----------------|-------------|
 | switchingactivity_74 | 10 | 16 | **37.5% better** |
+| synplicate dag_run2_10_size_11 | 374 | 518 | **27.8% better** |
 | synplicate dag_run2_16_size_9 | 333 | 398 | **16.3% better** |
 | switchingactivity_68 | 8 | 9 | **11.1% better** |
 | BTBNSL hailfinder_10000 | 49,986,819,152 | 50,007,681,202 | **0.04% better** |
@@ -88,8 +89,8 @@ Multiple agents can work on the same repo simultaneously, communicating through 
 | relational-inference pa-1 | 603x | 2.5M vars, 1.1M soft clauses |
 | twitter | 9.7x | 51K softs, 9.7M hard clauses |
 | causal-discovery Water | 4.4x | 8.3M cost vs 1.9M ref |
-| haplotyping-12 | 3.8x | 215K vars, 18K softs |
 | timetabling test4 | 3.3x | 131K vars |
+| decision-tree tic-tac-toe | 2.6x | adaboost ensemble |
 
 9 instances remain unsolved — mostly >16M variables or no known reference solution.
 
@@ -107,6 +108,7 @@ The agent developed these approaches autonomously, discovering what works throug
 | **Tabu search** | No-hard / unit-soft instances | With SAT init + restarts. judgment-aggregation: 49x → 1.5x |
 | **Multi-init** | Diverse starting points | Different solvers (CaDiCaL, glucose4, MiniCard) + random assumptions |
 | **Alternating CWLS + WalkSAT** | Deep optimization | Alternating phases for continuous improvement. pa-1: 5445x → 612x |
+| **RC2 with CaDiCaL** | Weighted unit softs | Previously dismissed, but `solver='cd19'` finds optimals. haplotyping-12: 3.8x → 1.01x |
 
 ## Library
 

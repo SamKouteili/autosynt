@@ -1,0 +1,3033 @@
+{
+  "Assumptions_a50cadd7": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:21Z",
+    "aiger_file": null
+  },
+  "CheckAlarm_6bea956e": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:21Z",
+    "aiger_file": null
+  },
+  "CheckCoffeMachine_f3987563": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:21Z",
+    "aiger_file": null
+  },
+  "CheckCoffeMachine_3461125b": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:21Z",
+    "aiger_file": null
+  },
+  "CheckDoor_c2b9e44d": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:21Z",
+    "aiger_file": null
+  },
+  "CheckHeating_2418b67e": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:21Z",
+    "aiger_file": null
+  },
+  "CheckLight_007df645": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:21Z",
+    "aiger_file": null
+  },
+  "CheckHeating_3461125b": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:21Z",
+    "aiger_file": null
+  },
+  "CheckLight_aeb1d897": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:21Z",
+    "aiger_file": null
+  },
+  "CheckRoom_06e9cad4": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:21Z",
+    "aiger_file": null
+  },
+  "CheckRoom_2c5b09da": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:21Z",
+    "aiger_file": null
+  },
+  "CheckRoom_3916ec59": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:21Z",
+    "aiger_file": null
+  },
+  "CheckRoom_70523fbe": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:21Z",
+    "aiger_file": null
+  },
+  "CheckShades_1a2942e3": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:21Z",
+    "aiger_file": null
+  },
+  "CheckShades_3461125b": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:21Z",
+    "aiger_file": null
+  },
+  "CheckShades_4d4ca5c4": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:21Z",
+    "aiger_file": null
+  },
+  "CheckShades_aeb1d897": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:21Z",
+    "aiger_file": null
+  },
+  "CheckTime_3916ec59": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:21Z",
+    "aiger_file": null
+  },
+  "CheckTime_54e1f7d2": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": null
+  },
+  "Alarm_2d1010f8": {
+    "status": "realizable",
+    "and_gates": 91,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "Alarm_2d1010f8.aag"
+  },
+  "CheckTime_4b5e6eaa": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": null
+  },
+  "Button": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "Button.aag"
+  },
+  "CheckAlarmBroken1_1a2942e3": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "CheckAlarmBroken1_1a2942e3.aag"
+  },
+  "CheckWarnlightBroken1_70523fbe": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "CheckWarnlightBroken1_70523fbe.aag"
+  },
+  "CheckCoffeMachineBroken1_a5f99bc6": {
+    "status": "realizable",
+    "and_gates": 100,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "CheckCoffeMachineBroken1_a5f99bc6.aag"
+  },
+  "CoffeeMin_88f351a6": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "CoffeeMin_88f351a6.aag"
+  },
+  "CoffeMachine_974f4a68": {
+    "status": "realizable",
+    "and_gates": 585,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "CoffeMachine_974f4a68.aag"
+  },
+  "EnemeyModule": {
+    "status": "realizable",
+    "and_gates": 2,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "EnemeyModule.aag"
+  },
+  "Door_2d1010f8": {
+    "status": "realizable",
+    "and_gates": 299,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "Door_2d1010f8.aag"
+  },
+  "CheckTimer_fa8592c8": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": null
+  },
+  "EscalatorCounting": {
+    "status": "realizable",
+    "and_gates": 11,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "EscalatorCounting.aag"
+  },
+  "EscalatorNonReactive": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "EscalatorNonReactive.aag"
+  },
+  "EscalatorNonCounting": {
+    "status": "realizable",
+    "and_gates": 5,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "EscalatorNonCounting.aag"
+  },
+  "EscalatorCountingInit": {
+    "status": "realizable",
+    "and_gates": 13,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "EscalatorCountingInit.aag"
+  },
+  "EscalatorSmart": {
+    "status": "realizable",
+    "and_gates": 151,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "EscalatorSmart.aag"
+  },
+  "Gamemodule": {
+    "status": "realizable",
+    "and_gates": 11,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "Gamemodule.aag"
+  },
+  "CheckWarnlight_4b5a2bad": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": null
+  },
+  "HeatingMin_d6c5ac79": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "HeatingMin_d6c5ac79.aag"
+  },
+  "CheckWarnlight_1cf58fc1": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": null
+  },
+  "Heating_235467da": {
+    "status": "realizable",
+    "and_gates": 27,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "Heating_235467da.aag"
+  },
+  "Heating_b02056d6": {
+    "status": "realizable",
+    "and_gates": 27,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "Heating_b02056d6.aag"
+  },
+  "KitchenTimerV0": {
+    "status": "realizable",
+    "and_gates": 1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "KitchenTimerV0.aag"
+  },
+  "Increment": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "Increment.aag"
+  },
+  "Heating_974f4a68": {
+    "status": "realizable",
+    "and_gates": 873,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "Heating_974f4a68.aag"
+  },
+  "Heating_b209ff21": {
+    "status": "realizable",
+    "and_gates": 21,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "Heating_b209ff21.aag"
+  },
+  "KitchenTimerV1": {
+    "status": "realizable",
+    "and_gates": 9,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "KitchenTimerV1.aag"
+  },
+  "CheckWarnlight_6bea956e": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": null
+  },
+  "CheckWarnlight_54e1f7d2": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": null
+  },
+  "KitchenTimerV2": {
+    "status": "realizable",
+    "and_gates": 1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "KitchenTimerV2.aag"
+  },
+  "KitchenTimerV3": {
+    "status": "realizable",
+    "and_gates": 870,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "KitchenTimerV3.aag"
+  },
+  "Lights3Min_6479ef9a": {
+    "status": "realizable",
+    "and_gates": 23,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "Lights3Min_6479ef9a.aag"
+  },
+  "LightsMin_6bea956e": {
+    "status": "realizable",
+    "and_gates": 28,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "LightsMin_6bea956e.aag"
+  },
+  "LampController_974f4a68": {
+    "status": "realizable",
+    "and_gates": 304,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "LampController_974f4a68.aag"
+  },
+  "CheckWindows_54e1f7d2": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": null
+  },
+  "CoffeMachine_a50cadd7": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": null
+  },
+  "Light_d65ed84e": {
+    "status": "realizable",
+    "and_gates": 1056,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "Light_d65ed84e.aag"
+  },
+  "KitchenTimerV4": {
+    "status": "realizable",
+    "and_gates": 748,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "KitchenTimerV4.aag"
+  },
+  "MusicAppFeedback": {
+    "status": "realizable",
+    "and_gates": 407,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "MusicAppFeedback.aag"
+  },
+  "Lights_9cac58d3": {
+    "status": "realizable",
+    "and_gates": 4222,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "Lights_9cac58d3.aag"
+  },
+  "MusicAppSimple": {
+    "status": "realizable",
+    "and_gates": 28,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "MusicAppSimple.aag"
+  },
+  "Lights_3461125b": {
+    "status": "realizable",
+    "and_gates": 4222,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "Lights_3461125b.aag"
+  },
+  "MusicAppMotivating": {
+    "status": "realizable",
+    "and_gates": 74,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "MusicAppMotivating.aag"
+  },
+  "Lights_f3987563": {
+    "status": "realizable",
+    "and_gates": 4222,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "Lights_f3987563.aag"
+  },
+  "OneCounterInRangeA3": {
+    "status": "realizable",
+    "and_gates": 10,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "OneCounterInRangeA3.aag"
+  },
+  "Coffee_f1477cc5": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": null
+  },
+  "PlugController_fa4d4ce3": {
+    "status": "realizable",
+    "and_gates": 474,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "PlugController_fa4d4ce3.aag"
+  },
+  "RegManager": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "RegManager.aag"
+  },
+  "Core_4b5a2bad": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": null
+  },
+  "SPIReadSdi": {
+    "status": "realizable",
+    "and_gates": 3,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "SPIReadSdi.aag"
+  },
+  "SPIWriteClk": {
+    "status": "realizable",
+    "and_gates": 6,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "SPIWriteClk.aag"
+  },
+  "SPIWriteSdi": {
+    "status": "realizable",
+    "and_gates": 16,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "SPIWriteSdi.aag"
+  },
+  "SensorRegister": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "SensorRegister.aag"
+  },
+  "Sensor": {
+    "status": "realizable",
+    "and_gates": 1692,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "Sensor.aag"
+  },
+  "Core_66f450a4": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": null
+  },
+  "Shades2_235467da": {
+    "status": "realizable",
+    "and_gates": 23,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": "Shades2_235467da.aag"
+  },
+  "Core_fa4d4ce3": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": null
+  },
+  "DeviceBehaviorChec_fa8592c8": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": null
+  },
+  "FelixSpecFixed2.2.core_fa8592c8": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": null
+  },
+  "FelixSpecFixed4GuaranteesOnly_88f351a6": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:22Z",
+    "aiger_file": null
+  },
+  "arbiter_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 14,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:23Z",
+    "aiger_file": "arbiter_pb_2_pe_.aag"
+  },
+  "amba_decomposed_encode_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 12,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:23Z",
+    "aiger_file": "amba_decomposed_encode_pb_2_pe_.aag"
+  },
+  "arbiter_pb_1_pe_": {
+    "status": "realizable",
+    "and_gates": 1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:23Z",
+    "aiger_file": "arbiter_pb_1_pe_.aag"
+  },
+  "arbiter_on_inpchange_pb_1_pe_": {
+    "status": "realizable",
+    "and_gates": 30,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:23Z",
+    "aiger_file": "arbiter_on_inpchange_pb_1_pe_.aag"
+  },
+  "arbiter_with_buffer_pb_1_pe_": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:23Z",
+    "aiger_file": "arbiter_with_buffer_pb_1_pe_.aag"
+  },
+  "arbiter_with_cancel_pb_1_pe_": {
+    "status": "realizable",
+    "and_gates": 3,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:23Z",
+    "aiger_file": "arbiter_with_cancel_pb_1_pe_.aag"
+  },
+  "arbiter_on_inpchange_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 581,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:23Z",
+    "aiger_file": "arbiter_on_inpchange_pb_2_pe_.aag"
+  },
+  "collector_v1_pb_3_pe_": {
+    "status": "realizable",
+    "and_gates": 217,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:23Z",
+    "aiger_file": "collector_v1_pb_3_pe_.aag"
+  },
+  "example10_pb_1_pe_": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:23Z",
+    "aiger_file": "example10_pb_1_pe_.aag"
+  },
+  "collector_v3_pb_3_pe_": {
+    "status": "realizable",
+    "and_gates": 16,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:23Z",
+    "aiger_file": "collector_v3_pb_3_pe_.aag"
+  },
+  "collector_v2_pb_3_pe_": {
+    "status": "realizable",
+    "and_gates": 43,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:23Z",
+    "aiger_file": "collector_v2_pb_3_pe_.aag"
+  },
+  "example10_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 18,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:23Z",
+    "aiger_file": "example10_pb_2_pe_.aag"
+  },
+  "example10a_pb_1_pe_": {
+    "status": "realizable",
+    "and_gates": 28,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:23Z",
+    "aiger_file": "example10a_pb_1_pe_.aag"
+  },
+  "example7_pb_1_pe_": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:23Z",
+    "aiger_file": "example7_pb_1_pe_.aag"
+  },
+  "example10a_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 63,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:23Z",
+    "aiger_file": "example10a_pb_2_pe_.aag"
+  },
+  "example7_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:23Z",
+    "aiger_file": "example7_pb_2_pe_.aag"
+  },
+  "example7a_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 38,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:23Z",
+    "aiger_file": "example7a_pb_2_pe_.aag"
+  },
+  "example7a_pb_1_pe_": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:23Z",
+    "aiger_file": "example7a_pb_1_pe_.aag"
+  },
+  "example8_pb_1_pe_": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:23Z",
+    "aiger_file": "example8_pb_1_pe_.aag"
+  },
+  "example8_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 4,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:23Z",
+    "aiger_file": "example8_pb_2_pe_.aag"
+  },
+  "Light_a50cadd7": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:23Z",
+    "aiger_file": null
+  },
+  "example9_pb_1_pe_": {
+    "status": "realizable",
+    "and_gates": 10,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:23Z",
+    "aiger_file": "example9_pb_1_pe_.aag"
+  },
+  "example9_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 19,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:23Z",
+    "aiger_file": "example9_pb_2_pe_.aag"
+  },
+  "full_arbiter_unreal1_pb_2_10_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:23Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_2_1_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:23Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_2_11_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:23Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_2_12_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:24Z",
+    "aiger_file": null
+  },
+  "Light_aeb1d897": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:24Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_2_13_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:24Z",
+    "aiger_file": null
+  },
+  "IntendDemo_42dc4fff": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:25Z",
+    "aiger_file": null
+  },
+  "Lights2_f1477cc5": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:26Z",
+    "aiger_file": null
+  },
+  "LightsTotal_2c5b09da": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:26Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_2_14_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:26Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_2_15_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:29Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_2_2_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:29Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_2_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:29Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_2_4_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:29Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_2_5_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:29Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_2_6_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:30Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_2_7_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:30Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_2_8_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:30Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_2_9_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:30Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal2_pb_2_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:30Z",
+    "aiger_file": null
+  },
+  "ModdifiedLedMatrix4X": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:30Z",
+    "aiger_file": null
+  },
+  "gf-unreal0": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:30Z",
+    "aiger_file": null
+  },
+  "gf-unreal1": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:30Z",
+    "aiger_file": null
+  },
+  "ltl2dba_C2_pb_1_pe_": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:30Z",
+    "aiger_file": "ltl2dba_C2_pb_1_pe_.aag"
+  },
+  "ltl2dba_C2_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 8,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:30Z",
+    "aiger_file": "ltl2dba_C2_pb_2_pe_.aag"
+  },
+  "ltl2dba_C2_pb_3_pe_": {
+    "status": "realizable",
+    "and_gates": 33,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:31Z",
+    "aiger_file": "ltl2dba_C2_pb_3_pe_.aag"
+  },
+  "ltl2dba_C2_unreal_pb_2_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:31Z",
+    "aiger_file": null
+  },
+  "ltl2dba_C2_unreal_pb_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:31Z",
+    "aiger_file": null
+  },
+  "ltl2dba_E_pb_1_pe_": {
+    "status": "realizable",
+    "and_gates": 1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:31Z",
+    "aiger_file": "ltl2dba_E_pb_1_pe_.aag"
+  },
+  "ltl2dba_E_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 9,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:31Z",
+    "aiger_file": "ltl2dba_E_pb_2_pe_.aag"
+  },
+  "ltl2dba_E_pb_3_pe_": {
+    "status": "realizable",
+    "and_gates": 68,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:31Z",
+    "aiger_file": "ltl2dba_E_pb_3_pe_.aag"
+  },
+  "ltl2dba_Q_pb_1_pe_": {
+    "status": "realizable",
+    "and_gates": 1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:31Z",
+    "aiger_file": "ltl2dba_Q_pb_1_pe_.aag"
+  },
+  "ltl2dba_Q_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 37,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:31Z",
+    "aiger_file": "ltl2dba_Q_pb_2_pe_.aag"
+  },
+  "ltl2dba_Q_pb_3_pe_": {
+    "status": "realizable",
+    "and_gates": 178,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:31Z",
+    "aiger_file": "ltl2dba_Q_pb_3_pe_.aag"
+  },
+  "ltl2dba_R_pb_1_pe_": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:31Z",
+    "aiger_file": "ltl2dba_R_pb_1_pe_.aag"
+  },
+  "ltl2dba_R_pb_2_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:32Z",
+    "aiger_file": null
+  },
+  "ltl2dba_R_pb_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:32Z",
+    "aiger_file": null
+  },
+  "ltl2dba_U1_pb_1_pe_": {
+    "status": "realizable",
+    "and_gates": 8,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:32Z",
+    "aiger_file": "ltl2dba_U1_pb_1_pe_.aag"
+  },
+  "ltl2dba_U1_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 11,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:32Z",
+    "aiger_file": "ltl2dba_U1_pb_2_pe_.aag"
+  },
+  "ltl2dba_U1_pb_3_pe_": {
+    "status": "realizable",
+    "and_gates": 41,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:32Z",
+    "aiger_file": "ltl2dba_U1_pb_3_pe_.aag"
+  },
+  "ltl2dba_alpha_pb_100_pe_": {
+    "status": "realizable",
+    "and_gates": 149,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:32Z",
+    "aiger_file": "ltl2dba_alpha_pb_100_pe_.aag"
+  },
+  "ltl2dba_alpha_pb_10_pe_": {
+    "status": "realizable",
+    "and_gates": 44,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:32Z",
+    "aiger_file": "ltl2dba_alpha_pb_10_pe_.aag"
+  },
+  "ltl2dba_alpha_pb_12_pe_": {
+    "status": "realizable",
+    "and_gates": 44,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:32Z",
+    "aiger_file": "ltl2dba_alpha_pb_12_pe_.aag"
+  },
+  "ltl2dba_alpha_pb_14_pe_": {
+    "status": "realizable",
+    "and_gates": 48,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:32Z",
+    "aiger_file": "ltl2dba_alpha_pb_14_pe_.aag"
+  },
+  "ltl2dba_alpha_pb_16_pe_": {
+    "status": "realizable",
+    "and_gates": 60,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:32Z",
+    "aiger_file": "ltl2dba_alpha_pb_16_pe_.aag"
+  },
+  "ltl2dba_alpha_pb_17_pe_": {
+    "status": "realizable",
+    "and_gates": 61,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:33Z",
+    "aiger_file": "ltl2dba_alpha_pb_17_pe_.aag"
+  },
+  "ltl2dba_alpha_pb_18_pe_": {
+    "status": "realizable",
+    "and_gates": 62,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:33Z",
+    "aiger_file": "ltl2dba_alpha_pb_18_pe_.aag"
+  },
+  "ltl2dba_alpha_pb_1_pe_": {
+    "status": "realizable",
+    "and_gates": 12,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:33Z",
+    "aiger_file": "ltl2dba_alpha_pb_1_pe_.aag"
+  },
+  "ltl2dba_alpha_pb_20_pe_": {
+    "status": "realizable",
+    "and_gates": 69,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:33Z",
+    "aiger_file": "ltl2dba_alpha_pb_20_pe_.aag"
+  },
+  "ltl2dba_alpha_pb_25_pe_": {
+    "status": "realizable",
+    "and_gates": 79,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:33Z",
+    "aiger_file": "ltl2dba_alpha_pb_25_pe_.aag"
+  },
+  "ltl2dba_alpha_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 12,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:33Z",
+    "aiger_file": "ltl2dba_alpha_pb_2_pe_.aag"
+  },
+  "ltl2dba_alpha_pb_3_pe_": {
+    "status": "realizable",
+    "and_gates": 22,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:33Z",
+    "aiger_file": "ltl2dba_alpha_pb_3_pe_.aag"
+  },
+  "ltl2dba_alpha_pb_4_pe_": {
+    "status": "realizable",
+    "and_gates": 22,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:33Z",
+    "aiger_file": "ltl2dba_alpha_pb_4_pe_.aag"
+  },
+  "ltl2dba_alpha_pb_50_pe_": {
+    "status": "realizable",
+    "and_gates": 110,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:33Z",
+    "aiger_file": "ltl2dba_alpha_pb_50_pe_.aag"
+  },
+  "ltl2dba_alpha_pb_5_pe_": {
+    "status": "realizable",
+    "and_gates": 24,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:33Z",
+    "aiger_file": "ltl2dba_alpha_pb_5_pe_.aag"
+  },
+  "ltl2dba_alpha_pb_6_pe_": {
+    "status": "realizable",
+    "and_gates": 26,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:34Z",
+    "aiger_file": "ltl2dba_alpha_pb_6_pe_.aag"
+  },
+  "ltl2dba_alpha_pb_7_pe_": {
+    "status": "realizable",
+    "and_gates": 43,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:34Z",
+    "aiger_file": "ltl2dba_alpha_pb_7_pe_.aag"
+  },
+  "ltl2dba_alpha_pb_8_pe_": {
+    "status": "realizable",
+    "and_gates": 38,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:34Z",
+    "aiger_file": "ltl2dba_alpha_pb_8_pe_.aag"
+  },
+  "ltl2dba_beta_pb_1_pe_": {
+    "status": "realizable",
+    "and_gates": 9,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:34Z",
+    "aiger_file": "ltl2dba_beta_pb_1_pe_.aag"
+  },
+  "ltl2dba_theta_pb_1_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:34Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_pb_1_pe_": {
+    "status": "realizable",
+    "and_gates": 1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:34Z",
+    "aiger_file": "prioritized_arbiter_pb_1_pe_.aag"
+  },
+  "round_robin_arbiter_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 20,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:34Z",
+    "aiger_file": "round_robin_arbiter_pb_2_pe_.aag"
+  },
+  "round_robin_arbiter_unreal1_pb_2_10_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:34Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_unreal1_pb_2_11_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:34Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_unreal1_pb_2_12_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:35Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_unreal1_pb_2_13_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:35Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_2_16_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:36Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_unreal1_pb_2_14_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:37Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_unreal1_pb_2_15_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:40Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_unreal1_pb_2_1_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:40Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_unreal1_pb_2_2_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:40Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_unreal1_pb_2_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:41Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_unreal1_pb_2_4_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:41Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_unreal1_pb_2_5_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:41Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_unreal1_pb_2_6_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:41Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_unreal1_pb_2_7_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:41Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_unreal1_pb_2_8_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:41Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_unreal1_pb_2_9_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:41Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_unreal2_pb_2_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:41Z",
+    "aiger_file": null
+  },
+  "rw_arbiter_pb_1_pe_": {
+    "status": "realizable",
+    "and_gates": 51,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:41Z",
+    "aiger_file": "rw_arbiter_pb_1_pe_.aag"
+  },
+  "simple_arbiter_unreal1_pb_2_10_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:42Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_2_12_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:42Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_2_1_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:42Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_2_2_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:42Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_2_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:42Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_2_4_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:42Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_2_5_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:42Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_2_6_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:42Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_2_7_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:42Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_2_8_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:42Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_2_9_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:43Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal2_pb_2_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:43Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_with_hints_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 23,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:43Z",
+    "aiger_file": "simple_arbiter_with_hints_pb_2_pe_.aag"
+  },
+  "round_robin_arbiter_unreal1_pb_2_16_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:47Z",
+    "aiger_file": null
+  },
+  "OneCounterGuiA1": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:51Z",
+    "aiger_file": null
+  },
+  "OneCounterGui": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:51Z",
+    "aiger_file": null
+  },
+  "OneCounterGuiA2": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:51Z",
+    "aiger_file": null
+  },
+  "OneCounterGuiA3": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:51Z",
+    "aiger_file": null
+  },
+  "OneCounterGuiA4": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:51Z",
+    "aiger_file": null
+  },
+  "OneCounterGuiA5": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:51Z",
+    "aiger_file": null
+  },
+  "OneCounterGuiA6": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:51Z",
+    "aiger_file": null
+  },
+  "OneCounterGuiA7": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:51Z",
+    "aiger_file": null
+  },
+  "OneCounterInRange": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:51Z",
+    "aiger_file": null
+  },
+  "OneCounterInRangeA1": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:51Z",
+    "aiger_file": null
+  },
+  "OneCounterGuiA8": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:52Z",
+    "aiger_file": null
+  },
+  "OneCounterInRangeA2": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:52Z",
+    "aiger_file": null
+  },
+  "Room_a50cadd7": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:52Z",
+    "aiger_file": null
+  },
+  "System_b0840146": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:52Z",
+    "aiger_file": null
+  },
+  "Time_a50cadd7": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:52Z",
+    "aiger_file": null
+  },
+  "SingleContoller_d65ed84e": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:52Z",
+    "aiger_file": null
+  },
+  "TwoCounters": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:52Z",
+    "aiger_file": null
+  },
+  "TwoCounters2": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:52Z",
+    "aiger_file": null
+  },
+  "TwoCountersDisButA0": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:52Z",
+    "aiger_file": null
+  },
+  "TwoCountersDisButA1": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:52Z",
+    "aiger_file": null
+  },
+  "TwoCountersDisButA2": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:52Z",
+    "aiger_file": null
+  },
+  "TwoCountersDisButA3": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:53Z",
+    "aiger_file": null
+  },
+  "TwoCountersDisButA4": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:53Z",
+    "aiger_file": null
+  },
+  "TwoCountersDisButA5": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:53Z",
+    "aiger_file": null
+  },
+  "TwoCountersDisButA6": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:53Z",
+    "aiger_file": null
+  },
+  "TwoCountersDisButA7": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:53Z",
+    "aiger_file": null
+  },
+  "TwoCountersDisButA8": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:54Z",
+    "aiger_file": null
+  },
+  "TwoCountersDisButA9": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:54Z",
+    "aiger_file": null
+  },
+  "TwoCountersDisButAC": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:54Z",
+    "aiger_file": null
+  },
+  "TwoCountersGui": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:54Z",
+    "aiger_file": null
+  },
+  "TwoCountersInRange": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:54Z",
+    "aiger_file": null
+  },
+  "TwoCountersInRangeA1": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:54Z",
+    "aiger_file": null
+  },
+  "TwoCountersInRangeA2": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:55Z",
+    "aiger_file": null
+  },
+  "TwoCounters5": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:55Z",
+    "aiger_file": null
+  },
+  "TwoCountersInRangeA3": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:55Z",
+    "aiger_file": null
+  },
+  "TwoCountersInRangeA4": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:55Z",
+    "aiger_file": null
+  },
+  "TwoCountersInRangeA5": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:55Z",
+    "aiger_file": null
+  },
+  "TwoCountersInRangeM0": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:55Z",
+    "aiger_file": null
+  },
+  "TwoCountersInRangeM1": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:55Z",
+    "aiger_file": null
+  },
+  "TwoCountersInRangeM2": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:55Z",
+    "aiger_file": null
+  },
+  "TwoCountersInRangeM4": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:55Z",
+    "aiger_file": null
+  },
+  "TwoCountersInRangeM3": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:55Z",
+    "aiger_file": null
+  },
+  "TwoCountersRefined": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:55Z",
+    "aiger_file": null
+  },
+  "UnderapproxDemo2": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:55Z",
+    "aiger_file": null
+  },
+  "Warnlight_a50cadd7": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:55Z",
+    "aiger_file": null
+  },
+  "Window2_f1477cc5": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:55Z",
+    "aiger_file": null
+  },
+  "jarvis_gideon_a02758ea": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:55Z",
+    "aiger_file": null
+  },
+  "jarvis_philippe_484face8": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:55Z",
+    "aiger_file": null
+  },
+  "lilydemo01": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:55Z",
+    "aiger_file": null
+  },
+  "lilydemo02": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:55Z",
+    "aiger_file": null
+  },
+  "lilydemo11": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:55Z",
+    "aiger_file": null
+  },
+  "lilydemo15": {
+    "status": "realizable",
+    "and_gates": 62,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:55Z",
+    "aiger_file": "lilydemo15.aag"
+  },
+  "lilydemo16": {
+    "status": "realizable",
+    "and_gates": 538,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:56Z",
+    "aiger_file": "lilydemo16.aag"
+  },
+  "ltl2dba27": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:56Z",
+    "aiger_file": null
+  },
+  "test4_4b82b1f4": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:56Z",
+    "aiger_file": null
+  },
+  "test8_88f351a6": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:56Z",
+    "aiger_file": null
+  },
+  "test9_dd3a27e1": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-30s",
+    "timestamp": "2026-03-19T17:58:56Z",
+    "aiger_file": null
+  },
+  "Shades2_a5f99bc6": {
+    "status": "realizable",
+    "and_gates": 23,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "Shades2_a5f99bc6.aag"
+  },
+  "SPIReadClk": {
+    "status": "realizable",
+    "and_gates": 2,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "SPIReadClk.aag"
+  },
+  "Shades2_70523fbe": {
+    "status": "realizable",
+    "and_gates": 20,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "Shades2_70523fbe.aag"
+  },
+  "Shades2Min_63831f8c": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "Shades2Min_63831f8c.aag"
+  },
+  "AlarmMin_efe2feaf": {
+    "status": "realizable",
+    "and_gates": 1,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "AlarmMin_efe2feaf.aag"
+  },
+  "Shades2_42dc4fff": {
+    "status": "realizable",
+    "and_gates": 54,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "Shades2_42dc4fff.aag"
+  },
+  "Shades_9cac58d3": {
+    "status": "realizable",
+    "and_gates": 23,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "Shades_9cac58d3.aag"
+  },
+  "ShadesMin_aeb1d897": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ShadesMin_aeb1d897.aag"
+  },
+  "Shades_a02758ea": {
+    "status": "realizable",
+    "and_gates": 23,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "Shades_a02758ea.aag"
+  },
+  "Shades_6479ef9a": {
+    "status": "realizable",
+    "and_gates": 20,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "Shades_6479ef9a.aag"
+  },
+  "SliderDefault": {
+    "status": "realizable",
+    "and_gates": 51,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "SliderDefault.aag"
+  },
+  "Shades_974f4a68": {
+    "status": "realizable",
+    "and_gates": 2143,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "Shades_974f4a68.aag"
+  },
+  "Timer_a50cadd7": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "Timer_a50cadd7.aag"
+  },
+  "TorcsAccelerating": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "TorcsAccelerating.aag"
+  },
+  "TorcsGearing": {
+    "status": "realizable",
+    "and_gates": 2,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "TorcsGearing.aag"
+  },
+  "TorcsSteeringSimple": {
+    "status": "realizable",
+    "and_gates": 13,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "TorcsSteeringSimple.aag"
+  },
+  "TorcsSteeringSmart": {
+    "status": "realizable",
+    "and_gates": 205,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "TorcsSteeringSmart.aag"
+  },
+  "UnderapproxStrengthenedDemo": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "UnderapproxStrengthenedDemo.aag"
+  },
+  "Window_235467da": {
+    "status": "realizable",
+    "and_gates": 79,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "Window_235467da.aag"
+  },
+  "Window_42dc4fff": {
+    "status": "realizable",
+    "and_gates": 78,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "Window_42dc4fff.aag"
+  },
+  "WindowMin_a5f99bc6": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "WindowMin_a5f99bc6.aag"
+  },
+  "Warnlight_2d1010f8": {
+    "status": "realizable",
+    "and_gates": 195,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "Warnlight_2d1010f8.aag"
+  },
+  "Window_54e1f7d2": {
+    "status": "realizable",
+    "and_gates": 79,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "Window_54e1f7d2.aag"
+  },
+  "amba_decomposed_decode": {
+    "status": "realizable",
+    "and_gates": 2,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "amba_decomposed_decode.aag"
+  },
+  "amba_decomposed_shift": {
+    "status": "realizable",
+    "and_gates": 5,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "amba_decomposed_shift.aag"
+  },
+  "amba_decomposed_tincr": {
+    "status": "realizable",
+    "and_gates": 22,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "amba_decomposed_tincr.aag"
+  },
+  "amba_decomposed_tsingle": {
+    "status": "realizable",
+    "and_gates": 50,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "amba_decomposed_tsingle.aag"
+  },
+  "amba_decomposed_tburst4": {
+    "status": "realizable",
+    "and_gates": 94,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "amba_decomposed_tburst4.aag"
+  },
+  "door_locking_problem_d6c5ac79": {
+    "status": "realizable",
+    "and_gates": 44,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "door_locking_problem_d6c5ac79.aag"
+  },
+  "lilydemo04_modified": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": null
+  },
+  "lilydemo03": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "lilydemo03.aag"
+  },
+  "lilydemo04": {
+    "status": "realizable",
+    "and_gates": 11,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "lilydemo04.aag"
+  },
+  "lilydemo05": {
+    "status": "realizable",
+    "and_gates": 18,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "lilydemo05.aag"
+  },
+  "lilydemo06": {
+    "status": "realizable",
+    "and_gates": 40,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "lilydemo06.aag"
+  },
+  "lazy_shades_problem_d6376bf9": {
+    "status": "realizable",
+    "and_gates": 3965,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "lazy_shades_problem_d6376bf9.aag"
+  },
+  "lilydemo08": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "lilydemo08.aag"
+  },
+  "lilydemo09": {
+    "status": "realizable",
+    "and_gates": 10,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "lilydemo09.aag"
+  },
+  "lilydemo07": {
+    "status": "realizable",
+    "and_gates": 35,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "lilydemo07.aag"
+  },
+  "lilydemo12": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "lilydemo12.aag"
+  },
+  "lilydemo10": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "lilydemo10.aag"
+  },
+  "lilydemo13": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "lilydemo13.aag"
+  },
+  "lilydemo14": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "lilydemo14.aag"
+  },
+  "lilydemo17": {
+    "status": "realizable",
+    "and_gates": 3,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "lilydemo17.aag"
+  },
+  "lilydemo18": {
+    "status": "realizable",
+    "and_gates": 5,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "lilydemo18.aag"
+  },
+  "lilydemo19": {
+    "status": "realizable",
+    "and_gates": 7,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "lilydemo19.aag"
+  },
+  "lilydemo20": {
+    "status": "realizable",
+    "and_gates": 11,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "lilydemo20.aag"
+  },
+  "lilydemo21": {
+    "status": "realizable",
+    "and_gates": 1291,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "lilydemo21.aag"
+  },
+  "ltl2dba01": {
+    "status": "realizable",
+    "and_gates": 11,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ltl2dba01.aag"
+  },
+  "lilydemo22": {
+    "status": "realizable",
+    "and_gates": 171,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "lilydemo22.aag"
+  },
+  "lilydemo23": {
+    "status": "realizable",
+    "and_gates": 10,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "lilydemo23.aag"
+  },
+  "ltl2dba02": {
+    "status": "realizable",
+    "and_gates": 142,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ltl2dba02.aag"
+  },
+  "ltl2dba03": {
+    "status": "realizable",
+    "and_gates": 11,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ltl2dba03.aag"
+  },
+  "ltl2dba04": {
+    "status": "realizable",
+    "and_gates": 31,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ltl2dba04.aag"
+  },
+  "abcg_arbiter_pb_1_pe_": {
+    "status": "realizable",
+    "and_gates": 26,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "abcg_arbiter_pb_1_pe_.aag"
+  },
+  "CheckTimer_54e1f7d2": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": null
+  },
+  "ltl2dba05": {
+    "status": "realizable",
+    "and_gates": 50,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ltl2dba05.aag"
+  },
+  "amba_decomposed_lock_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 41,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "amba_decomposed_lock_pb_2_pe_.aag"
+  },
+  "ltl2dba06": {
+    "status": "realizable",
+    "and_gates": 26,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ltl2dba06.aag"
+  },
+  "amba_decomposed_encode_pb_3_pe_": {
+    "status": "realizable",
+    "and_gates": 51,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "amba_decomposed_encode_pb_3_pe_.aag"
+  },
+  "ltl2dba09": {
+    "status": "realizable",
+    "and_gates": 2,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ltl2dba09.aag"
+  },
+  "ltl2dba08": {
+    "status": "realizable",
+    "and_gates": 150,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ltl2dba08.aag"
+  },
+  "ltl2dba07": {
+    "status": "realizable",
+    "and_gates": 94,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ltl2dba07.aag"
+  },
+  "arbiter_pb_3_pe_": {
+    "status": "realizable",
+    "and_gates": 118,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "arbiter_pb_3_pe_.aag"
+  },
+  "ltl2dba10": {
+    "status": "realizable",
+    "and_gates": 4,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ltl2dba10.aag"
+  },
+  "arbiter_with_cancel_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 57,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "arbiter_with_cancel_pb_2_pe_.aag"
+  },
+  "ltl2dba11": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ltl2dba11.aag"
+  },
+  "ltl2dba12": {
+    "status": "realizable",
+    "and_gates": 9,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ltl2dba12.aag"
+  },
+  "collector_v2_pb_5_pe_": {
+    "status": "realizable",
+    "and_gates": 232,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "collector_v2_pb_5_pe_.aag"
+  },
+  "ltl2dba13": {
+    "status": "realizable",
+    "and_gates": 3,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ltl2dba13.aag"
+  },
+  "ltl2dba14": {
+    "status": "realizable",
+    "and_gates": 20,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ltl2dba14.aag"
+  },
+  "ltl2dba15": {
+    "status": "realizable",
+    "and_gates": 1,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ltl2dba15.aag"
+  },
+  "collector_v1_pb_5_pe_": {
+    "status": "realizable",
+    "and_gates": 2220,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "collector_v1_pb_5_pe_.aag"
+  },
+  "f-unreal-unreal": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": null
+  },
+  "ltl2dba16": {
+    "status": "realizable",
+    "and_gates": 20,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ltl2dba16.aag"
+  },
+  "ltl2dba17": {
+    "status": "realizable",
+    "and_gates": 3,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ltl2dba17.aag"
+  },
+  "ltl2dba18": {
+    "status": "realizable",
+    "and_gates": 22,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ltl2dba18.aag"
+  },
+  "ltl2dba20": {
+    "status": "realizable",
+    "and_gates": 72,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ltl2dba20.aag"
+  },
+  "ltl2dba21": {
+    "status": "realizable",
+    "and_gates": 9,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ltl2dba21.aag"
+  },
+  "ltl2dba19": {
+    "status": "realizable",
+    "and_gates": 65,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ltl2dba19.aag"
+  },
+  "ltl2dba22": {
+    "status": "realizable",
+    "and_gates": 1,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ltl2dba22.aag"
+  },
+  "ltl2dba25": {
+    "status": "realizable",
+    "and_gates": 21,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ltl2dba25.aag"
+  },
+  "ltl2dba26": {
+    "status": "realizable",
+    "and_gates": 38,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ltl2dba26.aag"
+  },
+  "ltl2dba23": {
+    "status": "realizable",
+    "and_gates": 23,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ltl2dba23.aag"
+  },
+  "ltl2dpa01": {
+    "status": "realizable",
+    "and_gates": 11,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ltl2dpa01.aag"
+  },
+  "ltl2dpa02": {
+    "status": "realizable",
+    "and_gates": 4,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ltl2dpa02.aag"
+  },
+  "ltl2dpa03": {
+    "status": "realizable",
+    "and_gates": 1217,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:53Z",
+    "aiger_file": "ltl2dpa03.aag"
+  },
+  "ltl2dpa04": {
+    "status": "realizable",
+    "and_gates": 4,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "ltl2dpa04.aag"
+  },
+  "ltl2dpa06": {
+    "status": "realizable",
+    "and_gates": 7,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "ltl2dpa06.aag"
+  },
+  "ltl2dpa05": {
+    "status": "realizable",
+    "and_gates": 1,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "ltl2dpa05.aag"
+  },
+  "ltl2dpa07": {
+    "status": "realizable",
+    "and_gates": 6,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "ltl2dpa07.aag"
+  },
+  "ltl2dpa08": {
+    "status": "realizable",
+    "and_gates": 13,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "ltl2dpa08.aag"
+  },
+  "ltl2dpa09": {
+    "status": "realizable",
+    "and_gates": 8,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "ltl2dpa09.aag"
+  },
+  "ltl2dpa10": {
+    "status": "realizable",
+    "and_gates": 435,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "ltl2dpa10.aag"
+  },
+  "ltl2dpa11": {
+    "status": "realizable",
+    "and_gates": 5,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "ltl2dpa11.aag"
+  },
+  "ltl2dpa12": {
+    "status": "realizable",
+    "and_gates": 245,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "ltl2dpa12.aag"
+  },
+  "ltl2dpa14": {
+    "status": "realizable",
+    "and_gates": 11,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "ltl2dpa14.aag"
+  },
+  "ltl2dpa13": {
+    "status": "realizable",
+    "and_gates": 231,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "ltl2dpa13.aag"
+  },
+  "ltl2dpa15": {
+    "status": "realizable",
+    "and_gates": 8,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "ltl2dpa15.aag"
+  },
+  "ltl2dpa16": {
+    "status": "realizable",
+    "and_gates": 9,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "ltl2dpa16.aag"
+  },
+  "ltl2dpa18": {
+    "status": "realizable",
+    "and_gates": 12,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "ltl2dpa18.aag"
+  },
+  "ltl2dpa17": {
+    "status": "realizable",
+    "and_gates": 12,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "ltl2dpa17.aag"
+  },
+  "ltl2dpa19": {
+    "status": "realizable",
+    "and_gates": 302,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "ltl2dpa19.aag"
+  },
+  "ltl2dpa20": {
+    "status": "realizable",
+    "and_gates": 12,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "ltl2dpa20.aag"
+  },
+  "ltl2dpa23": {
+    "status": "realizable",
+    "and_gates": 4,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "ltl2dpa23.aag"
+  },
+  "amba_decomposed_arbiter_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 34,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "amba_decomposed_arbiter_pb_2_pe_.aag"
+  },
+  "amba_decomposed_encode_pb_4_pe_": {
+    "status": "realizable",
+    "and_gates": 62,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "amba_decomposed_encode_pb_4_pe_.aag"
+  },
+  "01": {
+    "status": "realizable",
+    "and_gates": 93,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "01.aag"
+  },
+  "amba_decomposed_lock_pb_3_pe_": {
+    "status": "realizable",
+    "and_gates": 39,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "amba_decomposed_lock_pb_3_pe_.aag"
+  },
+  "ltl2dpa24": {
+    "status": "realizable",
+    "and_gates": 4,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "ltl2dpa24.aag"
+  },
+  "02": {
+    "status": "realizable",
+    "and_gates": 166,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "02.aag"
+  },
+  "test5_6cbc6174": {
+    "status": "realizable",
+    "and_gates": 15,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "test5_6cbc6174.aag"
+  },
+  "ltl2dpa22": {
+    "status": "realizable",
+    "and_gates": 18040,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "ltl2dpa22.aag"
+  },
+  "test7_2c5b09da": {
+    "status": "realizable",
+    "and_gates": 55,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "test7_2c5b09da.aag"
+  },
+  "test6_0f5381e9": {
+    "status": "realizable",
+    "and_gates": 14,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "test6_0f5381e9.aag"
+  },
+  "test_f3987563": {
+    "status": "realizable",
+    "and_gates": 1,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "test_f3987563.aag"
+  },
+  "arbiter_pb_4_pe_": {
+    "status": "realizable",
+    "and_gates": 1195,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "arbiter_pb_4_pe_.aag"
+  },
+  "arbiter_with_buffer_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 42,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "arbiter_with_buffer_pb_2_pe_.aag"
+  },
+  "collector_v2_pb_7_pe_": {
+    "status": "realizable",
+    "and_gates": 771,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:54Z",
+    "aiger_file": "collector_v2_pb_7_pe_.aag"
+  },
+  "collector_v1_pb_7_pe_": {
+    "status": "realizable",
+    "and_gates": 10934,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T17:59:55Z",
+    "aiger_file": "collector_v1_pb_7_pe_.aag"
+  },
+  "arbiter_on_inpchange_pb_3_pe_": {
+    "status": "realizable",
+    "and_gates": 10319,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:00:00Z",
+    "aiger_file": "arbiter_on_inpchange_pb_3_pe_.aag"
+  },
+  "collector_v3_pb_5_pe_": {
+    "status": "realizable",
+    "and_gates": 52388,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:00:01Z",
+    "aiger_file": "collector_v3_pb_5_pe_.aag"
+  },
+  "full_arbiter_enc_pb_8_pe_": {
+    "status": "realizable",
+    "and_gates": 32701,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:00:03Z",
+    "aiger_file": "full_arbiter_enc_pb_8_pe_.aag"
+  },
+  "Alarm_88c5c1c3": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:00:20Z",
+    "aiger_file": "Alarm_88c5c1c3.aag"
+  },
+  "Alarm_9cac58d3": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:00:20Z",
+    "aiger_file": "Alarm_9cac58d3.aag"
+  },
+  "ActionConverter": {
+    "status": "realizable",
+    "and_gates": 4,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:00:20Z",
+    "aiger_file": "ActionConverter.aag"
+  },
+  "AllHeating_d6376bf9": {
+    "status": "realizable",
+    "and_gates": 78,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:00:20Z",
+    "aiger_file": "AllHeating_d6376bf9.aag"
+  },
+  "full_arbiter_enc_pb_10_pe_": {
+    "status": "realizable",
+    "and_gates": 179961,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:00:44Z",
+    "aiger_file": "full_arbiter_enc_pb_10_pe_.aag"
+  },
+  "Automata": {
+    "status": "realizable",
+    "and_gates": 79,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:20Z",
+    "aiger_file": "Automata.aag"
+  },
+  "Automata16S": {
+    "status": "realizable",
+    "and_gates": 125,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:21Z",
+    "aiger_file": "Automata16S.aag"
+  },
+  "Automata32S": {
+    "status": "realizable",
+    "and_gates": 198,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:21Z",
+    "aiger_file": "Automata32S.aag"
+  },
+  "Cockpitboard": {
+    "status": "realizable",
+    "and_gates": 7,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:21Z",
+    "aiger_file": "Cockpitboard.aag"
+  },
+  "Cockpitboard_efe2feaf": {
+    "status": "realizable",
+    "and_gates": 7,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:21Z",
+    "aiger_file": "Cockpitboard_efe2feaf.aag"
+  },
+  "Coffee_06e9cad4": {
+    "status": "realizable",
+    "and_gates": 2747,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:22Z",
+    "aiger_file": "Coffee_06e9cad4.aag"
+  },
+  "Coffee_235467da": {
+    "status": "realizable",
+    "and_gates": 13031,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:23Z",
+    "aiger_file": "Coffee_235467da.aag"
+  },
+  "Coffee_2c5b09da": {
+    "status": "realizable",
+    "and_gates": 357,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:23Z",
+    "aiger_file": "Coffee_2c5b09da.aag"
+  },
+  "Coffee_6479ef9a": {
+    "status": "realizable",
+    "and_gates": 2747,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:23Z",
+    "aiger_file": "Coffee_6479ef9a.aag"
+  },
+  "Coffee_d6376bf9": {
+    "status": "realizable",
+    "and_gates": 1693,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:23Z",
+    "aiger_file": "Coffee_d6376bf9.aag"
+  },
+  "Coffee_efe2feaf": {
+    "status": "realizable",
+    "and_gates": 13031,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:25Z",
+    "aiger_file": "Coffee_efe2feaf.aag"
+  },
+  "Core_solved_974f4a68": {
+    "status": "realizable",
+    "and_gates": 1496,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:26Z",
+    "aiger_file": "Core_solved_974f4a68.aag"
+  },
+  "EscalatorBidirectional": {
+    "status": "realizable",
+    "and_gates": 147,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:26Z",
+    "aiger_file": "EscalatorBidirectional.aag"
+  },
+  "EscalatorBidirectionalInit": {
+    "status": "realizable",
+    "and_gates": 197,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:26Z",
+    "aiger_file": "EscalatorBidirectionalInit.aag"
+  },
+  "Example1_d6376bf9": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:27Z",
+    "aiger_file": "Example1_d6376bf9.aag"
+  },
+  "FelixSpecFixed2_fa4d4ce3": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:27Z",
+    "aiger_file": "FelixSpecFixed2_fa4d4ce3.aag"
+  },
+  "FelixSpecFixed3.core_b209ff21": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:29Z",
+    "aiger_file": null
+  },
+  "FelixSpecFixed3_b0840146": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:30Z",
+    "aiger_file": "FelixSpecFixed3_b0840146.aag"
+  },
+  "FelixSpecFixed4_3916ec59": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:31Z",
+    "aiger_file": "FelixSpecFixed4_3916ec59.aag"
+  },
+  "FelixSpecFixed_2418b67e": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:31Z",
+    "aiger_file": "FelixSpecFixed_2418b67e.aag"
+  },
+  "Gamelogic": {
+    "status": "realizable",
+    "and_gates": 84,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:32Z",
+    "aiger_file": "Gamelogic.aag"
+  },
+  "GamemodeChooser": {
+    "status": "realizable",
+    "and_gates": 111,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:32Z",
+    "aiger_file": "GamemodeChooser.aag"
+  },
+  "KitchenTimerV10": {
+    "status": "realizable",
+    "and_gates": 1432,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:36Z",
+    "aiger_file": "KitchenTimerV10.aag"
+  },
+  "KitchenTimerV5": {
+    "status": "realizable",
+    "and_gates": 1743,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:37Z",
+    "aiger_file": "KitchenTimerV5.aag"
+  },
+  "KitchenTimerV6": {
+    "status": "realizable",
+    "and_gates": 1703,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:41Z",
+    "aiger_file": "KitchenTimerV6.aag"
+  },
+  "KitchenTimerV7": {
+    "status": "realizable",
+    "and_gates": 1703,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:44Z",
+    "aiger_file": "KitchenTimerV7.aag"
+  },
+  "KitchenTimerV8": {
+    "status": "realizable",
+    "and_gates": 1703,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:47Z",
+    "aiger_file": "KitchenTimerV8.aag"
+  },
+  "full_arbiter_unreal1_pb_3_1_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:54Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_3_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:54Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_3_2_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:54Z",
+    "aiger_file": null
+  },
+  "KitchenTimerV9": {
+    "status": "realizable",
+    "and_gates": 2045,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:54Z",
+    "aiger_file": "KitchenTimerV9.aag"
+  },
+  "full_arbiter_unreal1_pb_3_4_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:54Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_3_5_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:55Z",
+    "aiger_file": null
+  },
+  "LedMatrix": {
+    "status": "realizable",
+    "and_gates": 479,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:56Z",
+    "aiger_file": "LedMatrix.aag"
+  },
+  "Lights2Min_9cbf2546": {
+    "status": "realizable",
+    "and_gates": 55,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:01:56Z",
+    "aiger_file": "Lights2Min_9cbf2546.aag"
+  },
+  "full_arbiter_unreal2_pb_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:02:01Z",
+    "aiger_file": null
+  },
+  "gf-unreal2": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:02:01Z",
+    "aiger_file": null
+  },
+  "gf-unreal3": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:02:01Z",
+    "aiger_file": null
+  },
+  "gf-unreal4": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:02:01Z",
+    "aiger_file": null
+  },
+  "gf-unreal5": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:02:01Z",
+    "aiger_file": null
+  },
+  "gf-unreal6": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:02:01Z",
+    "aiger_file": null
+  },
+  "gf-unreal7": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:02:01Z",
+    "aiger_file": null
+  },
+  "infinite-race-real": {
+    "status": "realizable",
+    "and_gates": 92,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:02:02Z",
+    "aiger_file": "infinite-race-real.aag"
+  },
+  "infinite-race-u0": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:02:02Z",
+    "aiger_file": null
+  },
+  "lift_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 117,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:02:02Z",
+    "aiger_file": "lift_pb_2_pe_.aag"
+  },
+  "lift_wrong_physics_unreal_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 117,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:02:02Z",
+    "aiger_file": "lift_wrong_physics_unreal_pb_2_pe_.aag"
+  },
+  "load_balancer_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 63,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:02:02Z",
+    "aiger_file": "load_balancer_pb_2_pe_.aag"
+  },
+  "load_balancer_unreal1_pb_2_10_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:02:03Z",
+    "aiger_file": null
+  },
+  "load_balancer_unreal1_pb_2_11_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:02:03Z",
+    "aiger_file": null
+  },
+  "load_balancer_unreal1_pb_2_12_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:02:03Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_3_6_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:02:03Z",
+    "aiger_file": null
+  },
+  "load_balancer_unreal1_pb_2_13_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:02:04Z",
+    "aiger_file": null
+  },
+  "load_balancer_unreal1_pb_2_14_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-baseline-60s",
+    "timestamp": "2026-03-19T18:02:05Z",
+    "aiger_file": null
+  }
+}

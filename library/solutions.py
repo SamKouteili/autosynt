@@ -1,98 +1,106 @@
-"""Compressed storage for best solutions. Bit-packs configurations + lzma for ~1200x compression."""
+"""Solution tracking for LTL synthesis — JSON index + individual AIGER files."""
 
-import gzip
+import fcntl
 import json
-import lzma
 from datetime import datetime, timezone
 from pathlib import Path
 
-import numpy as np
+SOLUTIONS_DIR = Path(__file__).resolve().parent.parent / "solutions"
+SOLUTIONS_FILE = Path(__file__).resolve().parent.parent / "best-solutions.json"
+_LOCK_FILE = SOLUTIONS_FILE.with_suffix(".lock")
 
-SOLUTIONS_FILE = Path(__file__).resolve().parent.parent / "best-solutions.bin"
+
+def _ensure_dirs():
+    SOLUTIONS_DIR.mkdir(exist_ok=True)
 
 
 def load_solutions() -> dict:
-    """Load best solutions from compressed binary file.
+    """Load all best solutions from JSON index.
 
-    Returns dict: {instance_name: {cost, configuration, method, timestamp}}
-    where configuration is a list of signed literals [1, -2, 3, ...].
-    Returns empty dict if file doesn't exist.
+    Returns dict: {instance: {status, and_gates, method, timestamp, aiger_file}}
     """
     if not SOLUTIONS_FILE.exists():
         return {}
-
-    data = SOLUTIONS_FILE.read_bytes()
-
-    # Format: 4 bytes meta length (big endian) | gzip meta json | lzma packed bits
-    meta_len = int.from_bytes(data[:4], "big")
-    meta = json.loads(gzip.decompress(data[4 : 4 + meta_len]))
-    packed = np.frombuffer(lzma.decompress(data[4 + meta_len :]), dtype=np.uint8)
-    bits = np.unpackbits(packed)
-
-    result = {}
-    for name, info in meta.items():
-        offset, length = info["offset"], info["length"]
-        signs = bits[offset : offset + length]
-        config = [(i + 1) if s else -(i + 1) for i, s in enumerate(signs)]
-        result[name] = {
-            "cost": info["cost"],
-            "configuration": config,
-            "method": info.get("method", ""),
-            "timestamp": info.get("timestamp", ""),
-        }
-    return result
+    text = SOLUTIONS_FILE.read_text().strip()
+    if not text:
+        return {}
+    return json.loads(text)
 
 
 def save_solutions(solutions: dict) -> None:
-    """Save all solutions to compressed binary file."""
-    meta = {}
-    all_signs = []
-    for name, sol in solutions.items():
-        config = sol["configuration"]
-        signs = [1 if x > 0 else 0 for x in config]
-        meta[name] = {
-            "cost": sol["cost"],
-            "offset": len(all_signs),
-            "length": len(config),
-            "method": sol.get("method", ""),
-            "timestamp": sol.get("timestamp", ""),
-        }
-        all_signs.extend(signs)
-
-    packed = np.packbits(np.array(all_signs, dtype=np.uint8)).tobytes()
-    meta_gz = gzip.compress(json.dumps(meta).encode(), compresslevel=9)
-    bits_lzma = lzma.compress(packed, preset=9)
-
-    SOLUTIONS_FILE.write_bytes(
-        len(meta_gz).to_bytes(4, "big") + meta_gz + bits_lzma
-    )
+    """Save solutions index to JSON."""
+    SOLUTIONS_FILE.write_text(json.dumps(solutions, indent=2) + "\n")
 
 
-def update_solution(instance: str, cost: int, configuration: list[int], method: str) -> bool:
-    """Update solution for an instance if it improves on the current best.
+def update_solution(instance: str, status: str, aiger_text: str | None, method: str) -> bool:
+    """Update solution for an instance if it improves on current best.
 
-    Returns True if the solution was updated (new best found).
+    Improvement means:
+    - New status determination (was unknown, now realizable/unrealizable)
+    - Fewer AND gates for a realizable instance
+
+    Args:
+        instance: instance name (without .tlsf)
+        status: 'realizable', 'unrealizable', or 'unknown'
+        aiger_text: AIGER circuit text (for realizable), None for unrealizable
+        method: description of approach used
+
+    Returns True if solution was updated.
     """
+    _ensure_dirs()
+
+    # Count AND gates if we have AIGER (before locking)
+    and_gates = -1
+    if aiger_text:
+        from library.circuits import aiger_stats  # noqa: reportMissingImports
+        stats = aiger_stats(aiger_text)
+        and_gates = stats["and_gates"]
+
+    # Use file lock for concurrent safety
+    with open(_LOCK_FILE, "w") as lock:
+        fcntl.flock(lock, fcntl.LOCK_EX)
+        try:
+            solutions = load_solutions()
+            current = solutions.get(instance)
+
+            # Check if this is an improvement
+            if current is not None:
+                if current["status"] in ("realizable", "unrealizable") and status == "unknown":
+                    return False
+                if current["status"] == status == "realizable":
+                    if current["and_gates"] >= 0 and and_gates >= current["and_gates"]:
+                        return False
+                elif current["status"] == status:
+                    return False
+
+            # Save AIGER file
+            aiger_file = None
+            if aiger_text:
+                aiger_file = f"{instance}.aag"
+                (SOLUTIONS_DIR / aiger_file).write_text(aiger_text)
+
+            solutions[instance] = {
+                "status": status,
+                "and_gates": and_gates,
+                "method": method,
+                "timestamp": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                "aiger_file": aiger_file,
+            }
+            save_solutions(solutions)
+            return True
+        finally:
+            fcntl.flock(lock, fcntl.LOCK_UN)
+
+
+def mark_unrealizable(instance: str, method: str) -> bool:
+    """Record that an instance is unrealizable."""
+    return update_solution(instance, "unrealizable", None, method)
+
+
+def get_best_results() -> dict:
+    """Quick lookup: {instance: {status, and_gates}}."""
     solutions = load_solutions()
-    current = solutions.get(instance)
-    if current is not None and current["cost"] <= cost:
-        return False
-
-    solutions[instance] = {
-        "cost": cost,
-        "configuration": configuration,
-        "method": method,
-        "timestamp": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+    return {
+        name: {"status": sol["status"], "and_gates": sol["and_gates"]}
+        for name, sol in solutions.items()
     }
-    save_solutions(solutions)
-    return True
-
-
-def get_best_costs() -> dict[str, int]:
-    """Return {instance_name: best_cost} for all solved instances."""
-    if not SOLUTIONS_FILE.exists():
-        return {}
-    data = SOLUTIONS_FILE.read_bytes()
-    meta_len = int.from_bytes(data[:4], "big")
-    meta = json.loads(gzip.decompress(data[4 : 4 + meta_len]))
-    return {name: info["cost"] for name, info in meta.items()}

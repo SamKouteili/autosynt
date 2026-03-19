@@ -1089,3 +1089,6 @@
 [2026-03-19 15:27:28] instance: g-unreal-112 | approach: ltlsynt+decompose | status: unrealizable | and_gates: N/A | time: 0.2s | notes: ltlsynt+decompose
 [2026-03-19 15:27:28] instance: g-unreal-113 | approach: ltlsynt+decompose | status: unrealizable | and_gates: N/A | time: 0.2s | notes: ltlsynt+decompose
 [2026-03-19 15:27:29] instance: amba_decomposed_arbiter_pb_5_pe_ | approach: ltlsynt+decompose | status: realizable | and_gates: 67968 | time: 1.3s | notes: ltlsynt+decompose
+[2026-03-19 15:30:00] instance: full_arbiter_enc_pb_10_pe_ | approach: ltlsynt+decompose | status: realizable | and_gates: 179961 | time: 0s | notes: ltlsynt+decompose
+[2026-03-19 15:31:51] instance: prioritized_arbiter_enc_pb_10_pe_ | approach: ltlsynt+decompose | status: realizable | and_gates: 179503 | time: 0s | notes: ltlsynt+decompose
+[2026-03-19 15:34:05] instance: simple_arbiter_enc_pb_10_pe_ | approach: ltlsynt+decompose | status: realizable | and_gates: 146812 | time: 0s | notes: ltlsynt+decompose

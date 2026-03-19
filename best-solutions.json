@@ -5892,5 +5892,26 @@
     "method": "ltlsynt+decompose",
     "timestamp": "2026-03-19T19:27:29Z",
     "aiger_file": "amba_decomposed_arbiter_pb_5_pe_.aag"
+  },
+  "full_arbiter_enc_pb_10_pe_": {
+    "status": "realizable",
+    "and_gates": 179961,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:30:00Z",
+    "aiger_file": "full_arbiter_enc_pb_10_pe_.aag"
+  },
+  "prioritized_arbiter_enc_pb_10_pe_": {
+    "status": "realizable",
+    "and_gates": 179503,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:31:51Z",
+    "aiger_file": "prioritized_arbiter_enc_pb_10_pe_.aag"
+  },
+  "simple_arbiter_enc_pb_10_pe_": {
+    "status": "realizable",
+    "and_gates": 146812,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:34:05Z",
+    "aiger_file": "simple_arbiter_enc_pb_10_pe_.aag"
   }
 }

@@ -99,9 +99,9 @@
   },
   "lift_pb_5_pe_": {
     "status": "realizable",
-    "and_gates": 19972,
-    "method": "ltlsynt-lar-bwoa",
-    "timestamp": "2026-03-19T18:07:55Z",
+    "and_gates": 1374,
+    "method": "ltlsynt-ds",
+    "timestamp": "2026-03-19T19:21:21Z",
     "aiger_file": "lift_pb_5_pe_.aag"
   },
   "lift_unary_enc_pb_4_pe_": {
@@ -344,9 +344,9 @@
   },
   "example10a_pb_1_pe_": {
     "status": "realizable",
-    "and_gates": 19,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:12:38Z",
+    "and_gates": 18,
+    "method": "reopt-simp3+both+dc",
+    "timestamp": "2026-03-19T19:18:58Z",
     "aiger_file": "example10a_pb_1_pe_.aag"
   },
   "example10_pb_2_pe_": {
@@ -365,9 +365,9 @@
   },
   "arbiter_on_inpchange_pb_1_pe_": {
     "status": "realizable",
-    "and_gates": 55,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:12:38Z",
+    "and_gates": 28,
+    "method": "reopt-min+isop",
+    "timestamp": "2026-03-19T19:18:58Z",
     "aiger_file": "arbiter_on_inpchange_pb_1_pe_.aag"
   },
   "example7_pb_1_pe_": {
@@ -386,16 +386,16 @@
   },
   "example9_pb_1_pe_": {
     "status": "realizable",
-    "and_gates": 20,
-    "method": "spot_game+isop",
-    "timestamp": "2026-03-19T18:12:38Z",
+    "and_gates": 9,
+    "method": "reopt-simp3+both+ud+dc",
+    "timestamp": "2026-03-19T19:18:58Z",
     "aiger_file": "example9_pb_1_pe_.aag"
   },
   "example9_pb_2_pe_": {
     "status": "realizable",
-    "and_gates": 50,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:12:38Z",
+    "and_gates": 23,
+    "method": "reopt-min+isop",
+    "timestamp": "2026-03-19T19:18:58Z",
     "aiger_file": "example9_pb_2_pe_.aag"
   },
   "example10a_pb_2_pe_": {
@@ -435,9 +435,9 @@
   },
   "lilydemo23": {
     "status": "realizable",
-    "and_gates": 18,
-    "method": "spot_game+both+dc",
-    "timestamp": "2026-03-19T18:12:38Z",
+    "and_gates": 9,
+    "method": "reopt-simp3+both+ud+dc",
+    "timestamp": "2026-03-19T19:18:58Z",
     "aiger_file": "lilydemo23.aag"
   },
   "ltl2dba22": {
@@ -568,9 +568,9 @@
   },
   "ltl2dba19": {
     "status": "realizable",
-    "and_gates": 60,
-    "method": "spot_game+both+dc",
-    "timestamp": "2026-03-19T18:12:39Z",
+    "and_gates": 12,
+    "method": "reopt-simp3+both+ud+dc",
+    "timestamp": "2026-03-19T19:18:59Z",
     "aiger_file": "ltl2dba19.aag"
   },
   "ltl2dba23": {
@@ -589,9 +589,9 @@
   },
   "ltl2dba17": {
     "status": "realizable",
-    "and_gates": 54,
-    "method": "spot_game+ite",
-    "timestamp": "2026-03-19T18:12:39Z",
+    "and_gates": 3,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:19:34Z",
     "aiger_file": "ltl2dba17.aag"
   },
   "ltl2dba_Q_pb_2_pe_": {
@@ -603,9 +603,9 @@
   },
   "ltl2dba21": {
     "status": "realizable",
-    "and_gates": 127,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:12:39Z",
+    "and_gates": 9,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:19:34Z",
     "aiger_file": "ltl2dba21.aag"
   },
   "ltl2dba_R_pb_2_pe_": {
@@ -883,9 +883,9 @@
   },
   "arbiter_on_inpchange_pb_2_pe_": {
     "status": "realizable",
-    "and_gates": 688,
-    "method": "spot_game+ite",
-    "timestamp": "2026-03-19T18:12:40Z",
+    "and_gates": 434,
+    "method": "ltlsynt-ds",
+    "timestamp": "2026-03-19T19:19:38Z",
     "aiger_file": "arbiter_on_inpchange_pb_2_pe_.aag"
   },
   "example8_pb_2_pe_": {
@@ -897,9 +897,9 @@
   },
   "collector_v3_pb_3_pe_": {
     "status": "realizable",
-    "and_gates": 987,
-    "method": "spot_game+both+dc",
-    "timestamp": "2026-03-19T18:12:41Z",
+    "and_gates": 16,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:19:35Z",
     "aiger_file": "collector_v3_pb_3_pe_.aag"
   },
   "full_arbiter_unreal1_pb_2_10_pe_": {
@@ -1037,16 +1037,16 @@
   },
   "lilydemo03": {
     "status": "realizable",
-    "and_gates": 52,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:13:12Z",
+    "and_gates": 0,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:19:35Z",
     "aiger_file": "lilydemo03.aag"
   },
   "lilydemo04": {
     "status": "realizable",
-    "and_gates": 103,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:13:12Z",
+    "and_gates": 10,
+    "method": "ltlsynt-ds",
+    "timestamp": "2026-03-19T19:19:35Z",
     "aiger_file": "lilydemo04.aag"
   },
   "lilydemo04_modified": {
@@ -1058,16 +1058,16 @@
   },
   "lilydemo05": {
     "status": "realizable",
-    "and_gates": 61,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:13:12Z",
+    "and_gates": 7,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:19:35Z",
     "aiger_file": "lilydemo05.aag"
   },
   "lilydemo06": {
     "status": "realizable",
-    "and_gates": 96,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:13:12Z",
+    "and_gates": 7,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:19:36Z",
     "aiger_file": "lilydemo06.aag"
   },
   "lilydemo07": {
@@ -1121,9 +1121,9 @@
   },
   "lilydemo22": {
     "status": "realizable",
-    "and_gates": 271,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:13:14Z",
+    "and_gates": 26,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:19:36Z",
     "aiger_file": "lilydemo22.aag"
   },
   "ltl2dba01": {
@@ -1135,9 +1135,9 @@
   },
   "ltl2dba02": {
     "status": "realizable",
-    "and_gates": 159,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:13:14Z",
+    "and_gates": 142,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:19:36Z",
     "aiger_file": "ltl2dba02.aag"
   },
   "ltl2dba03": {
@@ -1681,9 +1681,9 @@
   },
   "SliderDefault": {
     "status": "realizable",
-    "and_gates": 90,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:13:54Z",
+    "and_gates": 20,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:19:36Z",
     "aiger_file": "SliderDefault.aag"
   },
   "Timer_a50cadd7": {
@@ -1758,9 +1758,9 @@
   },
   "load_balancer_pb_2_pe_": {
     "status": "realizable",
-    "and_gates": 72,
-    "method": "spot_game+isop",
-    "timestamp": "2026-03-19T18:13:58Z",
+    "and_gates": 27,
+    "method": "ltlsynt-ds",
+    "timestamp": "2026-03-19T19:19:37Z",
     "aiger_file": "load_balancer_pb_2_pe_.aag"
   },
   "round_robin_arbiter_unreal1_pb_2_16_pe_": {
@@ -1877,9 +1877,9 @@
   },
   "load_balancer_unreal2_pb_2_pe_": {
     "status": "realizable",
-    "and_gates": 100,
-    "method": "spot_game+isop",
-    "timestamp": "2026-03-19T18:14:20Z",
+    "and_gates": 24,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:19:37Z",
     "aiger_file": "load_balancer_unreal2_pb_2_pe_.aag"
   },
   "ltl2dba05": {
@@ -1982,9 +1982,9 @@
   },
   "ltl2dpa10": {
     "status": "realizable",
-    "and_gates": 421,
-    "method": "spot_game+ite",
-    "timestamp": "2026-03-19T18:14:30Z",
+    "and_gates": 183,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:19:37Z",
     "aiger_file": "ltl2dpa10.aag"
   },
   "ltl2dpa11": {
@@ -1996,9 +1996,9 @@
   },
   "ltl2dpa13": {
     "status": "realizable",
-    "and_gates": 244,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:14:30Z",
+    "and_gates": 123,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:19:38Z",
     "aiger_file": "ltl2dpa13.aag"
   },
   "ltl2dpa16": {
@@ -2045,9 +2045,9 @@
   },
   "Alarm_2d1010f8": {
     "status": "realizable",
-    "and_gates": 284,
-    "method": "spot_game+ite",
-    "timestamp": "2026-03-19T18:17:44Z",
+    "and_gates": 38,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:19:38Z",
     "aiger_file": "Alarm_2d1010f8.aag"
   },
   "CheckLight_aeb1d897": {
@@ -2080,23 +2080,23 @@
   },
   "Heating_235467da": {
     "status": "realizable",
-    "and_gates": 133,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:17:45Z",
+    "and_gates": 23,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:19:38Z",
     "aiger_file": "Heating_235467da.aag"
   },
   "Heating_b02056d6": {
     "status": "realizable",
-    "and_gates": 211,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:17:45Z",
+    "and_gates": 23,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:19:38Z",
     "aiger_file": "Heating_b02056d6.aag"
   },
   "Heating_b209ff21": {
     "status": "realizable",
-    "and_gates": 123,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:17:45Z",
+    "and_gates": 21,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:19:38Z",
     "aiger_file": "Heating_b209ff21.aag"
   },
   "Light_a50cadd7": {
@@ -2115,23 +2115,23 @@
   },
   "Shades_6479ef9a": {
     "status": "realizable",
-    "and_gates": 128,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:17:46Z",
+    "and_gates": 20,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:19:38Z",
     "aiger_file": "Shades_6479ef9a.aag"
   },
   "Shades_9cac58d3": {
     "status": "realizable",
-    "and_gates": 142,
-    "method": "spot_game+isop",
-    "timestamp": "2026-03-19T18:17:46Z",
+    "and_gates": 23,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:19:38Z",
     "aiger_file": "Shades_9cac58d3.aag"
   },
   "Shades_a02758ea": {
     "status": "realizable",
-    "and_gates": 128,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:17:46Z",
+    "and_gates": 23,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:19:38Z",
     "aiger_file": "Shades_a02758ea.aag"
   },
   "amba_decomposed_encode_pb_3_pe_": {
@@ -2185,9 +2185,9 @@
   },
   "arbiter_on_inpchange_pb_3_pe_": {
     "status": "realizable",
-    "and_gates": 10512,
-    "method": "spot_game+ite",
-    "timestamp": "2026-03-19T18:18:41Z",
+    "and_gates": 10319,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:20:18Z",
     "aiger_file": "arbiter_on_inpchange_pb_3_pe_.aag"
   },
   "f-unreal-unreal": {
@@ -2206,9 +2206,9 @@
   },
   "ltl2dpa12": {
     "status": "realizable",
-    "and_gates": 216,
-    "method": "spot_game+isop",
-    "timestamp": "2026-03-19T18:22:28Z",
+    "and_gates": 138,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:19:39Z",
     "aiger_file": "ltl2dpa12.aag"
   },
   "test_f3987563": {
@@ -2220,16 +2220,16 @@
   },
   "ltl2dpa03": {
     "status": "realizable",
-    "and_gates": 1094,
-    "method": "spot_game+isop",
-    "timestamp": "2026-03-19T18:22:28Z",
+    "and_gates": 882,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:19:39Z",
     "aiger_file": "ltl2dpa03.aag"
   },
   "Door_2d1010f8": {
     "status": "realizable",
-    "and_gates": 564,
-    "method": "spot_game+ite",
-    "timestamp": "2026-03-19T18:22:28Z",
+    "and_gates": 34,
+    "method": "ltlsynt-ds",
+    "timestamp": "2026-03-19T19:20:10Z",
     "aiger_file": "Door_2d1010f8.aag"
   },
   "EscalatorSmart": {
@@ -2241,37 +2241,37 @@
   },
   "ltl2dpa19": {
     "status": "realizable",
-    "and_gates": 254,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:22:28Z",
+    "and_gates": 252,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:19:39Z",
     "aiger_file": "ltl2dpa19.aag"
   },
   "LightsMin_6bea956e": {
     "status": "realizable",
-    "and_gates": 332,
-    "method": "spot_game+both+dc",
-    "timestamp": "2026-03-19T18:22:28Z",
+    "and_gates": 4,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:11Z",
     "aiger_file": "LightsMin_6bea956e.aag"
   },
   "MusicAppSimple": {
     "status": "realizable",
-    "and_gates": 106,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:22:28Z",
+    "and_gates": 6,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:11Z",
     "aiger_file": "MusicAppSimple.aag"
   },
   "Shades2_42dc4fff": {
     "status": "realizable",
-    "and_gates": 954,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:22:28Z",
+    "and_gates": 2,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:12Z",
     "aiger_file": "Shades2_42dc4fff.aag"
   },
   "Shades2_235467da": {
     "status": "realizable",
-    "and_gates": 169,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:22:28Z",
+    "and_gates": 23,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:20:12Z",
     "aiger_file": "Shades2_235467da.aag"
   },
   "SPIReadSdi": {
@@ -2283,30 +2283,30 @@
   },
   "Heating_974f4a68": {
     "status": "realizable",
-    "and_gates": 770,
-    "method": "spot_game+minimize+both+ud+dc",
-    "timestamp": "2026-03-19T18:33:32Z",
+    "and_gates": 152,
+    "method": "ltlsynt-ds",
+    "timestamp": "2026-03-19T19:20:12Z",
     "aiger_file": "Heating_974f4a68.aag"
   },
   "PlugController_fa4d4ce3": {
     "status": "realizable",
-    "and_gates": 920,
-    "method": "spot_game+ite",
-    "timestamp": "2026-03-19T18:22:28Z",
+    "and_gates": 89,
+    "method": "ltlsynt-ds",
+    "timestamp": "2026-03-19T19:20:13Z",
     "aiger_file": "PlugController_fa4d4ce3.aag"
   },
   "Shades2_70523fbe": {
     "status": "realizable",
-    "and_gates": 177,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:22:28Z",
+    "and_gates": 20,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:20:13Z",
     "aiger_file": "Shades2_70523fbe.aag"
   },
   "Shades2_a5f99bc6": {
     "status": "realizable",
-    "and_gates": 169,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:22:28Z",
+    "and_gates": 23,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:20:14Z",
     "aiger_file": "Shades2_a5f99bc6.aag"
   },
   "TorcsSteeringSimple": {
@@ -2318,9 +2318,9 @@
   },
   "Warnlight_2d1010f8": {
     "status": "realizable",
-    "and_gates": 510,
-    "method": "spot_game+ite",
-    "timestamp": "2026-03-19T18:22:29Z",
+    "and_gates": 64,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:14Z",
     "aiger_file": "Warnlight_2d1010f8.aag"
   },
   "lilydemo18": {
@@ -2353,30 +2353,30 @@
   },
   "MusicAppMotivating": {
     "status": "realizable",
-    "and_gates": 110,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:22:29Z",
+    "and_gates": 74,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:20:17Z",
     "aiger_file": "MusicAppMotivating.aag"
   },
   "MusicAppFeedback": {
     "status": "realizable",
-    "and_gates": 734,
-    "method": "spot_game+isop",
-    "timestamp": "2026-03-19T18:22:29Z",
+    "and_gates": 40,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:17Z",
     "aiger_file": "MusicAppFeedback.aag"
   },
   "CheckCoffeMachineBroken1_a5f99bc6": {
     "status": "realizable",
-    "and_gates": 2278,
-    "method": "spot_game+isop",
-    "timestamp": "2026-03-19T18:22:29Z",
+    "and_gates": 2,
+    "method": "ltlsynt-ds",
+    "timestamp": "2026-03-19T19:20:18Z",
     "aiger_file": "CheckCoffeMachineBroken1_a5f99bc6.aag"
   },
   "LampController_974f4a68": {
     "status": "realizable",
-    "and_gates": 616,
-    "method": "spot_game+ite",
-    "timestamp": "2026-03-19T18:22:29Z",
+    "and_gates": 116,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:18Z",
     "aiger_file": "LampController_974f4a68.aag"
   },
   "OneCounterInRangeA3": {
@@ -2395,9 +2395,9 @@
   },
   "Shades_974f4a68": {
     "status": "realizable",
-    "and_gates": 2143,
-    "method": "spot_game+simplify+ite",
-    "timestamp": "2026-03-19T18:33:13Z",
+    "and_gates": 121,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:14Z",
     "aiger_file": "Shades_974f4a68.aag"
   },
   "ltl2dba07": {
@@ -2416,9 +2416,9 @@
   },
   "test7_2c5b09da": {
     "status": "realizable",
-    "and_gates": 97,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:22:29Z",
+    "and_gates": 6,
+    "method": "ltlsynt-ds",
+    "timestamp": "2026-03-19T19:20:18Z",
     "aiger_file": "test7_2c5b09da.aag"
   },
   "EnemeyModule": {
@@ -2437,9 +2437,9 @@
   },
   "lilydemo21": {
     "status": "realizable",
-    "and_gates": 1263,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:22:30Z",
+    "and_gates": 747,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:19Z",
     "aiger_file": "lilydemo21.aag"
   },
   "Lights3Min_6479ef9a": {
@@ -2458,9 +2458,9 @@
   },
   "Light_d65ed84e": {
     "status": "realizable",
-    "and_gates": 1017,
-    "method": "spot_game+minimize+both+dc",
-    "timestamp": "2026-03-19T18:33:30Z",
+    "and_gates": 188,
+    "method": "ltlsynt-ds",
+    "timestamp": "2026-03-19T19:20:24Z",
     "aiger_file": "Light_d65ed84e.aag"
   },
   "test6_0f5381e9": {
@@ -2472,9 +2472,9 @@
   },
   "CoffeeMin_88f351a6": {
     "status": "realizable",
-    "and_gates": 447,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:22:30Z",
+    "and_gates": 0,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:20:52Z",
     "aiger_file": "CoffeeMin_88f351a6.aag"
   },
   "EscalatorCountingInit": {
@@ -2486,30 +2486,30 @@
   },
   "KitchenTimerV2": {
     "status": "realizable",
-    "and_gates": 177,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:22:30Z",
+    "and_gates": 1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:20:52Z",
     "aiger_file": "KitchenTimerV2.aag"
   },
   "door_locking_problem_d6c5ac79": {
     "status": "realizable",
-    "and_gates": 2566,
-    "method": "spot_game+simplify+both+ud+dc",
-    "timestamp": "2026-03-19T18:33:29Z",
+    "and_gates": 0,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:24Z",
     "aiger_file": "door_locking_problem_d6c5ac79.aag"
   },
   "AlarmMin_efe2feaf": {
     "status": "realizable",
-    "and_gates": 3119,
-    "method": "spot_game+minimize+ite",
-    "timestamp": "2026-03-19T18:33:15Z",
+    "and_gates": 0,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:19Z",
     "aiger_file": "AlarmMin_efe2feaf.aag"
   },
   "KitchenTimerV3": {
     "status": "realizable",
-    "and_gates": 966,
-    "method": "spot_game+ite",
-    "timestamp": "2026-03-19T18:22:30Z",
+    "and_gates": 849,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:53Z",
     "aiger_file": "KitchenTimerV3.aag"
   },
   "KitchenTimerV4": {
@@ -2521,16 +2521,16 @@
   },
   "KitchenTimerV5": {
     "status": "realizable",
-    "and_gates": 1771,
-    "method": "spot_game+ite",
-    "timestamp": "2026-03-19T18:22:31Z",
+    "and_gates": 1101,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:54Z",
     "aiger_file": "KitchenTimerV5.aag"
   },
   "CoffeMachine_974f4a68": {
     "status": "realizable",
-    "and_gates": 1009,
-    "method": "spot_game+minimize+ite",
-    "timestamp": "2026-03-19T18:33:09Z",
+    "and_gates": 91,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:54Z",
     "aiger_file": "CoffeMachine_974f4a68.aag"
   },
   "RegManager": {
@@ -2549,16 +2549,16 @@
   },
   "KitchenTimerV6": {
     "status": "realizable",
-    "and_gates": 1693,
-    "method": "spot_game+ite",
-    "timestamp": "2026-03-19T18:22:31Z",
+    "and_gates": 1045,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:55Z",
     "aiger_file": "KitchenTimerV6.aag"
   },
   "Lights_3461125b": {
     "status": "realizable",
-    "and_gates": 5367,
-    "method": "spot_game+isop",
-    "timestamp": "2026-03-19T18:22:31Z",
+    "and_gates": 16,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:55Z",
     "aiger_file": "Lights_3461125b.aag"
   },
   "TorcsSteeringSmart": {
@@ -2570,23 +2570,23 @@
   },
   "Sensor": {
     "status": "realizable",
-    "and_gates": 1245,
-    "method": "spot_game+isop",
-    "timestamp": "2026-03-19T18:22:31Z",
+    "and_gates": 420,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:56Z",
     "aiger_file": "Sensor.aag"
   },
   "Lights_9cac58d3": {
     "status": "realizable",
-    "and_gates": 5367,
-    "method": "spot_game+isop",
-    "timestamp": "2026-03-19T18:22:31Z",
+    "and_gates": 16,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:56Z",
     "aiger_file": "Lights_9cac58d3.aag"
   },
   "Lights_f3987563": {
     "status": "realizable",
-    "and_gates": 5367,
-    "method": "spot_game+isop",
-    "timestamp": "2026-03-19T18:22:31Z",
+    "and_gates": 99,
+    "method": "ltlsynt-ds",
+    "timestamp": "2026-03-19T19:20:56Z",
     "aiger_file": "Lights_f3987563.aag"
   },
   "ltl2dpa22": {
@@ -2598,9 +2598,9 @@
   },
   "Window_235467da": {
     "status": "realizable",
-    "and_gates": 9424,
-    "method": "spot_game+both+dc",
-    "timestamp": "2026-03-19T18:22:32Z",
+    "and_gates": 43,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:56Z",
     "aiger_file": "Window_235467da.aag"
   },
   "CheckCoffeMachine_f3987563": {
@@ -2619,9 +2619,9 @@
   },
   "Window_54e1f7d2": {
     "status": "realizable",
-    "and_gates": 9424,
-    "method": "spot_game+both+dc",
-    "timestamp": "2026-03-19T18:22:32Z",
+    "and_gates": 43,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:56Z",
     "aiger_file": "Window_54e1f7d2.aag"
   },
   "lilydemo16": {
@@ -2675,9 +2675,9 @@
   },
   "Window_42dc4fff": {
     "status": "realizable",
-    "and_gates": 9377,
-    "method": "spot_game+both+dc",
-    "timestamp": "2026-03-19T18:22:32Z",
+    "and_gates": 41,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:56Z",
     "aiger_file": "Window_42dc4fff.aag"
   },
   "System_b0840146": {
@@ -2731,9 +2731,9 @@
   },
   "lazy_shades_problem_d6376bf9": {
     "status": "realizable",
-    "and_gates": 51554,
-    "method": "spot_game+isop",
-    "timestamp": "2026-03-19T18:22:38Z",
+    "and_gates": 3,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:25Z",
     "aiger_file": "lazy_shades_problem_d6376bf9.aag"
   },
   "ActionConverter": {
@@ -2752,9 +2752,9 @@
   },
   "Window2Min_88c5c1c3": {
     "status": "realizable",
-    "and_gates": 89,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:23:03Z",
+    "and_gates": 1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:21:23Z",
     "aiger_file": "Window2Min_88c5c1c3.aag"
   },
   "TwoCounters": {
@@ -2787,9 +2787,9 @@
   },
   "Lights_b0840146": {
     "status": "realizable",
-    "and_gates": 7019,
-    "method": "spot_game+ite",
-    "timestamp": "2026-03-19T18:23:04Z",
+    "and_gates": 125,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:21:23Z",
     "aiger_file": "Lights_b0840146.aag"
   },
   "Zoo10": {
@@ -2836,23 +2836,23 @@
   },
   "Lights3_f1477cc5": {
     "status": "realizable",
-    "and_gates": 5717,
-    "method": "spot_game+simplify+ite",
-    "timestamp": "2026-03-19T18:32:14Z",
+    "and_gates": 139,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:21:24Z",
     "aiger_file": "Lights3_f1477cc5.aag"
   },
   "Lights3_6bea956e": {
     "status": "realizable",
-    "and_gates": 5717,
-    "method": "spot_game+simplify+ite",
-    "timestamp": "2026-03-19T18:32:38Z",
+    "and_gates": 35,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:21:24Z",
     "aiger_file": "Lights3_6bea956e.aag"
   },
   "Lights3_235467da": {
     "status": "realizable",
-    "and_gates": 5717,
-    "method": "spot_game+simplify+ite",
-    "timestamp": "2026-03-19T18:32:43Z",
+    "and_gates": 35,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:21:24Z",
     "aiger_file": "Lights3_235467da.aag"
   },
   "OneCounterGuiA3": {
@@ -2885,9 +2885,9 @@
   },
   "Lights2Min_9cbf2546": {
     "status": "realizable",
-    "and_gates": 820,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:23:06Z",
+    "and_gates": 10,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:21:43Z",
     "aiger_file": "Lights2Min_9cbf2546.aag"
   },
   "OneCounterGuiA7": {
@@ -2927,16 +2927,16 @@
   },
   "TorcsSteeringImproved": {
     "status": "realizable",
-    "and_gates": 604,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:23:06Z",
+    "and_gates": 12,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:21:43Z",
     "aiger_file": "TorcsSteeringImproved.aag"
   },
   "KitchenTimerV7": {
     "status": "realizable",
-    "and_gates": 1693,
-    "method": "spot_game+ite",
-    "timestamp": "2026-03-19T18:23:07Z",
+    "and_gates": 1045,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:21:44Z",
     "aiger_file": "KitchenTimerV7.aag"
   },
   "TwoCountersInRangeA2": {
@@ -3025,30 +3025,30 @@
   },
   "AllHeating_d6376bf9": {
     "status": "realizable",
-    "and_gates": 16530,
-    "method": "spot_game+isop",
-    "timestamp": "2026-03-19T18:23:10Z",
+    "and_gates": 41,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:21:25Z",
     "aiger_file": "AllHeating_d6376bf9.aag"
   },
   "Lights_06e9cad4": {
     "status": "realizable",
-    "and_gates": 6004,
-    "method": "spot_game+ite",
-    "timestamp": "2026-03-19T18:23:10Z",
+    "and_gates": 99,
+    "method": "ltlsynt-ds",
+    "timestamp": "2026-03-19T19:21:44Z",
     "aiger_file": "Lights_06e9cad4.aag"
   },
   "Coffee_6479ef9a": {
     "status": "realizable",
-    "and_gates": 13017,
-    "method": "spot_game+isop",
-    "timestamp": "2026-03-19T18:23:11Z",
+    "and_gates": 21,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:21:44Z",
     "aiger_file": "Coffee_6479ef9a.aag"
   },
   "Lights3_3916ec59": {
     "status": "realizable",
-    "and_gates": 11162,
-    "method": "spot_game+ite",
-    "timestamp": "2026-03-19T18:23:11Z",
+    "and_gates": 152,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:21:45Z",
     "aiger_file": "Lights3_3916ec59.aag"
   },
   "SliderDelayed": {
@@ -3242,16 +3242,16 @@
   },
   "Coffee_235467da": {
     "status": "realizable",
-    "and_gates": 107363,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:24:01Z",
+    "and_gates": 339,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:21:25Z",
     "aiger_file": "Coffee_235467da.aag"
   },
   "Coffee_efe2feaf": {
     "status": "realizable",
-    "and_gates": 107363,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:24:04Z",
+    "and_gates": 339,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:21:25Z",
     "aiger_file": "Coffee_efe2feaf.aag"
   },
   "Lights2_b02056d6": {
@@ -3487,16 +3487,16 @@
   },
   "lift_wrong_physics_unreal_pb_2_pe_": {
     "status": "realizable",
-    "and_gates": 142,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:26:27Z",
+    "and_gates": 27,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:19:40Z",
     "aiger_file": "lift_wrong_physics_unreal_pb_2_pe_.aag"
   },
   "lift_pb_2_pe_": {
     "status": "realizable",
-    "and_gates": 142,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:26:27Z",
+    "and_gates": 27,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:19:40Z",
     "aiger_file": "lift_pb_2_pe_.aag"
   },
   "ltl2dba_E_pb_5_pe_": {
@@ -3529,16 +3529,16 @@
   },
   "ltl2dba_U1_pb_5_pe_": {
     "status": "realizable",
-    "and_gates": 368,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:26:27Z",
+    "and_gates": 353,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:19:41Z",
     "aiger_file": "ltl2dba_U1_pb_5_pe_.aag"
   },
   "prioritized_arbiter_pb_2_pe_": {
     "status": "realizable",
-    "and_gates": 120,
-    "method": "spot_game+both+dc",
-    "timestamp": "2026-03-19T18:26:27Z",
+    "and_gates": 6,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:19:41Z",
     "aiger_file": "prioritized_arbiter_pb_2_pe_.aag"
   },
   "prioritized_arbiter_unreal1_pb_2_10_pe_": {
@@ -3648,9 +3648,9 @@
   },
   "round_robin_arbiter_pb_3_pe_": {
     "status": "realizable",
-    "and_gates": 161,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:26:32Z",
+    "and_gates": 42,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:19:41Z",
     "aiger_file": "round_robin_arbiter_pb_3_pe_.aag"
   },
   "Lights2_06e9cad4": {
@@ -3872,9 +3872,9 @@
   },
   "arbiter-with-failure-real": {
     "status": "realizable",
-    "and_gates": 177,
-    "method": "spot_game+simplify+both+ud+dc",
-    "timestamp": "2026-03-19T18:29:03Z",
+    "and_gates": 164,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:25Z",
     "aiger_file": "arbiter-with-failure-real.aag"
   },
   "amba_decomposed_encode_pb_5_pe_": {
@@ -3907,9 +3907,9 @@
   },
   "arbiter_with_cancel_pb_3_pe_": {
     "status": "realizable",
-    "and_gates": 396,
-    "method": "spot_game+split+isop",
-    "timestamp": "2026-03-19T18:29:03Z",
+    "and_gates": 365,
+    "method": "ltlsynt-ds",
+    "timestamp": "2026-03-19T19:20:26Z",
     "aiger_file": "arbiter_with_cancel_pb_3_pe_.aag"
   },
   "gf-unreal32": {
@@ -4033,9 +4033,9 @@
   },
   "load_balancer_pb_4_pe_": {
     "status": "realizable",
-    "and_gates": 277,
-    "method": "spot_game+minimize+ite",
-    "timestamp": "2026-03-19T18:29:07Z",
+    "and_gates": 223,
+    "method": "ltlsynt-ds",
+    "timestamp": "2026-03-19T19:20:26Z",
     "aiger_file": "load_balancer_pb_4_pe_.aag"
   },
   "load_balancer_unreal1_pb_4_1_pe_": {
@@ -4047,9 +4047,9 @@
   },
   "lift_gr1_pb_3_pe_": {
     "status": "realizable",
-    "and_gates": 1585,
-    "method": "spot_game+split+both+ud+dc",
-    "timestamp": "2026-03-19T18:29:07Z",
+    "and_gates": 371,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:27Z",
     "aiger_file": "lift_gr1_pb_3_pe_.aag"
   },
   "load_balancer_unreal1_pb_4_2_pe_": {
@@ -4061,9 +4061,9 @@
   },
   "lift_unary_enc_pb_3_pe_": {
     "status": "realizable",
-    "and_gates": 910,
-    "method": "spot_game+minimize+both+dc",
-    "timestamp": "2026-03-19T18:29:07Z",
+    "and_gates": 197,
+    "method": "ltlsynt-ds",
+    "timestamp": "2026-03-19T19:20:28Z",
     "aiger_file": "lift_unary_enc_pb_3_pe_.aag"
   },
   "load_balancer_unreal1_pb_4_3_pe_": {
@@ -4082,9 +4082,9 @@
   },
   "lift_gr1+_pb_2_pe_": {
     "status": "realizable",
-    "and_gates": 3547,
-    "method": "spot_game+minimize+ite",
-    "timestamp": "2026-03-19T18:29:08Z",
+    "and_gates": 100,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:28Z",
     "aiger_file": "lift_gr1+_pb_2_pe_.aag"
   },
   "load_balancer_unreal1_pb_4_5_pe_": {
@@ -4222,9 +4222,9 @@
   },
   "gf-real-real": {
     "status": "realizable",
-    "and_gates": 354,
-    "method": "spot_game+simplify+both+ud+dc",
-    "timestamp": "2026-03-19T18:30:02Z",
+    "and_gates": 113,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:15Z",
     "aiger_file": "gf-real-real.aag"
   },
   "gf-unreal13": {
@@ -4285,23 +4285,23 @@
   },
   "lift_gr1_pb_2_pe_": {
     "status": "realizable",
-    "and_gates": 165,
-    "method": "spot_game+simplify+both+ud+dc",
-    "timestamp": "2026-03-19T18:30:04Z",
+    "and_gates": 39,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:15Z",
     "aiger_file": "lift_gr1_pb_2_pe_.aag"
   },
   "lift_unary_enc_pb_2_pe_": {
     "status": "realizable",
-    "and_gates": 135,
-    "method": "spot_game+minimize+both+dc",
-    "timestamp": "2026-03-19T18:30:04Z",
+    "and_gates": 42,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:15Z",
     "aiger_file": "lift_unary_enc_pb_2_pe_.aag"
   },
   "load_balancer_pb_3_pe_": {
     "status": "realizable",
-    "and_gates": 145,
-    "method": "spot_game+simplify+both+ud+dc",
-    "timestamp": "2026-03-19T18:30:04Z",
+    "and_gates": 77,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:16Z",
     "aiger_file": "load_balancer_pb_3_pe_.aag"
   },
   "load_balancer_unreal1_pb_3_10_pe_": {
@@ -4432,9 +4432,9 @@
   },
   "02": {
     "status": "realizable",
-    "and_gates": 131,
-    "method": "spot_game+minimize+both+ud+dc",
-    "timestamp": "2026-03-19T18:30:12Z",
+    "and_gates": 8,
+    "method": "ltlsynt-ds",
+    "timestamp": "2026-03-19T19:20:20Z",
     "aiger_file": "02.aag"
   },
   "amba_decomposed_lock_pb_3_pe_": {
@@ -4446,16 +4446,16 @@
   },
   "arbiter_pb_4_pe_": {
     "status": "realizable",
-    "and_gates": 678,
-    "method": "spot_game+simplify+both+ud+dc",
-    "timestamp": "2026-03-19T18:30:26Z",
+    "and_gates": 475,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:20Z",
     "aiger_file": "arbiter_pb_4_pe_.aag"
   },
   "arbiter_with_buffer_pb_2_pe_": {
     "status": "realizable",
-    "and_gates": 60,
-    "method": "spot_game+split+isop",
-    "timestamp": "2026-03-19T18:30:27Z",
+    "and_gates": 42,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:20:20Z",
     "aiger_file": "arbiter_with_buffer_pb_2_pe_.aag"
   },
   "collector_v1_pb_7_pe_": {
@@ -4488,9 +4488,9 @@
   },
   "ltl2dba_beta_pb_4_pe_": {
     "status": "realizable",
-    "and_gates": 867,
-    "method": "spot_game+split+both+dc",
-    "timestamp": "2026-03-19T18:30:47Z",
+    "and_gates": 604,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:20:29Z",
     "aiger_file": "ltl2dba_beta_pb_4_pe_.aag"
   },
   "ltl2dba_Q_pb_8_pe_": {
@@ -4544,23 +4544,23 @@
   },
   "abcg_arbiter_pb_2_pe_": {
     "status": "realizable",
-    "and_gates": 157,
-    "method": "spot_game+split+isop",
-    "timestamp": "2026-03-19T18:30:50Z",
+    "and_gates": 150,
+    "method": "ltlsynt-ds",
+    "timestamp": "2026-03-19T19:20:57Z",
     "aiger_file": "abcg_arbiter_pb_2_pe_.aag"
   },
   "arbiter_pb_5_pe_": {
     "status": "realizable",
-    "and_gates": 2512,
-    "method": "spot_game+split+isop",
-    "timestamp": "2026-03-19T18:30:52Z",
+    "and_gates": 1902,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:57Z",
     "aiger_file": "arbiter_pb_5_pe_.aag"
   },
   "elevator-paper-real": {
     "status": "realizable",
-    "and_gates": 380,
-    "method": "spot_game+simplify+both+ud+dc",
-    "timestamp": "2026-03-19T18:30:52Z",
+    "and_gates": 270,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:58Z",
     "aiger_file": "elevator-paper-real.aag"
   },
   "g-unreal-12": {
@@ -4782,9 +4782,9 @@
   },
   "lift_pb_4_pe_": {
     "status": "realizable",
-    "and_gates": 5291,
-    "method": "ltlsynt-default+decompose",
-    "timestamp": "2026-03-19T18:42:27Z",
+    "and_gates": 613,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:49Z",
     "aiger_file": "lift_pb_4_pe_.aag"
   },
   "collector_v3_pb_5_pe_": {
@@ -5083,9 +5083,9 @@
   },
   "generalized_buffer_pb_2_pe_": {
     "status": "realizable",
-    "and_gates": 1089,
-    "method": "ltlsynt+decompose",
-    "timestamp": "2026-03-19T19:01:56Z",
+    "and_gates": 363,
+    "method": "ltlsynt-ds",
+    "timestamp": "2026-03-19T19:20:21Z",
     "aiger_file": "generalized_buffer_pb_2_pe_.aag"
   },
   "gf-unreal27": {
@@ -5125,9 +5125,9 @@
   },
   "lift_pb_3_pe_": {
     "status": "realizable",
-    "and_gates": 817,
-    "method": "ltlsynt+decompose",
-    "timestamp": "2026-03-19T19:01:57Z",
+    "and_gates": 150,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:21Z",
     "aiger_file": "lift_pb_3_pe_.aag"
   },
   "lift_wrong_physics_unreal_pb_3_pe_": {
@@ -5209,9 +5209,9 @@
   },
   "round_robin_arbiter_pb_4_pe_": {
     "status": "realizable",
-    "and_gates": 977,
-    "method": "ltlsynt+decompose",
-    "timestamp": "2026-03-19T19:02:18Z",
+    "and_gates": 128,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:23Z",
     "aiger_file": "round_robin_arbiter_pb_4_pe_.aag"
   },
   "round_robin_arbiter_unreal2_pb_4_pe_": {
@@ -5223,9 +5223,9 @@
   },
   "rw_arbiter_pb_2_pe_": {
     "status": "realizable",
-    "and_gates": 1407,
-    "method": "ltlsynt+decompose",
-    "timestamp": "2026-03-19T19:02:20Z",
+    "and_gates": 442,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:20:23Z",
     "aiger_file": "rw_arbiter_pb_2_pe_.aag"
   },
   "simple_arbiter_unreal2_pb_4_pe_": {
@@ -5237,9 +5237,9 @@
   },
   "simple_arbiter_with_hints_pb_4_pe_": {
     "status": "realizable",
-    "and_gates": 1530,
-    "method": "ltlsynt+decompose",
-    "timestamp": "2026-03-19T19:02:40Z",
+    "and_gates": 779,
+    "method": "ltlsynt-ds",
+    "timestamp": "2026-03-19T19:20:24Z",
     "aiger_file": "simple_arbiter_with_hints_pb_4_pe_.aag"
   },
   "solitary-real": {
@@ -5503,9 +5503,9 @@
   },
   "round_robin_arbiter_pb_5_pe_": {
     "status": "realizable",
-    "and_gates": 3724,
-    "method": "ltlsynt+decompose",
-    "timestamp": "2026-03-19T19:03:34Z",
+    "and_gates": 225,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:21:08Z",
     "aiger_file": "round_robin_arbiter_pb_5_pe_.aag"
   },
   "ltl2dba_C2_pb_10_pe_": {
@@ -5573,9 +5573,9 @@
   },
   "prioritized_arbiter_pb_5_pe_": {
     "status": "realizable",
-    "and_gates": 58,
-    "method": "ltlsynt+decompose",
-    "timestamp": "2026-03-19T19:04:06Z",
+    "and_gates": 34,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:21:45Z",
     "aiger_file": "prioritized_arbiter_pb_5_pe_.aag"
   },
   "prioritized_arbiter_unreal1_pb_5_16_pe_": {
@@ -5629,9 +5629,9 @@
   },
   "simple_arbiter_with_hints_pb_6_pe_": {
     "status": "realizable",
-    "and_gates": 29795,
-    "method": "ltlsynt+decompose",
-    "timestamp": "2026-03-19T19:04:33Z",
+    "and_gates": 10927,
+    "method": "ltlsynt-sd+decompose",
+    "timestamp": "2026-03-19T19:22:20Z",
     "aiger_file": "simple_arbiter_with_hints_pb_6_pe_.aag"
   },
   "ltl2dba_C2_pb_12_pe_": {
@@ -5758,6 +5758,13 @@
     "and_gates": -1,
     "method": "ltlsynt+decompose",
     "timestamp": "2026-03-19T19:06:57Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_2_20_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T19:15:28Z",
     "aiger_file": null
   }
 }

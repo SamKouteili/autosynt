@@ -958,3 +958,116 @@
 [2026-03-19 15:06:34] instance: ltl2dba_theta_pb_12_pe_ | approach: ltlsynt+decompose | status: unrealizable | and_gates: N/A | time: 0s | notes: batch-tractable
 [2026-03-19 15:06:53] instance: ltl2dba_C2_unreal_pb_15_pe_ | approach: ltlsynt+decompose | status: unrealizable | and_gates: N/A | time: 0s | notes: batch-tractable
 [2026-03-19 15:06:57] instance: lift_wrong_physics_unreal_pb_9_pe_ | approach: ltlsynt+decompose | status: unrealizable | and_gates: N/A | time: 0s | notes: batch-tractable
+[2026-03-19 15:15:28] instance: full_arbiter_unreal1_pb_2_20_pe_ | approach: spot_game | status: unrealizable | and_gates: N/A | time: 186.4s | notes: spot_game, 45 game states
+[2026-03-19 15:18:58S] instance: example10a_pb_1_pe_ | approach: reopt-simp3+both+dc | status: realizable | and_gates: 18 | time: 0.0s | notes: reopt from 19
+[2026-03-19 15:18:58S] instance: arbiter_on_inpchange_pb_1_pe_ | approach: reopt-min+isop | status: realizable | and_gates: 28 | time: 0.1s | notes: reopt from 55
+[2026-03-19 15:18:58S] instance: example9_pb_1_pe_ | approach: reopt-simp3+both+ud+dc | status: realizable | and_gates: 9 | time: 0.0s | notes: reopt from 20
+[2026-03-19 15:18:58S] instance: example9_pb_2_pe_ | approach: reopt-min+isop | status: realizable | and_gates: 23 | time: 0.0s | notes: reopt from 50
+[2026-03-19 15:18:58S] instance: lilydemo23 | approach: reopt-simp3+both+ud+dc | status: realizable | and_gates: 9 | time: 0.0s | notes: reopt from 18
+[2026-03-19 15:18:59S] instance: ltl2dba19 | approach: reopt-simp3+both+ud+dc | status: realizable | and_gates: 12 | time: 0.0s | notes: reopt from 60
+[2026-03-19 15:19:34] instance: ltl2dba17 | approach: ltlsynt+decompose | status: realizable | and_gates: 3 | time: 0s | notes: reopt from 54, saved 51
+[2026-03-19 15:19:34] instance: ltl2dba21 | approach: ltlsynt+decompose | status: realizable | and_gates: 9 | time: 0s | notes: reopt from 127, saved 118
+[2026-03-19 15:19:35] instance: lilydemo03 | approach: ltlsynt+decompose | status: realizable | and_gates: 0 | time: 0s | notes: reopt from 52, saved 52
+[2026-03-19 15:19:35] instance: collector_v3_pb_3_pe_ | approach: ltlsynt+decompose | status: realizable | and_gates: 16 | time: 0s | notes: reopt from 987, saved 971
+[2026-03-19 15:19:35] instance: lilydemo04 | approach: ltlsynt-ds | status: realizable | and_gates: 10 | time: 0s | notes: reopt from 103, saved 93
+[2026-03-19 15:19:35] instance: lilydemo05 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 7 | time: 0s | notes: reopt from 61, saved 54
+[2026-03-19 15:19:36] instance: lilydemo06 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 7 | time: 0s | notes: reopt from 96, saved 89
+[2026-03-19 15:19:36] instance: lilydemo22 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 26 | time: 0s | notes: reopt from 271, saved 245
+[2026-03-19 15:19:36] instance: ltl2dba02 | approach: ltlsynt+decompose | status: realizable | and_gates: 142 | time: 0s | notes: reopt from 159, saved 17
+[2026-03-19 15:19:36] instance: SliderDefault | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 20 | time: 0s | notes: reopt from 90, saved 70
+[2026-03-19 15:19:37] instance: load_balancer_pb_2_pe_ | approach: ltlsynt-ds | status: realizable | and_gates: 27 | time: 0s | notes: reopt from 72, saved 45
+[2026-03-19 15:19:37] instance: load_balancer_unreal2_pb_2_pe_ | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 24 | time: 0s | notes: reopt from 100, saved 76
+[2026-03-19 15:19:37] instance: ltl2dpa10 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 183 | time: 0s | notes: reopt from 421, saved 238
+[2026-03-19 15:19:38] instance: ltl2dpa13 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 123 | time: 0s | notes: reopt from 244, saved 121
+[2026-03-19 15:19:38] instance: Alarm_2d1010f8 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 38 | time: 0s | notes: reopt from 284, saved 246
+[2026-03-19 15:19:38] instance: arbiter_on_inpchange_pb_2_pe_ | approach: ltlsynt-ds | status: realizable | and_gates: 434 | time: 0s | notes: reopt from 688, saved 254
+[2026-03-19 15:19:38] instance: Heating_235467da | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 23 | time: 0s | notes: reopt from 133, saved 110
+[2026-03-19 15:19:38] instance: Heating_b02056d6 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 23 | time: 0s | notes: reopt from 211, saved 188
+[2026-03-19 15:19:38] instance: Heating_b209ff21 | approach: ltlsynt+decompose | status: realizable | and_gates: 21 | time: 0s | notes: reopt from 123, saved 102
+[2026-03-19 15:19:38] instance: Shades_6479ef9a | approach: ltlsynt+decompose | status: realizable | and_gates: 20 | time: 0s | notes: reopt from 128, saved 108
+[2026-03-19 15:19:38] instance: Shades_9cac58d3 | approach: ltlsynt+decompose | status: realizable | and_gates: 23 | time: 0s | notes: reopt from 142, saved 119
+[2026-03-19 15:19:38] instance: Shades_a02758ea | approach: ltlsynt+decompose | status: realizable | and_gates: 23 | time: 0s | notes: reopt from 128, saved 105
+[2026-03-19 15:19:39] instance: ltl2dpa12 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 138 | time: 0s | notes: reopt from 216, saved 78
+[2026-03-19 15:19:39] instance: ltl2dpa03 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 882 | time: 0s | notes: reopt from 1094, saved 212
+[2026-03-19 15:19:39] instance: ltl2dpa19 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 252 | time: 0s | notes: reopt from 254, saved 2
+[2026-03-19 15:19:40] instance: lift_wrong_physics_unreal_pb_2_pe_ | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 27 | time: 0s | notes: reopt from 142, saved 115
+[2026-03-19 15:19:40] instance: lift_pb_2_pe_ | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 27 | time: 0s | notes: reopt from 142, saved 115
+[2026-03-19 15:19:41] instance: ltl2dba_U1_pb_5_pe_ | approach: ltlsynt+decompose | status: realizable | and_gates: 353 | time: 0s | notes: reopt from 368, saved 15
+[2026-03-19 15:19:41] instance: prioritized_arbiter_pb_2_pe_ | approach: ltlsynt+decompose | status: realizable | and_gates: 6 | time: 0s | notes: reopt from 120, saved 114
+[2026-03-19 15:19:41] instance: round_robin_arbiter_pb_3_pe_ | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 42 | time: 0s | notes: reopt from 161, saved 119
+[2026-03-19 15:20:10] instance: Door_2d1010f8 | approach: ltlsynt-ds | status: realizable | and_gates: 34 | time: 0s | notes: reopt from 564, saved 530
+[2026-03-19 15:20:11] instance: LightsMin_6bea956e | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 4 | time: 0s | notes: reopt from 332, saved 328
+[2026-03-19 15:20:11] instance: MusicAppSimple | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 6 | time: 0s | notes: reopt from 106, saved 100
+[2026-03-19 15:20:12] instance: Shades2_42dc4fff | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 2 | time: 0s | notes: reopt from 954, saved 952
+[2026-03-19 15:20:12] instance: Shades2_235467da | approach: ltlsynt+decompose | status: realizable | and_gates: 23 | time: 0s | notes: reopt from 169, saved 146
+[2026-03-19 15:20:12] instance: Heating_974f4a68 | approach: ltlsynt-ds | status: realizable | and_gates: 152 | time: 0s | notes: reopt from 770, saved 618
+[2026-03-19 15:20:13] instance: PlugController_fa4d4ce3 | approach: ltlsynt-ds | status: realizable | and_gates: 89 | time: 0s | notes: reopt from 920, saved 831
+[2026-03-19 15:20:13] instance: Shades2_70523fbe | approach: ltlsynt+decompose | status: realizable | and_gates: 20 | time: 0s | notes: reopt from 177, saved 157
+[2026-03-19 15:20:14] instance: Shades2_a5f99bc6 | approach: ltlsynt+decompose | status: realizable | and_gates: 23 | time: 0s | notes: reopt from 169, saved 146
+[2026-03-19 15:20:14] instance: Warnlight_2d1010f8 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 64 | time: 0s | notes: reopt from 510, saved 446
+[2026-03-19 15:20:14] instance: Shades_974f4a68 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 121 | time: 0s | notes: reopt from 2143, saved 2022
+[2026-03-19 15:20:15] instance: gf-real-real | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 113 | time: 0s | notes: reopt from 354, saved 241
+[2026-03-19 15:20:15] instance: lift_gr1_pb_2_pe_ | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 39 | time: 0s | notes: reopt from 165, saved 126
+[2026-03-19 15:20:15] instance: lift_unary_enc_pb_2_pe_ | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 42 | time: 0s | notes: reopt from 135, saved 93
+[2026-03-19 15:20:16] instance: load_balancer_pb_3_pe_ | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 77 | time: 0s | notes: reopt from 145, saved 68
+[2026-03-19 15:20:17] instance: MusicAppMotivating | approach: ltlsynt+decompose | status: realizable | and_gates: 74 | time: 0s | notes: reopt from 110, saved 36
+[2026-03-19 15:20:17] instance: MusicAppFeedback | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 40 | time: 0s | notes: reopt from 734, saved 694
+[2026-03-19 15:20:18] instance: CheckCoffeMachineBroken1_a5f99bc6 | approach: ltlsynt-ds | status: realizable | and_gates: 2 | time: 0s | notes: reopt from 2278, saved 2276
+[2026-03-19 15:20:18] instance: arbiter_on_inpchange_pb_3_pe_ | approach: ltlsynt+decompose | status: realizable | and_gates: 10319 | time: 0s | notes: reopt from 10512, saved 193
+[2026-03-19 15:20:18] instance: LampController_974f4a68 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 116 | time: 0s | notes: reopt from 616, saved 500
+[2026-03-19 15:20:18] instance: test7_2c5b09da | approach: ltlsynt-ds | status: realizable | and_gates: 6 | time: 0s | notes: reopt from 97, saved 91
+[2026-03-19 15:20:19] instance: AlarmMin_efe2feaf | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 0 | time: 0s | notes: reopt from 3119, saved 3119
+[2026-03-19 15:20:19] instance: lilydemo21 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 747 | time: 0s | notes: reopt from 1263, saved 516
+[2026-03-19 15:20:20] instance: arbiter_pb_4_pe_ | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 475 | time: 0s | notes: reopt from 678, saved 203
+[2026-03-19 15:20:20] instance: 02 | approach: ltlsynt-ds | status: realizable | and_gates: 8 | time: 0s | notes: reopt from 131, saved 123
+[2026-03-19 15:20:20] instance: arbiter_with_buffer_pb_2_pe_ | approach: ltlsynt+decompose | status: realizable | and_gates: 42 | time: 0s | notes: reopt from 60, saved 18
+[2026-03-19 15:20:21] instance: generalized_buffer_pb_2_pe_ | approach: ltlsynt-ds | status: realizable | and_gates: 363 | time: 0s | notes: reopt from 1089, saved 726
+[2026-03-19 15:20:21] instance: lift_pb_3_pe_ | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 150 | time: 0s | notes: reopt from 817, saved 667
+[2026-03-19 15:20:23] instance: round_robin_arbiter_pb_4_pe_ | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 128 | time: 0s | notes: reopt from 977, saved 849
+[2026-03-19 15:20:23] instance: rw_arbiter_pb_2_pe_ | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 442 | time: 0s | notes: reopt from 1407, saved 965
+[2026-03-19 15:20:24] instance: simple_arbiter_with_hints_pb_4_pe_ | approach: ltlsynt-ds | status: realizable | and_gates: 779 | time: 0s | notes: reopt from 1530, saved 751
+[2026-03-19 15:20:24] instance: Light_d65ed84e | approach: ltlsynt-ds | status: realizable | and_gates: 188 | time: 0s | notes: reopt from 1017, saved 829
+[2026-03-19 15:20:24] instance: door_locking_problem_d6c5ac79 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 0 | time: 0s | notes: reopt from 2566, saved 2566
+[2026-03-19 15:20:25] instance: lazy_shades_problem_d6376bf9 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 3 | time: 0s | notes: reopt from 51554, saved 51551
+[2026-03-19 15:20:25] instance: arbiter-with-failure-real | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 164 | time: 0s | notes: reopt from 177, saved 13
+[2026-03-19 15:20:26] instance: arbiter_with_cancel_pb_3_pe_ | approach: ltlsynt-ds | status: realizable | and_gates: 365 | time: 0s | notes: reopt from 396, saved 31
+[2026-03-19 15:20:26] instance: load_balancer_pb_4_pe_ | approach: ltlsynt-ds | status: realizable | and_gates: 223 | time: 0s | notes: reopt from 277, saved 54
+[2026-03-19 15:20:27] instance: lift_gr1_pb_3_pe_ | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 371 | time: 0s | notes: reopt from 1585, saved 1214
+[2026-03-19 15:20:28] instance: lift_unary_enc_pb_3_pe_ | approach: ltlsynt-ds | status: realizable | and_gates: 197 | time: 0s | notes: reopt from 910, saved 713
+[2026-03-19 15:20:28] instance: lift_gr1+_pb_2_pe_ | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 100 | time: 0s | notes: reopt from 3547, saved 3447
+[2026-03-19 15:20:29] instance: ltl2dba_beta_pb_4_pe_ | approach: ltlsynt+decompose | status: realizable | and_gates: 604 | time: 0s | notes: reopt from 867, saved 263
+[2026-03-19 15:20:49] instance: lift_pb_4_pe_ | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 613 | time: 0s | notes: reopt from 5291, saved 4678
+[2026-03-19 15:20:52] instance: CoffeeMin_88f351a6 | approach: ltlsynt+decompose | status: realizable | and_gates: 0 | time: 0s | notes: reopt from 447, saved 447
+[2026-03-19 15:20:52] instance: KitchenTimerV2 | approach: ltlsynt+decompose | status: realizable | and_gates: 1 | time: 0s | notes: reopt from 177, saved 176
+[2026-03-19 15:20:53] instance: KitchenTimerV3 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 849 | time: 0s | notes: reopt from 966, saved 117
+[2026-03-19 15:20:54] instance: KitchenTimerV5 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 1101 | time: 0s | notes: reopt from 1771, saved 670
+[2026-03-19 15:20:54] instance: CoffeMachine_974f4a68 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 91 | time: 0s | notes: reopt from 1009, saved 918
+[2026-03-19 15:20:55] instance: Lights_3461125b | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 16 | time: 0s | notes: reopt from 5367, saved 5351
+[2026-03-19 15:20:55] instance: KitchenTimerV6 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 1045 | time: 0s | notes: reopt from 1693, saved 648
+[2026-03-19 15:20:56] instance: Lights_9cac58d3 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 16 | time: 0s | notes: reopt from 5367, saved 5351
+[2026-03-19 15:20:56] instance: Sensor | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 420 | time: 0s | notes: reopt from 1245, saved 825
+[2026-03-19 15:20:56] instance: Window_235467da | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 43 | time: 0s | notes: reopt from 9424, saved 9381
+[2026-03-19 15:20:56] instance: Lights_f3987563 | approach: ltlsynt-ds | status: realizable | and_gates: 99 | time: 0s | notes: reopt from 5367, saved 5268
+[2026-03-19 15:20:56] instance: Window_42dc4fff | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 41 | time: 0s | notes: reopt from 9377, saved 9336
+[2026-03-19 15:20:56] instance: Window_54e1f7d2 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 43 | time: 0s | notes: reopt from 9424, saved 9381
+[2026-03-19 15:20:57] instance: abcg_arbiter_pb_2_pe_ | approach: ltlsynt-ds | status: realizable | and_gates: 150 | time: 0s | notes: reopt from 157, saved 7
+[2026-03-19 15:20:57] instance: arbiter_pb_5_pe_ | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 1902 | time: 0s | notes: reopt from 2512, saved 610
+[2026-03-19 15:20:58] instance: elevator-paper-real | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 270 | time: 0s | notes: reopt from 380, saved 110
+[2026-03-19 15:21:08] instance: round_robin_arbiter_pb_5_pe_ | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 225 | time: 0s | notes: reopt from 3724, saved 3499
+[2026-03-19 15:21:21] instance: lift_pb_5_pe_ | approach: ltlsynt-ds | status: realizable | and_gates: 1374 | time: 0s | notes: reopt from 19972, saved 18598
+[2026-03-19 15:21:23] instance: Window2Min_88c5c1c3 | approach: ltlsynt+decompose | status: realizable | and_gates: 1 | time: 0s | notes: reopt from 89, saved 88
+[2026-03-19 15:21:23] instance: Lights_b0840146 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 125 | time: 0s | notes: reopt from 7019, saved 6894
+[2026-03-19 15:21:24] instance: Lights3_f1477cc5 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 139 | time: 0s | notes: reopt from 5717, saved 5578
+[2026-03-19 15:21:24] instance: Lights3_6bea956e | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 35 | time: 0s | notes: reopt from 5717, saved 5682
+[2026-03-19 15:21:24] instance: Lights3_235467da | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 35 | time: 0s | notes: reopt from 5717, saved 5682
+[2026-03-19 15:21:25] instance: AllHeating_d6376bf9 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 41 | time: 0s | notes: reopt from 16530, saved 16489
+[2026-03-19 15:21:25] instance: Coffee_235467da | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 339 | time: 0s | notes: reopt from 107363, saved 107024
+[2026-03-19 15:21:25] instance: Coffee_efe2feaf | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 339 | time: 0s | notes: reopt from 107363, saved 107024
+[2026-03-19 15:21:43] instance: Lights2Min_9cbf2546 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 10 | time: 0s | notes: reopt from 820, saved 810
+[2026-03-19 15:21:43] instance: TorcsSteeringImproved | approach: ltlsynt+decompose | status: realizable | and_gates: 12 | time: 0s | notes: reopt from 604, saved 592
+[2026-03-19 15:21:44] instance: Lights_06e9cad4 | approach: ltlsynt-ds | status: realizable | and_gates: 99 | time: 0s | notes: reopt from 6004, saved 5905
+[2026-03-19 15:21:44] instance: KitchenTimerV7 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 1045 | time: 0s | notes: reopt from 1693, saved 648
+[2026-03-19 15:21:44] instance: Coffee_6479ef9a | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 21 | time: 0s | notes: reopt from 13017, saved 12996
+[2026-03-19 15:21:45] instance: Lights3_3916ec59 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 152 | time: 0s | notes: reopt from 11162, saved 11010
+[2026-03-19 15:21:45] instance: prioritized_arbiter_pb_5_pe_ | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 34 | time: 0s | notes: reopt from 58, saved 24
+[2026-03-19 15:22:20] instance: simple_arbiter_with_hints_pb_6_pe_ | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 10927 | time: 0s | notes: reopt from 29795, saved 18868

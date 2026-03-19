@@ -1123,3 +1123,4 @@
 [2026-03-19 16:12:04] instance: ltl2dba_beta_pb_5_pe_ | approach: ltlsynt-simplified+default | status: realizable | and_gates: 3332 | time: 0s | notes: simplified-continue
 [2026-03-19 16:12:05] instance: patrolling0 | approach: ltlsynt-simplified+default | status: unrealizable | and_gates: N/A | time: 0s | notes: simplified-continue
 [2026-03-19 16:12:05] instance: robot-tasks-real | approach: ltlsynt-simplified+default | status: realizable | and_gates: 0 | time: 0s | notes: simplified-continue
+[2026-03-19 16:14:50] instance: Assumptions_a50cadd7 | approach: ltlsynt-simplified+default | status: unrealizable | and_gates: N/A | time: 0s | notes: simplified-wide

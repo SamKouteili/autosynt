@@ -6130,5 +6130,12 @@
     "method": "ltlsynt-simplified+default",
     "timestamp": "2026-03-19T20:12:05Z",
     "aiger_file": "robot-tasks-real.aag"
+  },
+  "Assumptions_a50cadd7": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:14:50Z",
+    "aiger_file": null
   }
 }

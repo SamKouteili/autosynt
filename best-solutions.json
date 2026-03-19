@@ -2283,9 +2283,9 @@
   },
   "Heating_974f4a68": {
     "status": "realizable",
-    "and_gates": 1799,
-    "method": "spot_game+ite",
-    "timestamp": "2026-03-19T18:22:28Z",
+    "and_gates": 770,
+    "method": "spot_game+minimize+both+ud+dc",
+    "timestamp": "2026-03-19T18:33:32Z",
     "aiger_file": "Heating_974f4a68.aag"
   },
   "PlugController_fa4d4ce3": {
@@ -2395,9 +2395,9 @@
   },
   "Shades_974f4a68": {
     "status": "realizable",
-    "and_gates": 4115,
-    "method": "spot_game+ite",
-    "timestamp": "2026-03-19T18:22:29Z",
+    "and_gates": 2143,
+    "method": "spot_game+simplify+ite",
+    "timestamp": "2026-03-19T18:33:13Z",
     "aiger_file": "Shades_974f4a68.aag"
   },
   "ltl2dba07": {
@@ -2458,9 +2458,9 @@
   },
   "Light_d65ed84e": {
     "status": "realizable",
-    "and_gates": 1951,
-    "method": "spot_game+ite",
-    "timestamp": "2026-03-19T18:22:30Z",
+    "and_gates": 1017,
+    "method": "spot_game+minimize+both+dc",
+    "timestamp": "2026-03-19T18:33:30Z",
     "aiger_file": "Light_d65ed84e.aag"
   },
   "test6_0f5381e9": {
@@ -2493,16 +2493,16 @@
   },
   "door_locking_problem_d6c5ac79": {
     "status": "realizable",
-    "and_gates": 2977,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:22:30Z",
+    "and_gates": 2566,
+    "method": "spot_game+simplify+both+ud+dc",
+    "timestamp": "2026-03-19T18:33:29Z",
     "aiger_file": "door_locking_problem_d6c5ac79.aag"
   },
   "AlarmMin_efe2feaf": {
     "status": "realizable",
-    "and_gates": 3331,
-    "method": "spot_game+ite",
-    "timestamp": "2026-03-19T18:22:30Z",
+    "and_gates": 3119,
+    "method": "spot_game+minimize+ite",
+    "timestamp": "2026-03-19T18:33:15Z",
     "aiger_file": "AlarmMin_efe2feaf.aag"
   },
   "KitchenTimerV3": {
@@ -2528,9 +2528,9 @@
   },
   "CoffeMachine_974f4a68": {
     "status": "realizable",
-    "and_gates": 4533,
-    "method": "spot_game+isop",
-    "timestamp": "2026-03-19T18:22:31Z",
+    "and_gates": 1009,
+    "method": "spot_game+minimize+ite",
+    "timestamp": "2026-03-19T18:33:09Z",
     "aiger_file": "CoffeMachine_974f4a68.aag"
   },
   "RegManager": {
@@ -2836,23 +2836,23 @@
   },
   "Lights3_f1477cc5": {
     "status": "realizable",
-    "and_gates": 8124,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:23:05Z",
+    "and_gates": 5717,
+    "method": "spot_game+simplify+ite",
+    "timestamp": "2026-03-19T18:32:14Z",
     "aiger_file": "Lights3_f1477cc5.aag"
   },
   "Lights3_6bea956e": {
     "status": "realizable",
-    "and_gates": 8124,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:23:05Z",
+    "and_gates": 5717,
+    "method": "spot_game+simplify+ite",
+    "timestamp": "2026-03-19T18:32:38Z",
     "aiger_file": "Lights3_6bea956e.aag"
   },
   "Lights3_235467da": {
     "status": "realizable",
-    "and_gates": 8124,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:23:05Z",
+    "and_gates": 5717,
+    "method": "spot_game+simplify+ite",
+    "timestamp": "2026-03-19T18:32:43Z",
     "aiger_file": "Lights3_235467da.aag"
   },
   "OneCounterGuiA3": {
@@ -3074,9 +3074,9 @@
   },
   "Lights3_06e9cad4": {
     "status": "realizable",
-    "and_gates": 7127,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:23:12Z",
+    "and_gates": 5982,
+    "method": "spot_game+simplify+both+ud+dc",
+    "timestamp": "2026-03-19T18:33:10Z",
     "aiger_file": "Lights3_06e9cad4.aag"
   },
   "Example1_d6376bf9": {
@@ -3123,9 +3123,9 @@
   },
   "Window2_6479ef9a": {
     "status": "realizable",
-    "and_gates": 6467,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:23:14Z",
+    "and_gates": 2985,
+    "method": "spot_game+simplify+ite",
+    "timestamp": "2026-03-19T18:32:56Z",
     "aiger_file": "Window2_6479ef9a.aag"
   },
   "EscalatorBidirectionalInit": {
@@ -3137,23 +3137,23 @@
   },
   "Window2_aeb1d897": {
     "status": "realizable",
-    "and_gates": 7045,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:23:15Z",
+    "and_gates": 3372,
+    "method": "spot_game+simplify+both+ud+dc",
+    "timestamp": "2026-03-19T18:32:54Z",
     "aiger_file": "Window2_aeb1d897.aag"
   },
   "Coffee_06e9cad4": {
     "status": "realizable",
-    "and_gates": 8593,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:23:16Z",
+    "and_gates": 2585,
+    "method": "spot_game+simplify+both+ud+dc",
+    "timestamp": "2026-03-19T18:31:52Z",
     "aiger_file": "Coffee_06e9cad4.aag"
   },
   "Lights3_2c5b09da": {
     "status": "realizable",
-    "and_gates": 10918,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:23:16Z",
+    "and_gates": 7771,
+    "method": "spot_game+minimize+ite",
+    "timestamp": "2026-03-19T18:31:08Z",
     "aiger_file": "Lights3_2c5b09da.aag"
   },
   "KitchenTimerV10": {
@@ -3186,9 +3186,9 @@
   },
   "Coffee_2c5b09da": {
     "status": "realizable",
-    "and_gates": 26182,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:23:26Z",
+    "and_gates": 9234,
+    "method": "spot_game+minimize+both+ud+dc",
+    "timestamp": "2026-03-19T18:30:07Z",
     "aiger_file": "Coffee_2c5b09da.aag"
   },
   "Lights2_f1477cc5": {
@@ -3200,9 +3200,9 @@
   },
   "tmp_13cfc6f2": {
     "status": "realizable",
-    "and_gates": 19001,
-    "method": "spot_game+ite",
-    "timestamp": "2026-03-19T18:23:32Z",
+    "and_gates": 15224,
+    "method": "spot_game+minimize+ite",
+    "timestamp": "2026-03-19T18:31:08Z",
     "aiger_file": "tmp_13cfc6f2.aag"
   },
   "FelixSpecFixed3.core_b209ff21": {
@@ -3592,9 +3592,9 @@
   },
   "MorningMin_d6c5ac79": {
     "status": "realizable",
-    "and_gates": 7544,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:26:31Z",
+    "and_gates": 7347,
+    "method": "spot_game+simplify+both+ud+dc",
+    "timestamp": "2026-03-19T18:32:30Z",
     "aiger_file": "MorningMin_d6c5ac79.aag"
   },
   "prioritized_arbiter_unreal1_pb_2_6_pe_": {
@@ -4190,6 +4190,1574 @@
     "and_gates": -1,
     "method": "spot_game",
     "timestamp": "2026-03-19T18:29:54Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_3_7_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:00Z",
+    "aiger_file": null
+  },
+  "gf-unreal10": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:00Z",
+    "aiger_file": null
+  },
+  "gf-unreal11": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:01Z",
+    "aiger_file": null
+  },
+  "gf-unreal12": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:01Z",
+    "aiger_file": null
+  },
+  "gf-real-real": {
+    "status": "realizable",
+    "and_gates": 354,
+    "method": "spot_game+simplify+both+ud+dc",
+    "timestamp": "2026-03-19T18:30:02Z",
+    "aiger_file": "gf-real-real.aag"
+  },
+  "gf-unreal13": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:02Z",
+    "aiger_file": null
+  },
+  "gf-unreal14": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:02Z",
+    "aiger_file": null
+  },
+  "gf-unreal15": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:02Z",
+    "aiger_file": null
+  },
+  "gf-unreal8": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:03Z",
+    "aiger_file": null
+  },
+  "gf-unreal9": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:03Z",
+    "aiger_file": null
+  },
+  "infinite-race-u1": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:03Z",
+    "aiger_file": null
+  },
+  "infinite-race-unequal-10": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:03Z",
+    "aiger_file": null
+  },
+  "infinite-race-unequal-20": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:03Z",
+    "aiger_file": null
+  },
+  "lift_gr1_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 165,
+    "method": "spot_game+simplify+both+ud+dc",
+    "timestamp": "2026-03-19T18:30:04Z",
+    "aiger_file": "lift_gr1_pb_2_pe_.aag"
+  },
+  "lift_unary_enc_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 135,
+    "method": "spot_game+minimize+both+dc",
+    "timestamp": "2026-03-19T18:30:04Z",
+    "aiger_file": "lift_unary_enc_pb_2_pe_.aag"
+  },
+  "load_balancer_pb_3_pe_": {
+    "status": "realizable",
+    "and_gates": 145,
+    "method": "spot_game+simplify+both+ud+dc",
+    "timestamp": "2026-03-19T18:30:04Z",
+    "aiger_file": "load_balancer_pb_3_pe_.aag"
+  },
+  "load_balancer_unreal1_pb_3_10_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:05Z",
+    "aiger_file": null
+  },
+  "load_balancer_unreal1_pb_3_1_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:06Z",
+    "aiger_file": null
+  },
+  "load_balancer_unreal1_pb_3_2_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:06Z",
+    "aiger_file": null
+  },
+  "load_balancer_unreal1_pb_3_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:06Z",
+    "aiger_file": null
+  },
+  "load_balancer_unreal1_pb_3_4_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:07Z",
+    "aiger_file": null
+  },
+  "load_balancer_unreal1_pb_3_5_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:07Z",
+    "aiger_file": null
+  },
+  "load_balancer_unreal1_pb_3_11_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:07Z",
+    "aiger_file": null
+  },
+  "load_balancer_unreal1_pb_3_6_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:07Z",
+    "aiger_file": null
+  },
+  "load_balancer_unreal1_pb_3_7_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:07Z",
+    "aiger_file": null
+  },
+  "load_balancer_unreal1_pb_3_8_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:08Z",
+    "aiger_file": null
+  },
+  "load_balancer_unreal2_pb_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:08Z",
+    "aiger_file": null
+  },
+  "ltl2dba_C2_pb_6_pe_": {
+    "status": "realizable",
+    "and_gates": 172,
+    "method": "spot_game+simplify+both+ud+dc",
+    "timestamp": "2026-03-19T18:30:08Z",
+    "aiger_file": "ltl2dba_C2_pb_6_pe_.aag"
+  },
+  "load_balancer_unreal1_pb_3_9_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:08Z",
+    "aiger_file": null
+  },
+  "ltl2dba_C2_unreal_pb_6_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:08Z",
+    "aiger_file": null
+  },
+  "load_balancer_unreal1_pb_3_12_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:10Z",
+    "aiger_file": null
+  },
+  "ltl2dba_beta_pb_3_pe_": {
+    "status": "realizable",
+    "and_gates": 95,
+    "method": "spot_game+split+isop",
+    "timestamp": "2026-03-19T18:30:11Z",
+    "aiger_file": "ltl2dba_beta_pb_3_pe_.aag"
+  },
+  "ltl2dba_theta_pb_4_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:11Z",
+    "aiger_file": null
+  },
+  "solitary0": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:11Z",
+    "aiger_file": null
+  },
+  "02": {
+    "status": "realizable",
+    "and_gates": 131,
+    "method": "spot_game+minimize+both+ud+dc",
+    "timestamp": "2026-03-19T18:30:12Z",
+    "aiger_file": "02.aag"
+  },
+  "amba_decomposed_lock_pb_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:12Z",
+    "aiger_file": null
+  },
+  "arbiter_pb_4_pe_": {
+    "status": "realizable",
+    "and_gates": 678,
+    "method": "spot_game+simplify+both+ud+dc",
+    "timestamp": "2026-03-19T18:30:26Z",
+    "aiger_file": "arbiter_pb_4_pe_.aag"
+  },
+  "arbiter_with_buffer_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 60,
+    "method": "spot_game+split+isop",
+    "timestamp": "2026-03-19T18:30:27Z",
+    "aiger_file": "arbiter_with_buffer_pb_2_pe_.aag"
+  },
+  "collector_v1_pb_7_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:29Z",
+    "aiger_file": null
+  },
+  "collector_v2_pb_7_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:29Z",
+    "aiger_file": null
+  },
+  "ltl2dba_theta_pb_6_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:46Z",
+    "aiger_file": null
+  },
+  "ordered-visits-choice-real": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "spot_game+simplify+isop",
+    "timestamp": "2026-03-19T18:30:47Z",
+    "aiger_file": "ordered-visits-choice-real.aag"
+  },
+  "ltl2dba_beta_pb_4_pe_": {
+    "status": "realizable",
+    "and_gates": 867,
+    "method": "spot_game+split+both+dc",
+    "timestamp": "2026-03-19T18:30:47Z",
+    "aiger_file": "ltl2dba_beta_pb_4_pe_.aag"
+  },
+  "ltl2dba_Q_pb_8_pe_": {
+    "status": "realizable",
+    "and_gates": 65371,
+    "method": "spot_game+split+both+ud+dc",
+    "timestamp": "2026-03-19T18:30:48Z",
+    "aiger_file": "ltl2dba_Q_pb_8_pe_.aag"
+  },
+  "F-G-contradiction-10": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:49Z",
+    "aiger_file": null
+  },
+  "F-G-contradiction-11": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:49Z",
+    "aiger_file": null
+  },
+  "F-G-contradiction-2-unreal": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:50Z",
+    "aiger_file": null
+  },
+  "GF-G-contradiction0": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:50Z",
+    "aiger_file": null
+  },
+  "amba_decomposed_encode_pb_6_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:50Z",
+    "aiger_file": null
+  },
+  "amba_decomposed_lock_pb_4_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:50Z",
+    "aiger_file": null
+  },
+  "abcg_arbiter_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 157,
+    "method": "spot_game+split+isop",
+    "timestamp": "2026-03-19T18:30:50Z",
+    "aiger_file": "abcg_arbiter_pb_2_pe_.aag"
+  },
+  "arbiter_pb_5_pe_": {
+    "status": "realizable",
+    "and_gates": 2512,
+    "method": "spot_game+split+isop",
+    "timestamp": "2026-03-19T18:30:52Z",
+    "aiger_file": "arbiter_pb_5_pe_.aag"
+  },
+  "elevator-paper-real": {
+    "status": "realizable",
+    "and_gates": 380,
+    "method": "spot_game+simplify+both+ud+dc",
+    "timestamp": "2026-03-19T18:30:52Z",
+    "aiger_file": "elevator-paper-real.aag"
+  },
+  "g-unreal-12": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:52Z",
+    "aiger_file": null
+  },
+  "g-unreal-13": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:53Z",
+    "aiger_file": null
+  },
+  "g-unreal-30": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:30:53Z",
+    "aiger_file": null
+  },
+  "ltl2dba_C2_pb_9_pe_": {
+    "status": "realizable",
+    "and_gates": 494,
+    "method": "spot_game+split+isop",
+    "timestamp": "2026-03-19T18:32:27Z",
+    "aiger_file": "ltl2dba_C2_pb_9_pe_.aag"
+  },
+  "ltl2dba_C2_unreal_pb_9_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:32:27Z",
+    "aiger_file": null
+  },
+  "ltl2dba_theta_pb_7_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:32:27Z",
+    "aiger_file": null
+  },
+  "ordered-visits-real": {
+    "status": "realizable",
+    "and_gates": 8,
+    "method": "spot_game+simplify+isop",
+    "timestamp": "2026-03-19T18:32:28Z",
+    "aiger_file": "ordered-visits-real.aag"
+  },
+  "precise-reachability-real": {
+    "status": "realizable",
+    "and_gates": 26,
+    "method": "spot_game+minimize+both+ud+dc",
+    "timestamp": "2026-03-19T18:32:28Z",
+    "aiger_file": "precise-reachability-real.aag"
+  },
+  "full_arbiter_unreal1_pb_4_1_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:33:11Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_4_2_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:33:12Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_4_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:33:14Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_4_4_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:33:43Z",
+    "aiger_file": null
+  },
+  "g-unreal-10": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:33:51Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_4_1_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:34:10Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_4_2_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:34:11Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_4_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:34:14Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal2_pb_4_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:34:28Z",
+    "aiger_file": null
+  },
+  "gf-unreal16": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:34:28Z",
+    "aiger_file": null
+  },
+  "gf-unreal17": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:34:29Z",
+    "aiger_file": null
+  },
+  "gf-unreal18": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:34:29Z",
+    "aiger_file": null
+  },
+  "gf-unreal19": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:34:31Z",
+    "aiger_file": null
+  },
+  "gf-unreal20": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:34:32Z",
+    "aiger_file": null
+  },
+  "gf-unreal21": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:34:32Z",
+    "aiger_file": null
+  },
+  "gf-unreal22": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:34:33Z",
+    "aiger_file": null
+  },
+  "gf-unreal23": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:34:34Z",
+    "aiger_file": null
+  },
+  "gf-unreal24": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:34:35Z",
+    "aiger_file": null
+  },
+  "gf-unreal25": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:34:37Z",
+    "aiger_file": null
+  },
+  "gf-unreal26": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:34:39Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_2_18_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:40:08Z",
+    "aiger_file": null
+  },
+  "Lights2_0f5381e9": {
+    "status": "realizable",
+    "and_gates": 70549,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:42:18Z",
+    "aiger_file": "Lights2_0f5381e9.aag"
+  },
+  "Lights2_f3987563": {
+    "status": "realizable",
+    "and_gates": 86439,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:42:20Z",
+    "aiger_file": "Lights2_f3987563.aag"
+  },
+  "lift_pb_4_pe_": {
+    "status": "realizable",
+    "and_gates": 5291,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:42:27Z",
+    "aiger_file": "lift_pb_4_pe_.aag"
+  },
+  "collector_v3_pb_5_pe_": {
+    "status": "realizable",
+    "and_gates": 864,
+    "method": "ltlsynt-ds",
+    "timestamp": "2026-03-19T18:47:34Z",
+    "aiger_file": "collector_v3_pb_5_pe_.aag"
+  },
+  "full_arbiter_unreal1_pb_3_7_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:50:13Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_2_16_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:50:13Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_3_11_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:32Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_3_8_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:32Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_3_9_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:32Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_4_10_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:32Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_4_12_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:32Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_4_1_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:32Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_4_2_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:32Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_4_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:32Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_4_4_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:33Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_4_5_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:33Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_4_6_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:33Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_4_7_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:33Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_4_8_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:33Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_4_9_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:33Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_5_10_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:33Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_5_1_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:33Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_5_2_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:33Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_5_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:33Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_5_4_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:33Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_5_5_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:34Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_5_6_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:34Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_5_7_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:34Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_5_8_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:34Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_5_9_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:34Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_6_1_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:34Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_6_2_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:34Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_6_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:34Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_6_4_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:34Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_6_5_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:34Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_8_8_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:35Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_16_1_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:35Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_16_2_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:35Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_16_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:35Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_16_4_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:35Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_16_5_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:51:35Z",
+    "aiger_file": null
+  },
+  "ltl2dba_E_pb_6_pe_": {
+    "status": "realizable",
+    "and_gates": 4741,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:55:06Z",
+    "aiger_file": "ltl2dba_E_pb_6_pe_.aag"
+  },
+  "ltl2dba_Q_pb_6_pe_": {
+    "status": "realizable",
+    "and_gates": 17109,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:55:07Z",
+    "aiger_file": "ltl2dba_Q_pb_6_pe_.aag"
+  },
+  "ltl2dba_U1_pb_6_pe_": {
+    "status": "realizable",
+    "and_gates": 1138,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:55:07Z",
+    "aiger_file": "ltl2dba_U1_pb_6_pe_.aag"
+  },
+  "full_arbiter_enc_pb_8_pe_": {
+    "status": "realizable",
+    "and_gates": 32701,
+    "method": "ltlsynt-default+decompose",
+    "timestamp": "2026-03-19T18:55:41Z",
+    "aiger_file": "full_arbiter_enc_pb_8_pe_.aag"
+  },
+  "generalized_buffer_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 1089,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:01:56Z",
+    "aiger_file": "generalized_buffer_pb_2_pe_.aag"
+  },
+  "gf-unreal27": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:01:56Z",
+    "aiger_file": null
+  },
+  "gf-unreal28": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:01:57Z",
+    "aiger_file": null
+  },
+  "gf-unreal29": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:01:57Z",
+    "aiger_file": null
+  },
+  "gf-unreal30": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:01:57Z",
+    "aiger_file": null
+  },
+  "gf-unreal31": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:01:57Z",
+    "aiger_file": null
+  },
+  "lift_pb_3_pe_": {
+    "status": "realizable",
+    "and_gates": 817,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:01:57Z",
+    "aiger_file": "lift_pb_3_pe_.aag"
+  },
+  "lift_wrong_physics_unreal_pb_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:01:57Z",
+    "aiger_file": null
+  },
+  "ltl2dba_C2_pb_7_pe_": {
+    "status": "realizable",
+    "and_gates": 475,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:01:57Z",
+    "aiger_file": "ltl2dba_C2_pb_7_pe_.aag"
+  },
+  "ltl2dba_C2_unreal_pb_7_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:01:57Z",
+    "aiger_file": null
+  },
+  "ltl2dba_E_pb_7_pe_": {
+    "status": "realizable",
+    "and_gates": 17084,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:01:57Z",
+    "aiger_file": "ltl2dba_E_pb_7_pe_.aag"
+  },
+  "ltl2dba_Q_pb_7_pe_": {
+    "status": "realizable",
+    "and_gates": 80540,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:01:58Z",
+    "aiger_file": "ltl2dba_Q_pb_7_pe_.aag"
+  },
+  "ltl2dba_U1_pb_7_pe_": {
+    "status": "realizable",
+    "and_gates": 3333,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:01:58Z",
+    "aiger_file": "ltl2dba_U1_pb_7_pe_.aag"
+  },
+  "ltl2dba_theta_pb_5_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:01:58Z",
+    "aiger_file": null
+  },
+  "precise-reachability0": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:01:58Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_pb_3_pe_": {
+    "status": "realizable",
+    "and_gates": 27,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:02:18Z",
+    "aiger_file": "prioritized_arbiter_pb_3_pe_.aag"
+  },
+  "prioritized_arbiter_unreal1_pb_3_10_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:02:18Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal2_pb_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:02:18Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_pb_4_pe_": {
+    "status": "realizable",
+    "and_gates": 977,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:02:18Z",
+    "aiger_file": "round_robin_arbiter_pb_4_pe_.aag"
+  },
+  "round_robin_arbiter_unreal2_pb_4_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:02:20Z",
+    "aiger_file": null
+  },
+  "rw_arbiter_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 1407,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:02:20Z",
+    "aiger_file": "rw_arbiter_pb_2_pe_.aag"
+  },
+  "simple_arbiter_unreal2_pb_4_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:02:40Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_with_hints_pb_4_pe_": {
+    "status": "realizable",
+    "and_gates": 1530,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:02:40Z",
+    "aiger_file": "simple_arbiter_with_hints_pb_4_pe_.aag"
+  },
+  "solitary-real": {
+    "status": "realizable",
+    "and_gates": 34,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:02:40Z",
+    "aiger_file": "solitary-real.aag"
+  },
+  "workstation_resupply_pb_1_pe_": {
+    "status": "realizable",
+    "and_gates": 39,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:02:40Z",
+    "aiger_file": "workstation_resupply_pb_1_pe_.aag"
+  },
+  "prioritized_arbiter_unreal1_pb_3_11_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:33Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_3_12_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:33Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_3_14_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:33Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_3_13_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:33Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_3_2_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:33Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_3_1_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:33Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_3_16_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:33Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_3_15_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:33Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_3_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:33Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_3_4_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:33Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_3_6_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:33Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_3_5_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:33Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_3_7_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:33Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_3_9_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:33Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_3_8_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:33Z",
+    "aiger_file": null
+  },
+  "ltl2dba_U1_pb_8_pe_": {
+    "status": "realizable",
+    "and_gates": 10965,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:33Z",
+    "aiger_file": "ltl2dba_U1_pb_8_pe_.aag"
+  },
+  "ltl2dba_E_pb_8_pe_": {
+    "status": "realizable",
+    "and_gates": 63210,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:33Z",
+    "aiger_file": "ltl2dba_E_pb_8_pe_.aag"
+  },
+  "prioritized_arbiter_pb_4_pe_": {
+    "status": "realizable",
+    "and_gates": 27,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:33Z",
+    "aiger_file": "prioritized_arbiter_pb_4_pe_.aag"
+  },
+  "prioritized_arbiter_unreal1_pb_4_10_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:33Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_4_11_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:33Z",
+    "aiger_file": null
+  },
+  "ltl2dba_U1_pb_9_pe_": {
+    "status": "realizable",
+    "and_gates": 29226,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:33Z",
+    "aiger_file": "ltl2dba_U1_pb_9_pe_.aag"
+  },
+  "prioritized_arbiter_unreal1_pb_4_12_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:33Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_4_13_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:33Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_4_14_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:33Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_4_15_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:33Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_4_16_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:34Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_4_4_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:34Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_4_5_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:34Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_4_6_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:34Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_4_7_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:34Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_4_8_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:34Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_4_9_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:34Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal2_pb_4_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:34Z",
+    "aiger_file": null
+  },
+  "ltl2dba_E_pb_9_pe_": {
+    "status": "realizable",
+    "and_gates": 216119,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:34Z",
+    "aiger_file": "ltl2dba_E_pb_9_pe_.aag"
+  },
+  "simple_arbiter_unreal2_pb_5_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:34Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_pb_5_pe_": {
+    "status": "realizable",
+    "and_gates": 3724,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:34Z",
+    "aiger_file": "round_robin_arbiter_pb_5_pe_.aag"
+  },
+  "ltl2dba_C2_pb_10_pe_": {
+    "status": "realizable",
+    "and_gates": 1660,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:34Z",
+    "aiger_file": "ltl2dba_C2_pb_10_pe_.aag"
+  },
+  "lift_wrong_physics_unreal_pb_5_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:34Z",
+    "aiger_file": null
+  },
+  "ltl2dba_C2_unreal_pb_10_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:34Z",
+    "aiger_file": null
+  },
+  "ltl2dba_E_pb_10_pe_": {
+    "status": "realizable",
+    "and_gates": 785700,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:42Z",
+    "aiger_file": "ltl2dba_E_pb_10_pe_.aag"
+  },
+  "ltl2dba_U1_pb_10_pe_": {
+    "status": "realizable",
+    "and_gates": 81638,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:43Z",
+    "aiger_file": "ltl2dba_U1_pb_10_pe_.aag"
+  },
+  "ltl2dba_theta_pb_8_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:43Z",
+    "aiger_file": null
+  },
+  "workstation_resupply_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 131,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:03:43Z",
+    "aiger_file": "workstation_resupply_pb_2_pe_.aag"
+  },
+  "lift_pb_6_pe_": {
+    "status": "realizable",
+    "and_gates": 117030,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:04:06Z",
+    "aiger_file": "lift_pb_6_pe_.aag"
+  },
+  "ltl2dba_C2_unreal_pb_11_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:04:06Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_pb_5_pe_": {
+    "status": "realizable",
+    "and_gates": 58,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:04:06Z",
+    "aiger_file": "prioritized_arbiter_pb_5_pe_.aag"
+  },
+  "prioritized_arbiter_unreal1_pb_5_16_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:04:06Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_5_2_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:04:06Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_5_32_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:04:06Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_5_4_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:04:06Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal2_pb_5_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:04:06Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_pb_6_pe_": {
+    "status": "realizable",
+    "and_gates": 12363,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:04:10Z",
+    "aiger_file": "round_robin_arbiter_pb_6_pe_.aag"
+  },
+  "simple_arbiter_unreal2_pb_6_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:04:33Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_with_hints_pb_6_pe_": {
+    "status": "realizable",
+    "and_gates": 29795,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:04:33Z",
+    "aiger_file": "simple_arbiter_with_hints_pb_6_pe_.aag"
+  },
+  "ltl2dba_C2_pb_12_pe_": {
+    "status": "realizable",
+    "and_gates": 4518,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:04:34Z",
+    "aiger_file": "ltl2dba_C2_pb_12_pe_.aag"
+  },
+  "ltl2dba_C2_unreal_pb_12_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:04:34Z",
+    "aiger_file": null
+  },
+  "lift_pb_7_pe_": {
+    "status": "realizable",
+    "and_gates": 524712,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:04:47Z",
+    "aiger_file": "lift_pb_7_pe_.aag"
+  },
+  "ltl2dba_theta_pb_10_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:05:10Z",
+    "aiger_file": null
+  },
+  "ltl2dba_C2_unreal_pb_13_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:05:35Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_pb_6_pe_": {
+    "status": "realizable",
+    "and_gates": 62,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:05:35Z",
+    "aiger_file": "prioritized_arbiter_pb_6_pe_.aag"
+  },
+  "prioritized_arbiter_unreal1_pb_6_16_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:05:35Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_6_2_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:05:35Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_6_32_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:05:35Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_6_4_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:05:35Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal2_pb_6_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:05:35Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal2_pb_7_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:05:52Z",
+    "aiger_file": null
+  },
+  "workstation_resupply_pb_3_pe_": {
+    "status": "realizable",
+    "and_gates": 272,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:05:52Z",
+    "aiger_file": "workstation_resupply_pb_3_pe_.aag"
+  },
+  "ltl2dba_C2_pb_14_pe_": {
+    "status": "realizable",
+    "and_gates": 10525,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:05:52Z",
+    "aiger_file": "ltl2dba_C2_pb_14_pe_.aag"
+  },
+  "ltl2dba_C2_unreal_pb_14_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:05:52Z",
+    "aiger_file": null
+  },
+  "ltl2dba_theta_pb_12_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:06:34Z",
+    "aiger_file": null
+  },
+  "ltl2dba_C2_unreal_pb_15_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:06:53Z",
+    "aiger_file": null
+  },
+  "lift_wrong_physics_unreal_pb_9_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:06:57Z",
     "aiger_file": null
   }
 }

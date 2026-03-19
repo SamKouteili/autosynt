@@ -3074,9 +3074,9 @@
   },
   "Lights3_06e9cad4": {
     "status": "realizable",
-    "and_gates": 5982,
-    "method": "spot_game+simplify+both+ud+dc",
-    "timestamp": "2026-03-19T18:33:10Z",
+    "and_gates": 5814,
+    "method": "ltlsynt+bwoa-sat",
+    "timestamp": "2026-03-19T21:10:55Z",
     "aiger_file": "Lights3_06e9cad4.aag"
   },
   "Example1_d6376bf9": {
@@ -3095,9 +3095,9 @@
   },
   "Coffee_d6376bf9": {
     "status": "realizable",
-    "and_gates": 12955,
-    "method": "spot_game+both+dc",
-    "timestamp": "2026-03-19T18:23:12Z",
+    "and_gates": 1693,
+    "method": "ltlsynt+bwoa-sat",
+    "timestamp": "2026-03-19T21:09:55Z",
     "aiger_file": "Coffee_d6376bf9.aag"
   },
   "TwoCountersRefinedRefined": {
@@ -3109,9 +3109,9 @@
   },
   "Lights_2c5b09da": {
     "status": "realizable",
-    "and_gates": 9098,
-    "method": "spot_game+ite",
-    "timestamp": "2026-03-19T18:23:14Z",
+    "and_gates": 25,
+    "method": "ltlsynt+bwoa-sat",
+    "timestamp": "2026-03-19T21:09:55Z",
     "aiger_file": "Lights_2c5b09da.aag"
   },
   "Automata": {
@@ -3123,9 +3123,9 @@
   },
   "Window2_6479ef9a": {
     "status": "realizable",
-    "and_gates": 2985,
-    "method": "spot_game+simplify+ite",
-    "timestamp": "2026-03-19T18:32:56Z",
+    "and_gates": 18,
+    "method": "ltlsynt+bwoa-sat",
+    "timestamp": "2026-03-19T21:10:55Z",
     "aiger_file": "Window2_6479ef9a.aag"
   },
   "EscalatorBidirectionalInit": {
@@ -3137,9 +3137,9 @@
   },
   "Window2_aeb1d897": {
     "status": "realizable",
-    "and_gates": 3372,
-    "method": "spot_game+simplify+both+ud+dc",
-    "timestamp": "2026-03-19T18:32:54Z",
+    "and_gates": 150,
+    "method": "ltlsynt+bwoa-sat",
+    "timestamp": "2026-03-19T21:10:55Z",
     "aiger_file": "Window2_aeb1d897.aag"
   },
   "Coffee_06e9cad4": {
@@ -3151,9 +3151,9 @@
   },
   "Lights3_2c5b09da": {
     "status": "realizable",
-    "and_gates": 7771,
-    "method": "spot_game+minimize+ite",
-    "timestamp": "2026-03-19T18:31:08Z",
+    "and_gates": 93,
+    "method": "ltlsynt+bwoa-sat",
+    "timestamp": "2026-03-19T21:10:55Z",
     "aiger_file": "Lights3_2c5b09da.aag"
   },
   "KitchenTimerV10": {
@@ -3186,9 +3186,9 @@
   },
   "Coffee_2c5b09da": {
     "status": "realizable",
-    "and_gates": 9234,
-    "method": "spot_game+minimize+both+ud+dc",
-    "timestamp": "2026-03-19T18:30:07Z",
+    "and_gates": 357,
+    "method": "ltlsynt+bwoa-sat",
+    "timestamp": "2026-03-19T21:09:55Z",
     "aiger_file": "Coffee_2c5b09da.aag"
   },
   "Lights2_f1477cc5": {
@@ -3200,9 +3200,9 @@
   },
   "tmp_13cfc6f2": {
     "status": "realizable",
-    "and_gates": 15224,
-    "method": "spot_game+minimize+ite",
-    "timestamp": "2026-03-19T18:31:08Z",
+    "and_gates": 6989,
+    "method": "ltlsynt+bwoa-sat",
+    "timestamp": "2026-03-19T21:09:55Z",
     "aiger_file": "tmp_13cfc6f2.aag"
   },
   "FelixSpecFixed3.core_b209ff21": {

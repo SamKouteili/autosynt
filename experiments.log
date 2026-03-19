@@ -1265,3 +1265,11 @@
 [2026-03-19 16:53:26] instance: patrolling-alarm7 | approach: ltlsynt+decompose | status: unrealizable | and_gates: N/A | time: 0.2s | notes: singleton
 [2026-03-19 16:53:27] instance: patrolling-alarm8 | approach: ltlsynt+decompose | status: unrealizable | and_gates: N/A | time: 0.2s | notes: singleton
 [2026-03-19 16:53:27] instance: patrolling-alarm9 | approach: ltlsynt+decompose | status: unrealizable | and_gates: N/A | time: 0.3s | notes: singleton
+[2026-03-19 17:09:55] instance: tmp_13cfc6f2 | approach: ltlsynt+bwoa-sat | status: realizable | and_gates: 6989 | time: 1.4s | notes: sat-reopt from 15224
+[2026-03-19 17:09:55] instance: Coffee_d6376bf9 | approach: ltlsynt+bwoa-sat | status: realizable | and_gates: 1693 | time: 0.1s | notes: sat-reopt from 12955
+[2026-03-19 17:09:55] instance: Coffee_2c5b09da | approach: ltlsynt+bwoa-sat | status: realizable | and_gates: 357 | time: 0.1s | notes: sat-reopt from 9234
+[2026-03-19 17:09:55] instance: Lights_2c5b09da | approach: ltlsynt+bwoa-sat | status: realizable | and_gates: 25 | time: 0.1s | notes: sat-reopt from 9098
+[2026-03-19 17:10:55] instance: Lights3_2c5b09da | approach: ltlsynt+bwoa-sat | status: realizable | and_gates: 93 | time: 0.1s | notes: sat-reopt from 7771
+[2026-03-19 17:10:55] instance: Lights3_06e9cad4 | approach: ltlsynt+bwoa-sat | status: realizable | and_gates: 5814 | time: 0.2s | notes: sat-reopt from 5982
+[2026-03-19 17:10:55] instance: Window2_aeb1d897 | approach: ltlsynt+bwoa-sat | status: realizable | and_gates: 150 | time: 0.1s | notes: sat-reopt from 3372
+[2026-03-19 17:10:55] instance: Window2_6479ef9a | approach: ltlsynt+bwoa-sat | status: realizable | and_gates: 18 | time: 0.1s | notes: sat-reopt from 2985

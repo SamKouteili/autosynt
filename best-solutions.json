@@ -7824,5 +7824,19 @@
     "method": "ltlsynt-sd+direct-extract",
     "timestamp": "2026-03-19T22:54:17Z",
     "aiger_file": "finding_nemo_pb_5_pe_.aag"
+  },
+  "LightsTotal_d65ed84e": {
+    "status": "realizable",
+    "and_gates": 877,
+    "method": "simplified+sd",
+    "timestamp": "2026-03-19T23:02:43Z",
+    "aiger_file": "LightsTotal_d65ed84e.aag"
+  },
+  "LightsTotal_06e9cad4": {
+    "status": "realizable",
+    "and_gates": 860,
+    "method": "simplified+sd",
+    "timestamp": "2026-03-19T23:02:48Z",
+    "aiger_file": "LightsTotal_06e9cad4.aag"
   }
 }

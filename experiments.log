@@ -1384,3 +1384,5 @@
 [2026-03-19 18:54:07] instance: finding_nemo_pb_3_pe_ | approach: ltlsynt-sd+direct-extract | status: realizable | and_gates: 63 | time: 0.1s | notes: direct-extract
 [2026-03-19 18:54:08] instance: finding_nemo_pb_4_pe_ | approach: ltlsynt-sd+direct-extract | status: realizable | and_gates: 71 | time: 0.8s | notes: direct-extract
 [2026-03-19 18:54:17] instance: finding_nemo_pb_5_pe_ | approach: ltlsynt-sd+direct-extract | status: realizable | and_gates: 78 | time: 8.7s | notes: direct-extract
+[2026-03-19 19:02:43] instance: LightsTotal_d65ed84e | approach: simplified+sd | status: realizable | and_gates: 877 | time: 3.1s | notes: spectra-long
+[2026-03-19 19:02:48] instance: LightsTotal_06e9cad4 | approach: simplified+sd | status: realizable | and_gates: 860 | time: 5.0s | notes: spectra-long

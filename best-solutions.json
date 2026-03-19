@@ -7082,5 +7082,677 @@
     "method": "spot_game",
     "timestamp": "2026-03-19T21:26:28Z",
     "aiger_file": null
+  },
+  "round_robin_arbiter_unreal1_pb_4_4_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:44:04Z",
+    "aiger_file": null
+  },
+  "arbiter_pb_6_pe_": {
+    "status": "realizable",
+    "and_gates": 9839,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:44:41Z",
+    "aiger_file": "arbiter_pb_6_pe_.aag"
+  },
+  "infinite-race-unequal-21": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:44:54Z",
+    "aiger_file": null
+  },
+  "arbiter_pb_7_pe_": {
+    "status": "realizable",
+    "and_gates": 26918,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:45:11Z",
+    "aiger_file": "arbiter_pb_7_pe_.aag"
+  },
+  "infinite-race-unequal-22": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:45:16Z",
+    "aiger_file": null
+  },
+  "abcg_arbiter_pb_3_pe_": {
+    "status": "realizable",
+    "and_gates": 723,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:45:21Z",
+    "aiger_file": "abcg_arbiter_pb_3_pe_.aag"
+  },
+  "amba_decomposed_encode_pb_10_pe_": {
+    "status": "realizable",
+    "and_gates": 402,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:45:26Z",
+    "aiger_file": "amba_decomposed_encode_pb_10_pe_.aag"
+  },
+  "arbiter_with_cancel_pb_5_pe_": {
+    "status": "realizable",
+    "and_gates": 24294,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:45:27Z",
+    "aiger_file": "arbiter_with_cancel_pb_5_pe_.aag"
+  },
+  "amba_decomposed_encode_pb_11_pe_": {
+    "status": "realizable",
+    "and_gates": 464,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:45:39Z",
+    "aiger_file": "amba_decomposed_encode_pb_11_pe_.aag"
+  },
+  "ltl2dba_beta_pb_7_pe_": {
+    "status": "realizable",
+    "and_gates": 6541,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:45:39Z",
+    "aiger_file": "ltl2dba_beta_pb_7_pe_.aag"
+  },
+  "infinite-race-unequal-23": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:45:47Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_pb_7_pe_": {
+    "status": "realizable",
+    "and_gates": 72,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:45:52Z",
+    "aiger_file": "prioritized_arbiter_pb_7_pe_.aag"
+  },
+  "prioritized_arbiter_unreal2_pb_7_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:45:52Z",
+    "aiger_file": null
+  },
+  "reversible-lane-u0": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:45:55Z",
+    "aiger_file": null
+  },
+  "reversible-lane-u1": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:45:56Z",
+    "aiger_file": null
+  },
+  "reversible-lane-u-unreal": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:45:56Z",
+    "aiger_file": null
+  },
+  "robot-cat-real-1d-real": {
+    "status": "realizable",
+    "and_gates": 1410,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:45:56Z",
+    "aiger_file": "robot-cat-real-1d-real.aag"
+  },
+  "robot-cat-unreal-1d-unreal": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:45:56Z",
+    "aiger_file": null
+  },
+  "robot-grid-reach-2d-real": {
+    "status": "realizable",
+    "and_gates": 1592,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:45:56Z",
+    "aiger_file": "robot-grid-reach-2d-real.aag"
+  },
+  "robot-grid-reach-repeated-with-obstacles-2d-real": {
+    "status": "realizable",
+    "and_gates": 2132,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:45:56Z",
+    "aiger_file": "robot-grid-reach-repeated-with-obstacles-2d-real.aag"
+  },
+  "shift_pb_8_pe_": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:45:57Z",
+    "aiger_file": "shift_pb_8_pe_.aag"
+  },
+  "simple_arbiter_unreal2_pb_8_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:45:57Z",
+    "aiger_file": null
+  },
+  "taxi-service-real": {
+    "status": "realizable",
+    "and_gates": 3064,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:01Z",
+    "aiger_file": "taxi-service-real.aag"
+  },
+  "sort40": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:02Z",
+    "aiger_file": null
+  },
+  "taxi-service-u-unreal": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:02Z",
+    "aiger_file": null
+  },
+  "F-G-contradiction-16": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:03Z",
+    "aiger_file": null
+  },
+  "amba_decomposed_encode_pb_12_pe_": {
+    "status": "realizable",
+    "and_gates": 495,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:07Z",
+    "aiger_file": "amba_decomposed_encode_pb_12_pe_.aag"
+  },
+  "chain-simple-30-real": {
+    "status": "realizable",
+    "and_gates": 2349,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:08Z",
+    "aiger_file": "chain-simple-30-real.aag"
+  },
+  "evasion-real": {
+    "status": "realizable",
+    "and_gates": 267,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:09Z",
+    "aiger_file": "evasion-real.aag"
+  },
+  "chain-simple-40-real": {
+    "status": "realizable",
+    "and_gates": 3601,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:09Z",
+    "aiger_file": "chain-simple-40-real.aag"
+  },
+  "evasion0": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:09Z",
+    "aiger_file": null
+  },
+  "chain-simple-50-real": {
+    "status": "realizable",
+    "and_gates": 3975,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:10Z",
+    "aiger_file": "chain-simple-50-real.aag"
+  },
+  "infinite-race-u16": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:10Z",
+    "aiger_file": null
+  },
+  "infinite-race-u17": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:10Z",
+    "aiger_file": null
+  },
+  "infinite-race-u18": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:12Z",
+    "aiger_file": null
+  },
+  "infinite-race-u19": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:12Z",
+    "aiger_file": null
+  },
+  "infinite-race-u20": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:12Z",
+    "aiger_file": null
+  },
+  "chain-simple-60-real": {
+    "status": "realizable",
+    "and_gates": 4545,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:12Z",
+    "aiger_file": "chain-simple-60-real.aag"
+  },
+  "infinite-race-u21": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:13Z",
+    "aiger_file": null
+  },
+  "infinite-race-u22": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:13Z",
+    "aiger_file": null
+  },
+  "infinite-race-u23": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:13Z",
+    "aiger_file": null
+  },
+  "infinite-race-u24": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:14Z",
+    "aiger_file": null
+  },
+  "infinite-race-unequal-24": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:14Z",
+    "aiger_file": null
+  },
+  "infinite-race-u25": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:15Z",
+    "aiger_file": null
+  },
+  "ltl2dba_C2_unreal_pb_16_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:20Z",
+    "aiger_file": null
+  },
+  "ltl2dba_C2_pb_16_pe_": {
+    "status": "realizable",
+    "and_gates": 1103,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:21Z",
+    "aiger_file": "ltl2dba_C2_pb_16_pe_.aag"
+  },
+  "ltl2dba_theta_pb_14_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:24Z",
+    "aiger_file": null
+  },
+  "narylatch_pb_8_pe_": {
+    "status": "realizable",
+    "and_gates": 24,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:24Z",
+    "aiger_file": "narylatch_pb_8_pe_.aag"
+  },
+  "patrolling-alarm15": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:25Z",
+    "aiger_file": null
+  },
+  "patrolling-alarm16": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:25Z",
+    "aiger_file": null
+  },
+  "patrolling-alarm17": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:26Z",
+    "aiger_file": null
+  },
+  "patrolling-alarm18": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:26Z",
+    "aiger_file": null
+  },
+  "patrolling-alarm19": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:26Z",
+    "aiger_file": null
+  },
+  "patrolling-alarm20": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:26Z",
+    "aiger_file": null
+  },
+  "patrolling-alarm21": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:26Z",
+    "aiger_file": null
+  },
+  "patrolling-alarm22": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:27Z",
+    "aiger_file": null
+  },
+  "patrolling-alarm23": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:27Z",
+    "aiger_file": null
+  },
+  "patrolling-alarm24": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:27Z",
+    "aiger_file": null
+  },
+  "robot-resource-2d0": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:27Z",
+    "aiger_file": null
+  },
+  "patrolling-alarm25": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:27Z",
+    "aiger_file": null
+  },
+  "patrolling-alarm26": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:28Z",
+    "aiger_file": null
+  },
+  "sort41": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:28Z",
+    "aiger_file": null
+  },
+  "square5x50": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:29Z",
+    "aiger_file": null
+  },
+  "workstation_resupply_pb_4_pe_": {
+    "status": "realizable",
+    "and_gates": 2575,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:31Z",
+    "aiger_file": "workstation_resupply_pb_4_pe_.aag"
+  },
+  "GF-G-contradiction3": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:32Z",
+    "aiger_file": null
+  },
+  "Lights2_2c5b09da": {
+    "status": "realizable",
+    "and_gates": 180,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:32Z",
+    "aiger_file": "Lights2_2c5b09da.aag"
+  },
+  "SingleContoller_d65ed84e": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:33Z",
+    "aiger_file": null
+  },
+  "GF-G-contradiction4": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:33Z",
+    "aiger_file": null
+  },
+  "amba_decomposed_encode_pb_13_pe_": {
+    "status": "realizable",
+    "and_gates": 554,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:34Z",
+    "aiger_file": "amba_decomposed_encode_pb_13_pe_.aag"
+  },
+  "chain-simple-param-70-real": {
+    "status": "realizable",
+    "and_gates": 319,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:39Z",
+    "aiger_file": "chain-simple-param-70-real.aag"
+  },
+  "prioritized_arbiter_pb_8_pe_": {
+    "status": "realizable",
+    "and_gates": 57,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:43Z",
+    "aiger_file": "prioritized_arbiter_pb_8_pe_.aag"
+  },
+  "prioritized_arbiter_unreal2_pb_8_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:43Z",
+    "aiger_file": null
+  },
+  "robot-resource-2d1": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:43Z",
+    "aiger_file": null
+  },
+  "square5x51": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:44Z",
+    "aiger_file": null
+  },
+  "square5x52": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:45Z",
+    "aiger_file": null
+  },
+  "F-G-contradiction-18": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:54Z",
+    "aiger_file": null
+  },
+  "LightsTotal_2c5b09da": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:54Z",
+    "aiger_file": null
+  },
+  "amba_decomposed_encode_pb_14_pe_": {
+    "status": "realizable",
+    "and_gates": 609,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:46:59Z",
+    "aiger_file": "amba_decomposed_encode_pb_14_pe_.aag"
+  },
+  "robot-resource-2d2": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:47:05Z",
+    "aiger_file": null
+  },
+  "robot-resource-2d3": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:47:05Z",
+    "aiger_file": null
+  },
+  "robot-to-target-charging0": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:47:06Z",
+    "aiger_file": null
+  },
+  "ltl2dba_theta_pb_16_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:47:06Z",
+    "aiger_file": null
+  },
+  "square5x53": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:47:09Z",
+    "aiger_file": null
+  },
+  "square5x54": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:47:11Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_pb_9_pe_": {
+    "status": "realizable",
+    "and_gates": 109,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:47:20Z",
+    "aiger_file": "prioritized_arbiter_pb_9_pe_.aag"
+  },
+  "robot-resource-2d4": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:47:21Z",
+    "aiger_file": null
+  },
+  "robot-resource-2d5": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:47:22Z",
+    "aiger_file": null
+  },
+  "robot-resource-2d6": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:47:23Z",
+    "aiger_file": null
+  },
+  "robot-resource-2d7": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:47:24Z",
+    "aiger_file": null
+  },
+  "robot-to-target-charging1": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:47:24Z",
+    "aiger_file": null
+  },
+  "robot_collect_samples_v2-real": {
+    "status": "realizable",
+    "and_gates": 503,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:47:25Z",
+    "aiger_file": "robot_collect_samples_v2-real.aag"
+  },
+  "shift_pb_10_pe_": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:47:25Z",
+    "aiger_file": "shift_pb_10_pe_.aag"
+  },
+  "simple_arbiter_unreal2_pb_10_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:47:25Z",
+    "aiger_file": null
+  },
+  "robot-to-target-charging2": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:47:25Z",
+    "aiger_file": null
+  },
+  "sort42": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:47:27Z",
+    "aiger_file": null
+  },
+  "sort50": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "quick-probe",
+    "timestamp": "2026-03-19T21:47:30Z",
+    "aiger_file": null
   }
 }

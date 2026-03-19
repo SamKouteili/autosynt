@@ -1379,3 +1379,4 @@
 [2026-03-19 18:11:06] instance: ModdifiedLedMatrix4X | approach: sd+decompose | status: unrealizable | and_gates: N/A | time: 0.6s | notes: led-matrix
 [2026-03-19 18:11:07] instance: ModdifiedLedMatrix5X | approach: sd+decompose | status: realizable | and_gates: 28 | time: 1.0s | notes: led-matrix
 [2026-03-19 18:11:16] instance: LedMatrix | approach: sd+decompose | status: realizable | and_gates: 144 | time: 8.7s | notes: led-matrix
+[2026-03-19 18:37:42] instance: amba_decomposed_arbiter_pb_6_pe_ | approach: ltlsynt+expl+decompose | status: realizable | and_gates: 414178 | time: 0s | notes: splittype=expl breakthrough

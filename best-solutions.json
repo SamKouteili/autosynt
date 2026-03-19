@@ -7782,5 +7782,12 @@
     "method": "sd+decompose",
     "timestamp": "2026-03-19T22:11:16Z",
     "aiger_file": "LedMatrix.aag"
+  },
+  "amba_decomposed_arbiter_pb_6_pe_": {
+    "status": "realizable",
+    "and_gates": 414178,
+    "method": "ltlsynt+expl+decompose",
+    "timestamp": "2026-03-19T22:37:42Z",
+    "aiger_file": "amba_decomposed_arbiter_pb_6_pe_.aag"
   }
 }

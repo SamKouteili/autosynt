@@ -4,11 +4,11 @@ set -e
 
 LOG="agent.log"
 
-tmux new-session -s maxsat -d \
+tmux new-session -s ltlsynt -d \
   "claude -p 'Read program.md and go.' --effort max --dangerously-skip-permissions --verbose --output-format stream-json 2>&1 | tee $LOG"
-tmux split-window -v -t maxsat \
+tmux split-window -v -t ltlsynt \
   "tail -f $LOG | jq -r 'select(.type==\"assistant\" and .message.usage) | .message.usage | \"in: \\(.input_tokens) cache: \\(.cache_read_input_tokens) out: \\(.output_tokens)\"'"
-tmux split-window -h -t maxsat:0.1 \
+tmux split-window -h -t ltlsynt:0.1 \
   "tail -f $LOG | jq -r 'select(.type==\"assistant\" and .message.content) | .message.content[] | select(.type==\"text\") | .text' 2>/dev/null"
-tmux select-pane -t maxsat:0.0
-tmux attach -t maxsat
+tmux select-pane -t ltlsynt:0.0
+tmux attach -t ltlsynt

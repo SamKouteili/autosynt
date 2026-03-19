@@ -111,9 +111,9 @@ Many benchmark families have only 1-3 instances. These are often trivially solva
 
 ## Current status
 
-**1011 solved / 1586 total** (444 realizable, 567 unrealizable) = 63.7%
+**1112 solved / 1586 total** (477 realizable, 635 unrealizable) = 70.1%
 
-**Remaining 575 instances** are genuinely hard — all timeout with ltlsynt (all algorithms + decompose), spot game, and formula simplification within 30-60s budgets.
+**Remaining 474 instances** are genuinely hard — all timeout with ltlsynt (all 6 algorithms + decompose + formula simplification), spot game, lar.old, ps within 15-120s budgets.
 
 **Hard remaining families**:
 - full_arbiter_unreal1 (26): X-nesting depth causes exponential game construction
@@ -124,9 +124,13 @@ Many benchmark families have only 1-3 instances. These are often trivially solva
 - numeric (9): 29K+ character formulas, intractable
 - finding_nemo (7): LTLf with "strong next" operator, needs LTLf-specific synthesis
 
+### 6. Quick probe strategy (discovered late — high impact)
+Running ltlsynt with very short timeouts (5s) and `--bypass=yes` (default) can find instances that longer runs miss, because the bypass optimization avoids full game construction for trivially decomposable specs. This found 96 instances in one pass.
+
 **Next priorities**:
 1. Implement proper bounded synthesis (SAT-based) for small instances where automata-based approaches fail
 2. Build custom approach for parametric arbiter_unreal families (exploit formula structure)
-3. Handle LTLf instances (finding_nemo) — need direct LTLf synthesis
-4. Try even longer individual timeouts (5+ minutes) on borderline instances
-5. Explore ABC/yosys for circuit optimization (not installed)
+3. Handle LTLf instances (finding_nemo) — need `spot.ltlf_to_mtdfa_for_synthesis` or direct TLSF parsing
+4. Run on EC2 with 5+ minute timeouts per instance for borderline cases (Alarm, AllLights, Morning families)
+5. Explore ABC/yosys for post-synthesis circuit optimization
+6. Try `spot.reduce_mealy` for circuit size reduction on existing solutions

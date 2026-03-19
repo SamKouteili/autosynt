@@ -1273,3 +1273,4 @@
 [2026-03-19 17:10:55] instance: Lights3_06e9cad4 | approach: ltlsynt+bwoa-sat | status: realizable | and_gates: 5814 | time: 0.2s | notes: sat-reopt from 5982
 [2026-03-19 17:10:55] instance: Window2_aeb1d897 | approach: ltlsynt+bwoa-sat | status: realizable | and_gates: 150 | time: 0.1s | notes: sat-reopt from 3372
 [2026-03-19 17:10:55] instance: Window2_6479ef9a | approach: ltlsynt+bwoa-sat | status: realizable | and_gates: 18 | time: 0.1s | notes: sat-reopt from 2985
+[2026-03-19 17:26:28] instance: load_balancer_unreal1_pb_4_8_pe_ | approach: spot_game | status: unrealizable | and_gates: N/A | time: 65.2s | notes: load_balancer_unreal1

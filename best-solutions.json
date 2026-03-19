@@ -7075,5 +7075,12 @@
     "method": "ltlsynt+decompose",
     "timestamp": "2026-03-19T20:53:27Z",
     "aiger_file": null
+  },
+  "load_balancer_unreal1_pb_4_8_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T21:26:28Z",
+    "aiger_file": null
   }
 }

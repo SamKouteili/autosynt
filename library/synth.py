@@ -68,39 +68,71 @@ def solve_instance(filepath, timeout=120):
         if not realizable:
             return _result('unrealizable', start, method='spot_game')
 
-        # Extract strategy and encode as AIGER
-        split_mealy = spot.solved_game_to_split_mealy(arena)
-
-        # Try multiple AIGER encodings, pick the best
+        # Extract strategy and encode as AIGER — try multiple strategies
         best_aiger = None
         best_gates = float('inf')
-        best_enc = None
+        best_method = None
+        encodings = ["isop", "ite", "both+dc", "both+ud+dc"]
 
-        for enc in ["isop", "ite", "both+dc", "both+ud+dc"]:
+        # Strategy 1: split mealy (default)
+        split_mealy = spot.solved_game_to_split_mealy(arena)
+        for enc in encodings:
+            aiger_text, gates = _try_aiger(split_mealy, enc)
+            if gates is not None and gates < best_gates:
+                best_gates, best_aiger, best_method = gates, aiger_text, f'split+{enc}'
+
+        # Strategy 2: split mealy + simplify
+        remaining = timeout - (time.time() - start)
+        if remaining > 2:
             try:
-                oss = spot.ostringstream()
-                spot.print_aiger(oss, split_mealy, enc)
-                aiger_text = oss.str()
-                header = aiger_text.strip().split('\n')[0].split()
-                gates = int(header[5])
-                if gates < best_gates:
-                    best_gates = gates
-                    best_aiger = aiger_text
-                    best_enc = enc
+                si = spot.synthesis_info()
+                si.minimize_lvl = 2
+                split2 = spot.solved_game_to_split_mealy(arena)
+                spot.simplify_mealy_here(split2, si, False)
+                for enc in encodings:
+                    aiger_text, gates = _try_aiger(split2, enc)
+                    if gates is not None and gates < best_gates:
+                        best_gates, best_aiger, best_method = gates, aiger_text, f'simplify+{enc}'
             except Exception:
-                continue
+                pass
+
+        # Strategy 3: minimize_mealy (unsplit)
+        remaining = timeout - (time.time() - start)
+        if remaining > 2:
+            try:
+                mealy = spot.solved_game_to_mealy(arena)
+                min_m = spot.minimize_mealy(mealy, -1)
+                for enc in encodings:
+                    aiger_text, gates = _try_aiger(min_m, enc)
+                    if gates is not None and gates < best_gates:
+                        best_gates, best_aiger, best_method = gates, aiger_text, f'minimize+{enc}'
+            except Exception:
+                pass
 
         if best_aiger is None:
             return _result('error', start, error='All AIGER encodings failed')
 
         return _result('realizable', start,
-                       aiger=best_aiger, and_gates=best_gates,
-                       method=f'spot_game+{best_enc}')
+                       aiger=best_aiger, and_gates=int(best_gates),
+                       method=f'spot_game+{best_method}')
 
     except subprocess.TimeoutExpired:
         return _result('timeout', start, method='subprocess_timeout')
     except Exception as e:
         return _result('error', start, error=str(e))
+
+
+def _try_aiger(mealy, enc):
+    """Try encoding mealy as AIGER with given encoding. Returns (text, gates) or (None, None)."""
+    try:
+        oss = spot.ostringstream()
+        spot.print_aiger(oss, mealy, enc)
+        text = oss.str()
+        header = text.strip().split('\n')[0].split()
+        gates = int(header[5])
+        return text, gates
+    except Exception:
+        return None, None
 
 
 def _result(status, start, aiger=None, and_gates=-1, method='', error=None):

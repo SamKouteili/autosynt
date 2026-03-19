@@ -5160,9 +5160,9 @@
   },
   "ltl2dba_Q_pb_7_pe_": {
     "status": "realizable",
-    "and_gates": 80540,
-    "method": "ltlsynt+decompose",
-    "timestamp": "2026-03-19T19:01:58Z",
+    "and_gates": 32065,
+    "method": "reopt-sd",
+    "timestamp": "2026-03-19T21:55:57Z",
     "aiger_file": "ltl2dba_Q_pb_7_pe_.aag"
   },
   "ltl2dba_U1_pb_7_pe_": {
@@ -5489,9 +5489,9 @@
   },
   "ltl2dba_E_pb_9_pe_": {
     "status": "realizable",
-    "and_gates": 216119,
-    "method": "ltlsynt+decompose",
-    "timestamp": "2026-03-19T19:03:34Z",
+    "and_gates": 41234,
+    "method": "reopt-sd",
+    "timestamp": "2026-03-19T21:53:34Z",
     "aiger_file": "ltl2dba_E_pb_9_pe_.aag"
   },
   "simple_arbiter_unreal2_pb_5_pe_": {
@@ -5531,16 +5531,16 @@
   },
   "ltl2dba_E_pb_10_pe_": {
     "status": "realizable",
-    "and_gates": 785700,
-    "method": "ltlsynt+decompose",
-    "timestamp": "2026-03-19T19:03:42Z",
+    "and_gates": 101859,
+    "method": "reopt-sd",
+    "timestamp": "2026-03-19T21:54:00Z",
     "aiger_file": "ltl2dba_E_pb_10_pe_.aag"
   },
   "ltl2dba_U1_pb_10_pe_": {
     "status": "realizable",
-    "and_gates": 81638,
-    "method": "ltlsynt+decompose",
-    "timestamp": "2026-03-19T19:03:43Z",
+    "and_gates": 22480,
+    "method": "reopt-sd",
+    "timestamp": "2026-03-19T21:55:30Z",
     "aiger_file": "ltl2dba_U1_pb_10_pe_.aag"
   },
   "ltl2dba_theta_pb_8_pe_": {
@@ -5559,9 +5559,9 @@
   },
   "lift_pb_6_pe_": {
     "status": "realizable",
-    "and_gates": 117030,
-    "method": "ltlsynt+decompose",
-    "timestamp": "2026-03-19T19:04:06Z",
+    "and_gates": 832,
+    "method": "reopt-ds",
+    "timestamp": "2026-03-19T21:55:24Z",
     "aiger_file": "lift_pb_6_pe_.aag"
   },
   "ltl2dba_C2_unreal_pb_11_pe_": {

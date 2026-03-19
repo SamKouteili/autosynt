@@ -3256,9 +3256,9 @@
   },
   "Lights2_b02056d6": {
     "status": "realizable",
-    "and_gates": 159806,
-    "method": "spot_game+isop",
-    "timestamp": "2026-03-19T18:24:33Z",
+    "and_gates": 425,
+    "method": "reopt-simplified+sd",
+    "timestamp": "2026-03-19T20:27:07Z",
     "aiger_file": "Lights2_b02056d6.aag"
   },
   "Alarm_88c5c1c3": {
@@ -3277,9 +3277,9 @@
   },
   "Lights2_9cac58d3": {
     "status": "realizable",
-    "and_gates": 159806,
-    "method": "spot_game+isop",
-    "timestamp": "2026-03-19T18:24:39Z",
+    "and_gates": 425,
+    "method": "reopt-simplified+sd",
+    "timestamp": "2026-03-19T20:27:42Z",
     "aiger_file": "Lights2_9cac58d3.aag"
   },
   "Core_solved_974f4a68": {
@@ -3655,9 +3655,9 @@
   },
   "Lights2_06e9cad4": {
     "status": "realizable",
-    "and_gates": 118839,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:26:33Z",
+    "and_gates": 505,
+    "method": "reopt-simplified+sd",
+    "timestamp": "2026-03-19T20:28:46Z",
     "aiger_file": "Lights2_06e9cad4.aag"
   },
   "SPIReadManag": {
@@ -4768,16 +4768,16 @@
   },
   "Lights2_0f5381e9": {
     "status": "realizable",
-    "and_gates": 70549,
-    "method": "ltlsynt-default+decompose",
-    "timestamp": "2026-03-19T18:42:18Z",
+    "and_gates": 428,
+    "method": "reopt-simplified+sd",
+    "timestamp": "2026-03-19T20:29:31Z",
     "aiger_file": "Lights2_0f5381e9.aag"
   },
   "Lights2_f3987563": {
     "status": "realizable",
-    "and_gates": 86439,
-    "method": "ltlsynt-default+decompose",
-    "timestamp": "2026-03-19T18:42:20Z",
+    "and_gates": 505,
+    "method": "reopt-simplified+sd",
+    "timestamp": "2026-03-19T20:29:16Z",
     "aiger_file": "Lights2_f3987563.aag"
   },
   "lift_pb_4_pe_": {
@@ -5888,9 +5888,9 @@
   },
   "amba_decomposed_arbiter_pb_5_pe_": {
     "status": "realizable",
-    "and_gates": 67968,
-    "method": "ltlsynt+decompose",
-    "timestamp": "2026-03-19T19:27:29Z",
+    "and_gates": 2484,
+    "method": "reopt-simplified+sd",
+    "timestamp": "2026-03-19T20:29:34Z",
     "aiger_file": "amba_decomposed_arbiter_pb_5_pe_.aag"
   },
   "full_arbiter_enc_pb_10_pe_": {
@@ -5909,9 +5909,9 @@
   },
   "simple_arbiter_enc_pb_10_pe_": {
     "status": "realizable",
-    "and_gates": 146812,
-    "method": "ltlsynt+decompose",
-    "timestamp": "2026-03-19T19:34:05Z",
+    "and_gates": 99509,
+    "method": "reopt-simplified+sd",
+    "timestamp": "2026-03-19T20:28:48Z",
     "aiger_file": "simple_arbiter_enc_pb_10_pe_.aag"
   },
   "round_robin_arbiter_unreal1_pb_4_1_pe_": {

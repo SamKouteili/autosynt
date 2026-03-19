@@ -1141,3 +1141,10 @@
 [2026-03-19 16:19:49] instance: amba_decomposed_lock_pb_150_pe_ | approach: ltlsynt+decompose | status: realizable | and_gates: 1364 | time: 6.1s | notes: large-instance
 [2026-03-19 16:20:19] instance: shift_pb_250_pe_ | approach: ltlsynt+decompose | status: realizable | and_gates: 0 | time: 0.1s | notes: large-instance
 [2026-03-19 16:20:34] instance: shift_pb_500_pe_ | approach: ltlsynt+decompose | status: realizable | and_gates: 0 | time: 0.1s | notes: large-instance
+[2026-03-19 16:27:07] instance: Lights2_b02056d6 | approach: reopt-simplified+sd | status: realizable | and_gates: 425 | time: 0s | notes: reopt-simplified from 159806
+[2026-03-19 16:27:42] instance: Lights2_9cac58d3 | approach: reopt-simplified+sd | status: realizable | and_gates: 425 | time: 0s | notes: reopt-simplified from 159806
+[2026-03-19 16:28:46] instance: Lights2_06e9cad4 | approach: reopt-simplified+sd | status: realizable | and_gates: 505 | time: 0s | notes: reopt-simplified from 118839
+[2026-03-19 16:28:48] instance: simple_arbiter_enc_pb_10_pe_ | approach: reopt-simplified+sd | status: realizable | and_gates: 99509 | time: 0s | notes: reopt-simplified from 146812
+[2026-03-19 16:29:16] instance: Lights2_f3987563 | approach: reopt-simplified+sd | status: realizable | and_gates: 505 | time: 0s | notes: reopt-simplified from 86439
+[2026-03-19 16:29:31] instance: Lights2_0f5381e9 | approach: reopt-simplified+sd | status: realizable | and_gates: 428 | time: 0s | notes: reopt-simplified from 70549
+[2026-03-19 16:29:34] instance: amba_decomposed_arbiter_pb_5_pe_ | approach: reopt-simplified+sd | status: realizable | and_gates: 2484 | time: 0s | notes: reopt-simplified from 67968

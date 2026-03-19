@@ -7761,5 +7761,26 @@
     "method": "sd+decompose",
     "timestamp": "2026-03-19T22:08:58Z",
     "aiger_file": "LightsTotal_9cbf2546.aag"
+  },
+  "ModdifiedLedMatrix4X": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "sd+decompose",
+    "timestamp": "2026-03-19T22:11:06Z",
+    "aiger_file": null
+  },
+  "ModdifiedLedMatrix5X": {
+    "status": "realizable",
+    "and_gates": 28,
+    "method": "sd+decompose",
+    "timestamp": "2026-03-19T22:11:07Z",
+    "aiger_file": "ModdifiedLedMatrix5X.aag"
+  },
+  "LedMatrix": {
+    "status": "realizable",
+    "and_gates": 144,
+    "method": "sd+decompose",
+    "timestamp": "2026-03-19T22:11:16Z",
+    "aiger_file": "LedMatrix.aag"
   }
 }

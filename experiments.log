@@ -1376,3 +1376,6 @@
 [2026-03-19 17:55:30] instance: ltl2dba_U1_pb_10_pe_ | approach: reopt-sd | status: realizable | and_gates: 22480 | time: 0s | notes: reopt from 81638
 [2026-03-19 17:55:57] instance: ltl2dba_Q_pb_7_pe_ | approach: reopt-sd | status: realizable | and_gates: 32065 | time: 0s | notes: reopt from 80540
 [2026-03-19 18:08:58] instance: LightsTotal_9cbf2546 | approach: sd+decompose | status: realizable | and_gates: 2360 | time: 0.9s | notes: known-status
+[2026-03-19 18:11:06] instance: ModdifiedLedMatrix4X | approach: sd+decompose | status: unrealizable | and_gates: N/A | time: 0.6s | notes: led-matrix
+[2026-03-19 18:11:07] instance: ModdifiedLedMatrix5X | approach: sd+decompose | status: realizable | and_gates: 28 | time: 1.0s | notes: led-matrix
+[2026-03-19 18:11:16] instance: LedMatrix | approach: sd+decompose | status: realizable | and_gates: 144 | time: 8.7s | notes: led-matrix

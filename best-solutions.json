@@ -6137,5 +6137,124 @@
     "method": "ltlsynt-simplified+default",
     "timestamp": "2026-03-19T20:14:50Z",
     "aiger_file": null
+  },
+  "mux_pb_100_pe_": {
+    "status": "realizable",
+    "and_gates": 325,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:18:55Z",
+    "aiger_file": "mux_pb_100_pe_.aag"
+  },
+  "simple_arbiter_unreal2_pb_60_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:18:55Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal2_pb_60_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:18:56Z",
+    "aiger_file": null
+  },
+  "shift_pb_64_pe_": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:18:56Z",
+    "aiger_file": "shift_pb_64_pe_.aag"
+  },
+  "narylatch_pb_64_pe_": {
+    "status": "realizable",
+    "and_gates": 192,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:18:56Z",
+    "aiger_file": "narylatch_pb_64_pe_.aag"
+  },
+  "mux_pb_125_pe_": {
+    "status": "realizable",
+    "and_gates": 375,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:18:56Z",
+    "aiger_file": "mux_pb_125_pe_.aag"
+  },
+  "mux_pb_132_pe_": {
+    "status": "realizable",
+    "and_gates": 517,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:18:56Z",
+    "aiger_file": "mux_pb_132_pe_.aag"
+  },
+  "simple_arbiter_unreal2_pb_75_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:18:56Z",
+    "aiger_file": null
+  },
+  "shift_pb_100_pe_": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:19:26Z",
+    "aiger_file": "shift_pb_100_pe_.aag"
+  },
+  "amba_decomposed_lock_pb_100_pe_": {
+    "status": "realizable",
+    "and_gates": 914,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:19:42Z",
+    "aiger_file": "amba_decomposed_lock_pb_100_pe_.aag"
+  },
+  "prioritized_arbiter_unreal2_pb_100_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:19:43Z",
+    "aiger_file": null
+  },
+  "mux_pb_200_pe_": {
+    "status": "realizable",
+    "and_gates": 653,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:19:43Z",
+    "aiger_file": "mux_pb_200_pe_.aag"
+  },
+  "shift_pb_125_pe_": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:19:43Z",
+    "aiger_file": "shift_pb_125_pe_.aag"
+  },
+  "shift_pb_132_pe_": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:19:43Z",
+    "aiger_file": "shift_pb_132_pe_.aag"
+  },
+  "amba_decomposed_lock_pb_150_pe_": {
+    "status": "realizable",
+    "and_gates": 1364,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:19:49Z",
+    "aiger_file": "amba_decomposed_lock_pb_150_pe_.aag"
+  },
+  "shift_pb_250_pe_": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:20:19Z",
+    "aiger_file": "shift_pb_250_pe_.aag"
+  },
+  "shift_pb_500_pe_": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:20:34Z",
+    "aiger_file": "shift_pb_500_pe_.aag"
   }
 }

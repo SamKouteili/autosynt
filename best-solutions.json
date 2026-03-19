@@ -7789,5 +7789,40 @@
     "method": "ltlsynt+expl+decompose",
     "timestamp": "2026-03-19T22:37:42Z",
     "aiger_file": "amba_decomposed_arbiter_pb_6_pe_.aag"
+  },
+  "finding_nemo_pb_1_pe_": {
+    "status": "realizable",
+    "and_gates": 12,
+    "method": "ltlsynt-sd+direct",
+    "timestamp": "2026-03-19T22:53:39Z",
+    "aiger_file": "finding_nemo_pb_1_pe_.aag"
+  },
+  "finding_nemo_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 22,
+    "method": "ltlsynt-sd+direct-extract",
+    "timestamp": "2026-03-19T22:54:07Z",
+    "aiger_file": "finding_nemo_pb_2_pe_.aag"
+  },
+  "finding_nemo_pb_3_pe_": {
+    "status": "realizable",
+    "and_gates": 63,
+    "method": "ltlsynt-sd+direct-extract",
+    "timestamp": "2026-03-19T22:54:07Z",
+    "aiger_file": "finding_nemo_pb_3_pe_.aag"
+  },
+  "finding_nemo_pb_4_pe_": {
+    "status": "realizable",
+    "and_gates": 71,
+    "method": "ltlsynt-sd+direct-extract",
+    "timestamp": "2026-03-19T22:54:08Z",
+    "aiger_file": "finding_nemo_pb_4_pe_.aag"
+  },
+  "finding_nemo_pb_5_pe_": {
+    "status": "realizable",
+    "and_gates": 78,
+    "method": "ltlsynt-sd+direct-extract",
+    "timestamp": "2026-03-19T22:54:17Z",
+    "aiger_file": "finding_nemo_pb_5_pe_.aag"
   }
 }

@@ -1380,3 +1380,7 @@
 [2026-03-19 18:11:07] instance: ModdifiedLedMatrix5X | approach: sd+decompose | status: realizable | and_gates: 28 | time: 1.0s | notes: led-matrix
 [2026-03-19 18:11:16] instance: LedMatrix | approach: sd+decompose | status: realizable | and_gates: 144 | time: 8.7s | notes: led-matrix
 [2026-03-19 18:37:42] instance: amba_decomposed_arbiter_pb_6_pe_ | approach: ltlsynt+expl+decompose | status: realizable | and_gates: 414178 | time: 0s | notes: splittype=expl breakthrough
+[2026-03-19 18:54:07] instance: finding_nemo_pb_2_pe_ | approach: ltlsynt-sd+direct-extract | status: realizable | and_gates: 22 | time: 0.0s | notes: direct-extract
+[2026-03-19 18:54:07] instance: finding_nemo_pb_3_pe_ | approach: ltlsynt-sd+direct-extract | status: realizable | and_gates: 63 | time: 0.1s | notes: direct-extract
+[2026-03-19 18:54:08] instance: finding_nemo_pb_4_pe_ | approach: ltlsynt-sd+direct-extract | status: realizable | and_gates: 71 | time: 0.8s | notes: direct-extract
+[2026-03-19 18:54:17] instance: finding_nemo_pb_5_pe_ | approach: ltlsynt-sd+direct-extract | status: realizable | and_gates: 78 | time: 8.7s | notes: direct-extract

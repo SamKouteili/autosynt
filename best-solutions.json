@@ -6403,5 +6403,26 @@
     "method": "ltlsynt-simplified",
     "timestamp": "2026-03-19T20:38:01Z",
     "aiger_file": "mux_pb_64_pe_.aag"
+  },
+  "ltl2dba_beta_pb_6_pe_": {
+    "status": "realizable",
+    "and_gates": 7596,
+    "method": "simplified+default",
+    "timestamp": "2026-03-19T20:42:54Z",
+    "aiger_file": "ltl2dba_beta_pb_6_pe_.aag"
+  },
+  "amba_decomposed_encode_pb_9_pe_": {
+    "status": "realizable",
+    "and_gates": 354,
+    "method": "simplified+default",
+    "timestamp": "2026-03-19T20:42:55Z",
+    "aiger_file": "amba_decomposed_encode_pb_9_pe_.aag"
+  },
+  "chomp_pb_2_2_pe_": {
+    "status": "realizable",
+    "and_gates": 87,
+    "method": "simplified+default",
+    "timestamp": "2026-03-19T20:43:05Z",
+    "aiger_file": "chomp_pb_2_2_pe_.aag"
   }
 }

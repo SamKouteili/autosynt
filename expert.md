@@ -106,13 +106,27 @@ Instead of trying all instances, test ONE instance per unsolved family first. If
 - **Python subprocess nesting**: Running python3.14 via subprocess from python3.14 is unreliable for background tasks (output buffering issues)
 - **syfco on LTLf specs**: "strong next" operator not supported
 
+### 5. Singleton/small family sweep (highest ROI)
+Many benchmark families have only 1-3 instances. These are often trivially solvable but were missed because batch scripts focused on large families. A targeted sweep found 88 new solutions in one pass.
+
 ## Current status
 
-**845 solved / 1586 total** (380 realizable, 465 unrealizable) = 53.3%
+**1011 solved / 1586 total** (444 realizable, 567 unrealizable) = 63.7%
+
+**Remaining 575 instances** are genuinely hard — all timeout with ltlsynt (all algorithms + decompose), spot game, and formula simplification within 30-60s budgets.
+
+**Hard remaining families**:
+- full_arbiter_unreal1 (26): X-nesting depth causes exponential game construction
+- round_robin_arbiter_unreal1 (25): similar to full_arbiter
+- chomp (12): large formulas, solvable for small params (2x2, 3x2) but not larger
+- amba_decomposed_arbiter/encode (11 each): larger instances timeout
+- amba_gr/gr+ (11 each): never cracked, 22-66 signals
+- numeric (9): 29K+ character formulas, intractable
+- finding_nemo (7): LTLf with "strong next" operator, needs LTLf-specific synthesis
 
 **Next priorities**:
-1. Implement proper bounded synthesis (SAT-based) for small instances where both ltlsynt and spot time out
-2. Build custom approach for parametric arbiter_unreal families (exploit formula structure rather than building full game)
-3. Handle LTLf instances (finding_nemo family) — need direct LTLf synthesis
-4. Try `ltl2tgba` formula simplification before synthesis for borderline instances
-5. Explore ABC/yosys for post-synthesis circuit optimization (not currently installed)
+1. Implement proper bounded synthesis (SAT-based) for small instances where automata-based approaches fail
+2. Build custom approach for parametric arbiter_unreal families (exploit formula structure)
+3. Handle LTLf instances (finding_nemo) — need direct LTLf synthesis
+4. Try even longer individual timeouts (5+ minutes) on borderline instances
+5. Explore ABC/yosys for circuit optimization (not installed)

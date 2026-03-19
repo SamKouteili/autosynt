@@ -1092,3 +1092,12 @@
 [2026-03-19 15:30:00] instance: full_arbiter_enc_pb_10_pe_ | approach: ltlsynt+decompose | status: realizable | and_gates: 179961 | time: 0s | notes: ltlsynt+decompose
 [2026-03-19 15:31:51] instance: prioritized_arbiter_enc_pb_10_pe_ | approach: ltlsynt+decompose | status: realizable | and_gates: 179503 | time: 0s | notes: ltlsynt+decompose
 [2026-03-19 15:34:05] instance: simple_arbiter_enc_pb_10_pe_ | approach: ltlsynt+decompose | status: realizable | and_gates: 146812 | time: 0s | notes: ltlsynt+decompose
+[2026-03-19 16:05:12] instance: round_robin_arbiter_unreal1_pb_4_1_pe_ | approach: ltlsynt-simplified+default | status: unrealizable | and_gates: N/A | time: 0s | notes: formula-simplified
+[2026-03-19 16:05:13] instance: round_robin_arbiter_unreal1_pb_4_2_pe_ | approach: ltlsynt-simplified+default | status: unrealizable | and_gates: N/A | time: 0s | notes: formula-simplified
+[2026-03-19 16:05:16] instance: round_robin_arbiter_unreal1_pb_4_3_pe_ | approach: ltlsynt-simplified+default | status: unrealizable | and_gates: N/A | time: 0s | notes: formula-simplified
+[2026-03-19 16:06:31] instance: simple_arbiter_enc_pb_11_pe_ | approach: ltlsynt-simplified+sd | status: realizable | and_gates: 222258 | time: 0s | notes: formula-simplified
+[2026-03-19 16:06:38] instance: robot-grid-reach-1d-real | approach: ltlsynt-simplified+default | status: realizable | and_gates: 175 | time: 0s | notes: formula-simplified
+[2026-03-19 16:06:39] instance: robot-grid-reach-repeated-with-obstacles-1d-real | approach: ltlsynt-simplified+default | status: realizable | and_gates: 245 | time: 0s | notes: formula-simplified
+[2026-03-19 16:06:42] instance: storage-GF-64-real | approach: ltlsynt-simplified+default | status: realizable | and_gates: 94 | time: 0s | notes: formula-simplified
+[2026-03-19 16:06:43] instance: GF-G-contradiction1 | approach: ltlsynt-simplified+default | status: unrealizable | and_gates: N/A | time: 0s | notes: formula-simplified
+[2026-03-19 16:06:44] instance: batch-arbiter-real | approach: ltlsynt-simplified+default | status: realizable | and_gates: 210 | time: 0s | notes: formula-simplified

@@ -5913,5 +5913,68 @@
     "method": "ltlsynt+decompose",
     "timestamp": "2026-03-19T19:34:05Z",
     "aiger_file": "simple_arbiter_enc_pb_10_pe_.aag"
+  },
+  "round_robin_arbiter_unreal1_pb_4_1_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:05:12Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_unreal1_pb_4_2_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:05:13Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_unreal1_pb_4_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:05:16Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_enc_pb_11_pe_": {
+    "status": "realizable",
+    "and_gates": 222258,
+    "method": "ltlsynt-simplified+sd",
+    "timestamp": "2026-03-19T20:06:31Z",
+    "aiger_file": "simple_arbiter_enc_pb_11_pe_.aag"
+  },
+  "robot-grid-reach-1d-real": {
+    "status": "realizable",
+    "and_gates": 175,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:06:38Z",
+    "aiger_file": "robot-grid-reach-1d-real.aag"
+  },
+  "robot-grid-reach-repeated-with-obstacles-1d-real": {
+    "status": "realizable",
+    "and_gates": 245,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:06:39Z",
+    "aiger_file": "robot-grid-reach-repeated-with-obstacles-1d-real.aag"
+  },
+  "storage-GF-64-real": {
+    "status": "realizable",
+    "and_gates": 94,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:06:42Z",
+    "aiger_file": "storage-GF-64-real.aag"
+  },
+  "GF-G-contradiction1": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:06:43Z",
+    "aiger_file": null
+  },
+  "batch-arbiter-real": {
+    "status": "realizable",
+    "and_gates": 210,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:06:44Z",
+    "aiger_file": "batch-arbiter-real.aag"
   }
 }

@@ -1172,3 +1172,8 @@
 [2026-03-19 16:42:54] instance: ltl2dba_beta_pb_6_pe_ | approach: simplified+default | status: realizable | and_gates: 7596 | time: 31.0s | notes: target-families
 [2026-03-19 16:42:55] instance: amba_decomposed_encode_pb_9_pe_ | approach: simplified+default | status: realizable | and_gates: 354 | time: 0.6s | notes: target-families
 [2026-03-19 16:43:05] instance: chomp_pb_2_2_pe_ | approach: simplified+default | status: realizable | and_gates: 87 | time: 0.2s | notes: target-families
+[2026-03-19 16:44:15] instance: chomp_pb_2_3_pe_ | approach: simplified+default | status: realizable | and_gates: 187 | time: 1.9s | notes: chomp
+[2026-03-19 16:44:17] instance: chomp_pb_3_2_pe_ | approach: simplified+default | status: realizable | and_gates: 176 | time: 1.9s | notes: chomp
+[2026-03-19 16:46:31] instance: chomp_pb_2_4_pe_ | approach: ltlsynt+decompose | status: realizable | and_gates: 272 | time: 1.5s | notes: chomp-direct
+[2026-03-19 16:46:33] instance: chomp_pb_4_2_pe_ | approach: ltlsynt+decompose | status: realizable | and_gates: 287 | time: 1.5s | notes: chomp-direct
+[2026-03-19 16:46:41] instance: chomp_pb_3_3_pe_ | approach: ltlsynt+decompose | status: realizable | and_gates: 195 | time: 8.5s | notes: chomp-direct

@@ -6424,5 +6424,40 @@
     "method": "simplified+default",
     "timestamp": "2026-03-19T20:43:05Z",
     "aiger_file": "chomp_pb_2_2_pe_.aag"
+  },
+  "chomp_pb_2_3_pe_": {
+    "status": "realizable",
+    "and_gates": 187,
+    "method": "simplified+default",
+    "timestamp": "2026-03-19T20:44:15Z",
+    "aiger_file": "chomp_pb_2_3_pe_.aag"
+  },
+  "chomp_pb_3_2_pe_": {
+    "status": "realizable",
+    "and_gates": 176,
+    "method": "simplified+default",
+    "timestamp": "2026-03-19T20:44:17Z",
+    "aiger_file": "chomp_pb_3_2_pe_.aag"
+  },
+  "chomp_pb_2_4_pe_": {
+    "status": "realizable",
+    "and_gates": 272,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:46:31Z",
+    "aiger_file": "chomp_pb_2_4_pe_.aag"
+  },
+  "chomp_pb_4_2_pe_": {
+    "status": "realizable",
+    "and_gates": 287,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:46:33Z",
+    "aiger_file": "chomp_pb_4_2_pe_.aag"
+  },
+  "chomp_pb_3_3_pe_": {
+    "status": "realizable",
+    "and_gates": 195,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:46:41Z",
+    "aiger_file": "chomp_pb_3_3_pe_.aag"
   }
 }

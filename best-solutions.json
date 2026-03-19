@@ -5976,5 +5976,159 @@
     "method": "ltlsynt-simplified+default",
     "timestamp": "2026-03-19T20:06:44Z",
     "aiger_file": "batch-arbiter-real.aag"
+  },
+  "g-unreal-39": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:07:54Z",
+    "aiger_file": null
+  },
+  "g-unreal-310": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:07:55Z",
+    "aiger_file": null
+  },
+  "infinite-race-unequal-25": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:08:19Z",
+    "aiger_file": null
+  },
+  "narylatch_pb_10_pe_": {
+    "status": "realizable",
+    "and_gates": 168,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:08:27Z",
+    "aiger_file": "narylatch_pb_10_pe_.aag"
+  },
+  "robot-resource-2d10": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:08:31Z",
+    "aiger_file": null
+  },
+  "robot-resource-2d11": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:08:40Z",
+    "aiger_file": null
+  },
+  "robot-resource-2d12": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:08:46Z",
+    "aiger_file": null
+  },
+  "robot-resource-2d13": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:08:53Z",
+    "aiger_file": null
+  },
+  "robot-resource-2d14": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:09:00Z",
+    "aiger_file": null
+  },
+  "robot-resource-2d15": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:09:07Z",
+    "aiger_file": null
+  },
+  "robot-resource-2d8": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:09:11Z",
+    "aiger_file": null
+  },
+  "robot-to-target-charging3": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:09:17Z",
+    "aiger_file": null
+  },
+  "robot-resource-2d9": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:09:19Z",
+    "aiger_file": null
+  },
+  "robot-to-target-charging4": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:09:25Z",
+    "aiger_file": null
+  },
+  "robot-to-target-charging5": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:09:32Z",
+    "aiger_file": null
+  },
+  "robot_collect_samples_v1-real": {
+    "status": "realizable",
+    "and_gates": 393,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:09:39Z",
+    "aiger_file": "robot_collect_samples_v1-real.aag"
+  },
+  "thermostat-GF-unreal1": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:09:52Z",
+    "aiger_file": null
+  },
+  "heim-double-x0": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:11:49Z",
+    "aiger_file": null
+  },
+  "heim-fig7-unreal": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:11:49Z",
+    "aiger_file": null
+  },
+  "ltl2dba_beta_pb_5_pe_": {
+    "status": "realizable",
+    "and_gates": 3332,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:12:04Z",
+    "aiger_file": "ltl2dba_beta_pb_5_pe_.aag"
+  },
+  "patrolling0": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:12:05Z",
+    "aiger_file": null
+  },
+  "robot-tasks-real": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:12:05Z",
+    "aiger_file": "robot-tasks-real.aag"
   }
 }

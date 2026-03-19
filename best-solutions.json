@@ -5766,5 +5766,131 @@
     "method": "spot_game",
     "timestamp": "2026-03-19T19:15:28Z",
     "aiger_file": null
+  },
+  "collector_v1_pb_9_pe_": {
+    "status": "realizable",
+    "and_gates": 46274,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:24:56Z",
+    "aiger_file": "collector_v1_pb_9_pe_.aag"
+  },
+  "F-G-contradiction-12": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:24:56Z",
+    "aiger_file": null
+  },
+  "F-G-contradiction-13": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:24:56Z",
+    "aiger_file": null
+  },
+  "F-G-contradiction-14": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:24:56Z",
+    "aiger_file": null
+  },
+  "F-G-contradiction-15": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:24:56Z",
+    "aiger_file": null
+  },
+  "amba_decomposed_arbiter_pb_4_pe_": {
+    "status": "realizable",
+    "and_gates": 7911,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:24:56Z",
+    "aiger_file": "amba_decomposed_arbiter_pb_4_pe_.aag"
+  },
+  "amba_decomposed_encode_pb_7_pe_": {
+    "status": "realizable",
+    "and_gates": 214,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:24:56Z",
+    "aiger_file": "amba_decomposed_encode_pb_7_pe_.aag"
+  },
+  "g-unreal-14": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:24:56Z",
+    "aiger_file": null
+  },
+  "g-unreal-15": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:24:57Z",
+    "aiger_file": null
+  },
+  "g-unreal-16": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:24:57Z",
+    "aiger_file": null
+  },
+  "g-unreal-17": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:24:57Z",
+    "aiger_file": null
+  },
+  "g-unreal-31": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:24:57Z",
+    "aiger_file": null
+  },
+  "amba_decomposed_encode_pb_8_pe_": {
+    "status": "realizable",
+    "and_gates": 198,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:24:57Z",
+    "aiger_file": "amba_decomposed_encode_pb_8_pe_.aag"
+  },
+  "g-unreal-110": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:27:27Z",
+    "aiger_file": null
+  },
+  "g-unreal-111": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:27:27Z",
+    "aiger_file": null
+  },
+  "g-unreal-112": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:27:28Z",
+    "aiger_file": null
+  },
+  "g-unreal-113": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:27:28Z",
+    "aiger_file": null
+  },
+  "amba_decomposed_arbiter_pb_5_pe_": {
+    "status": "realizable",
+    "and_gates": 67968,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T19:27:29Z",
+    "aiger_file": "amba_decomposed_arbiter_pb_5_pe_.aag"
   }
 }

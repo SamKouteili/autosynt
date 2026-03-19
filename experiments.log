@@ -1071,3 +1071,21 @@
 [2026-03-19 15:21:45] instance: Lights3_3916ec59 | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 152 | time: 0s | notes: reopt from 11162, saved 11010
 [2026-03-19 15:21:45] instance: prioritized_arbiter_pb_5_pe_ | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 34 | time: 0s | notes: reopt from 58, saved 24
 [2026-03-19 15:22:20] instance: simple_arbiter_with_hints_pb_6_pe_ | approach: ltlsynt-sd+decompose | status: realizable | and_gates: 10927 | time: 0s | notes: reopt from 29795, saved 18868
+[2026-03-19 15:24:56] instance: collector_v1_pb_9_pe_ | approach: ltlsynt+decompose | status: realizable | and_gates: 46274 | time: 21.2s | notes: ltlsynt+decompose
+[2026-03-19 15:24:56] instance: F-G-contradiction-12 | approach: ltlsynt+decompose | status: unrealizable | and_gates: N/A | time: 0.1s | notes: ltlsynt+decompose
+[2026-03-19 15:24:56] instance: F-G-contradiction-13 | approach: ltlsynt+decompose | status: unrealizable | and_gates: N/A | time: 0.1s | notes: ltlsynt+decompose
+[2026-03-19 15:24:56] instance: F-G-contradiction-14 | approach: ltlsynt+decompose | status: unrealizable | and_gates: N/A | time: 0.1s | notes: ltlsynt+decompose
+[2026-03-19 15:24:56] instance: F-G-contradiction-15 | approach: ltlsynt+decompose | status: unrealizable | and_gates: N/A | time: 0.1s | notes: ltlsynt+decompose
+[2026-03-19 15:24:56] instance: amba_decomposed_arbiter_pb_4_pe_ | approach: ltlsynt+decompose | status: realizable | and_gates: 7911 | time: 0.1s | notes: ltlsynt+decompose
+[2026-03-19 15:24:56] instance: amba_decomposed_encode_pb_7_pe_ | approach: ltlsynt+decompose | status: realizable | and_gates: 214 | time: 0.1s | notes: ltlsynt+decompose
+[2026-03-19 15:24:56] instance: g-unreal-14 | approach: ltlsynt+decompose | status: unrealizable | and_gates: N/A | time: 0.1s | notes: ltlsynt+decompose
+[2026-03-19 15:24:57] instance: g-unreal-15 | approach: ltlsynt+decompose | status: unrealizable | and_gates: N/A | time: 0.1s | notes: ltlsynt+decompose
+[2026-03-19 15:24:57] instance: g-unreal-16 | approach: ltlsynt+decompose | status: unrealizable | and_gates: N/A | time: 0.1s | notes: ltlsynt+decompose
+[2026-03-19 15:24:57] instance: g-unreal-17 | approach: ltlsynt+decompose | status: unrealizable | and_gates: N/A | time: 0.1s | notes: ltlsynt+decompose
+[2026-03-19 15:24:57] instance: g-unreal-31 | approach: ltlsynt+decompose | status: unrealizable | and_gates: N/A | time: 0.1s | notes: ltlsynt+decompose
+[2026-03-19 15:24:57] instance: amba_decomposed_encode_pb_8_pe_ | approach: ltlsynt+decompose | status: realizable | and_gates: 198 | time: 0.1s | notes: ltlsynt+decompose
+[2026-03-19 15:27:27] instance: g-unreal-110 | approach: ltlsynt+decompose | status: unrealizable | and_gates: N/A | time: 0.2s | notes: ltlsynt+decompose
+[2026-03-19 15:27:27] instance: g-unreal-111 | approach: ltlsynt+decompose | status: unrealizable | and_gates: N/A | time: 0.2s | notes: ltlsynt+decompose
+[2026-03-19 15:27:28] instance: g-unreal-112 | approach: ltlsynt+decompose | status: unrealizable | and_gates: N/A | time: 0.2s | notes: ltlsynt+decompose
+[2026-03-19 15:27:28] instance: g-unreal-113 | approach: ltlsynt+decompose | status: unrealizable | and_gates: N/A | time: 0.2s | notes: ltlsynt+decompose
+[2026-03-19 15:27:29] instance: amba_decomposed_arbiter_pb_5_pe_ | approach: ltlsynt+decompose | status: realizable | and_gates: 67968 | time: 1.3s | notes: ltlsynt+decompose

@@ -3169,5 +3169,1027 @@
     "method": "spot_game+both+ud+dc",
     "timestamp": "2026-03-19T18:23:18Z",
     "aiger_file": "KitchenTimerV8.aag"
+  },
+  "KitchenTimerV9": {
+    "status": "realizable",
+    "and_gates": 1604,
+    "method": "spot_game+both+ud+dc",
+    "timestamp": "2026-03-19T18:23:19Z",
+    "aiger_file": "KitchenTimerV9.aag"
+  },
+  "Morning2Min_6cbc6174": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "spot_game+isop",
+    "timestamp": "2026-03-19T18:23:19Z",
+    "aiger_file": "Morning2Min_6cbc6174.aag"
+  },
+  "Coffee_2c5b09da": {
+    "status": "realizable",
+    "and_gates": 26182,
+    "method": "spot_game+both+ud+dc",
+    "timestamp": "2026-03-19T18:23:26Z",
+    "aiger_file": "Coffee_2c5b09da.aag"
+  },
+  "Lights2_f1477cc5": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:23:31Z",
+    "aiger_file": null
+  },
+  "tmp_13cfc6f2": {
+    "status": "realizable",
+    "and_gates": 19001,
+    "method": "spot_game+ite",
+    "timestamp": "2026-03-19T18:23:32Z",
+    "aiger_file": "tmp_13cfc6f2.aag"
+  },
+  "FelixSpecFixed3.core_b209ff21": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:23:49Z",
+    "aiger_file": null
+  },
+  "TwoCountersDisButA0": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:23:49Z",
+    "aiger_file": null
+  },
+  "TwoCountersDisButA1": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:23:49Z",
+    "aiger_file": null
+  },
+  "TwoCountersDisButA2": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:23:50Z",
+    "aiger_file": null
+  },
+  "TwoCountersDisButA3": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:23:51Z",
+    "aiger_file": null
+  },
+  "Coffee_235467da": {
+    "status": "realizable",
+    "and_gates": 107363,
+    "method": "spot_game+both+ud+dc",
+    "timestamp": "2026-03-19T18:24:01Z",
+    "aiger_file": "Coffee_235467da.aag"
+  },
+  "Coffee_efe2feaf": {
+    "status": "realizable",
+    "and_gates": 107363,
+    "method": "spot_game+both+ud+dc",
+    "timestamp": "2026-03-19T18:24:04Z",
+    "aiger_file": "Coffee_efe2feaf.aag"
+  },
+  "Lights2_b02056d6": {
+    "status": "realizable",
+    "and_gates": 159806,
+    "method": "spot_game+isop",
+    "timestamp": "2026-03-19T18:24:33Z",
+    "aiger_file": "Lights2_b02056d6.aag"
+  },
+  "Alarm_88c5c1c3": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "spot_game+isop",
+    "timestamp": "2026-03-19T18:24:33Z",
+    "aiger_file": "Alarm_88c5c1c3.aag"
+  },
+  "Alarm_9cac58d3": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "spot_game+isop",
+    "timestamp": "2026-03-19T18:24:34Z",
+    "aiger_file": "Alarm_9cac58d3.aag"
+  },
+  "Lights2_9cac58d3": {
+    "status": "realizable",
+    "and_gates": 159806,
+    "method": "spot_game+isop",
+    "timestamp": "2026-03-19T18:24:39Z",
+    "aiger_file": "Lights2_9cac58d3.aag"
+  },
+  "Core_solved_974f4a68": {
+    "status": "realizable",
+    "and_gates": 8258,
+    "method": "spot_game+both+ud+dc",
+    "timestamp": "2026-03-19T18:24:40Z",
+    "aiger_file": "Core_solved_974f4a68.aag"
+  },
+  "full_arbiter_unreal1_pb_3_1_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:24:45Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_3_2_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:24:45Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_3_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:24:45Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_3_4_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:24:45Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_3_5_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:24:47Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal1_pb_3_6_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:24:58Z",
+    "aiger_file": null
+  },
+  "TwoCountersDisButA4": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:25:28Z",
+    "aiger_file": null
+  },
+  "TwoCountersDisButA5": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:25:29Z",
+    "aiger_file": null
+  },
+  "Scoreboard": {
+    "status": "realizable",
+    "and_gates": 4,
+    "method": "spot_game+ite",
+    "timestamp": "2026-03-19T18:25:30Z",
+    "aiger_file": "Scoreboard.aag"
+  },
+  "OneCounter": {
+    "status": "realizable",
+    "and_gates": 123,
+    "method": "spot_game+both+ud+dc",
+    "timestamp": "2026-03-19T18:25:38Z",
+    "aiger_file": "OneCounter.aag"
+  },
+  "SensorInit": {
+    "status": "realizable",
+    "and_gates": 46,
+    "method": "spot_game+isop",
+    "timestamp": "2026-03-19T18:25:39Z",
+    "aiger_file": "SensorInit.aag"
+  },
+  "SensorSubmodulChooser": {
+    "status": "realizable",
+    "and_gates": 74,
+    "method": "spot_game+both+ud+dc",
+    "timestamp": "2026-03-19T18:25:40Z",
+    "aiger_file": "SensorSubmodulChooser.aag"
+  },
+  "TwoCounters4": {
+    "status": "realizable",
+    "and_gates": 40,
+    "method": "spot_game+both+ud+dc",
+    "timestamp": "2026-03-19T18:25:43Z",
+    "aiger_file": "TwoCounters4.aag"
+  },
+  "TwoCounters3": {
+    "status": "realizable",
+    "and_gates": 8,
+    "method": "spot_game+isop",
+    "timestamp": "2026-03-19T18:25:44Z",
+    "aiger_file": "TwoCounters3.aag"
+  },
+  "GamemodeChooser": {
+    "status": "realizable",
+    "and_gates": 80,
+    "method": "spot_game+both+ud+dc",
+    "timestamp": "2026-03-19T18:26:14Z",
+    "aiger_file": "GamemodeChooser.aag"
+  },
+  "SPIWriteManag": {
+    "status": "realizable",
+    "and_gates": 7,
+    "method": "spot_game+both+ud+dc",
+    "timestamp": "2026-03-19T18:26:16Z",
+    "aiger_file": "SPIWriteManag.aag"
+  },
+  "SPI": {
+    "status": "realizable",
+    "and_gates": 87,
+    "method": "spot_game+both+ud+dc",
+    "timestamp": "2026-03-19T18:26:17Z",
+    "aiger_file": "SPI.aag"
+  },
+  "Window2_54e1f7d2": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "spot_game+isop",
+    "timestamp": "2026-03-19T18:26:18Z",
+    "aiger_file": "Window2_54e1f7d2.aag"
+  },
+  "test2_f2774e0b": {
+    "status": "realizable",
+    "and_gates": 2,
+    "method": "spot_game+ite",
+    "timestamp": "2026-03-19T18:26:20Z",
+    "aiger_file": "test2_f2774e0b.aag"
+  },
+  "test3_efe2feaf": {
+    "status": "realizable",
+    "and_gates": 31,
+    "method": "spot_game+both+ud+dc",
+    "timestamp": "2026-03-19T18:26:21Z",
+    "aiger_file": "test3_efe2feaf.aag"
+  },
+  "gf-unreal4": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:26:26Z",
+    "aiger_file": null
+  },
+  "gf-unreal6": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:26:26Z",
+    "aiger_file": null
+  },
+  "gf-unreal5": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:26:26Z",
+    "aiger_file": null
+  },
+  "gf-unreal7": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:26:26Z",
+    "aiger_file": null
+  },
+  "full_arbiter_unreal2_pb_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:26:26Z",
+    "aiger_file": null
+  },
+  "infinite-race-real": {
+    "status": "realizable",
+    "and_gates": 60,
+    "method": "spot_game+ite",
+    "timestamp": "2026-03-19T18:26:26Z",
+    "aiger_file": "infinite-race-real.aag"
+  },
+  "ltl2dba_C2_pb_5_pe_": {
+    "status": "realizable",
+    "and_gates": 104,
+    "method": "spot_game+both+ud+dc",
+    "timestamp": "2026-03-19T18:26:26Z",
+    "aiger_file": "ltl2dba_C2_pb_5_pe_.aag"
+  },
+  "infinite-race-u0": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:26:27Z",
+    "aiger_file": null
+  },
+  "lift_wrong_physics_unreal_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 142,
+    "method": "spot_game+both+ud+dc",
+    "timestamp": "2026-03-19T18:26:27Z",
+    "aiger_file": "lift_wrong_physics_unreal_pb_2_pe_.aag"
+  },
+  "lift_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 142,
+    "method": "spot_game+both+ud+dc",
+    "timestamp": "2026-03-19T18:26:27Z",
+    "aiger_file": "lift_pb_2_pe_.aag"
+  },
+  "ltl2dba_E_pb_5_pe_": {
+    "status": "realizable",
+    "and_gates": 88,
+    "method": "spot_game+ite",
+    "timestamp": "2026-03-19T18:26:27Z",
+    "aiger_file": "ltl2dba_E_pb_5_pe_.aag"
+  },
+  "ltl2dba_C2_unreal_pb_5_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:26:27Z",
+    "aiger_file": null
+  },
+  "ltl2dba_theta_pb_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:26:27Z",
+    "aiger_file": null
+  },
+  "ltl2dba_Q_pb_5_pe_": {
+    "status": "realizable",
+    "and_gates": 1596,
+    "method": "spot_game+both+ud+dc",
+    "timestamp": "2026-03-19T18:26:27Z",
+    "aiger_file": "ltl2dba_Q_pb_5_pe_.aag"
+  },
+  "ltl2dba_U1_pb_5_pe_": {
+    "status": "realizable",
+    "and_gates": 368,
+    "method": "spot_game+both+ud+dc",
+    "timestamp": "2026-03-19T18:26:27Z",
+    "aiger_file": "ltl2dba_U1_pb_5_pe_.aag"
+  },
+  "prioritized_arbiter_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 120,
+    "method": "spot_game+both+dc",
+    "timestamp": "2026-03-19T18:26:27Z",
+    "aiger_file": "prioritized_arbiter_pb_2_pe_.aag"
+  },
+  "prioritized_arbiter_unreal1_pb_2_10_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:26:28Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_2_11_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:26:29Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_2_1_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:26:30Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_2_2_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:26:30Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_2_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:26:30Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_2_4_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:26:30Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_2_5_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:26:31Z",
+    "aiger_file": null
+  },
+  "MorningMin_d6c5ac79": {
+    "status": "realizable",
+    "and_gates": 7544,
+    "method": "spot_game+both+ud+dc",
+    "timestamp": "2026-03-19T18:26:31Z",
+    "aiger_file": "MorningMin_d6c5ac79.aag"
+  },
+  "prioritized_arbiter_unreal1_pb_2_6_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:26:31Z",
+    "aiger_file": null
+  },
+  "Automata16S": {
+    "status": "realizable",
+    "and_gates": 92,
+    "method": "spot_game+isop",
+    "timestamp": "2026-03-19T18:26:31Z",
+    "aiger_file": "Automata16S.aag"
+  },
+  "prioritized_arbiter_unreal1_pb_2_7_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:26:31Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_2_12_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:26:32Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_2_8_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:26:32Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal2_pb_2_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:26:32Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_2_9_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:26:32Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_pb_3_pe_": {
+    "status": "realizable",
+    "and_gates": 161,
+    "method": "spot_game+both+ud+dc",
+    "timestamp": "2026-03-19T18:26:32Z",
+    "aiger_file": "round_robin_arbiter_pb_3_pe_.aag"
+  },
+  "Lights2_06e9cad4": {
+    "status": "realizable",
+    "and_gates": 118839,
+    "method": "spot_game+both+ud+dc",
+    "timestamp": "2026-03-19T18:26:33Z",
+    "aiger_file": "Lights2_06e9cad4.aag"
+  },
+  "SPIReadManag": {
+    "status": "realizable",
+    "and_gates": 97,
+    "method": "spot_game+both+ud+dc",
+    "timestamp": "2026-03-19T18:26:33Z",
+    "aiger_file": "SPIReadManag.aag"
+  },
+  "Cockpitboard": {
+    "status": "realizable",
+    "and_gates": 7,
+    "method": "spot_game+ite",
+    "timestamp": "2026-03-19T18:26:33Z",
+    "aiger_file": "Cockpitboard.aag"
+  },
+  "Cockpitboard_efe2feaf": {
+    "status": "realizable",
+    "and_gates": 7,
+    "method": "spot_game+ite",
+    "timestamp": "2026-03-19T18:26:33Z",
+    "aiger_file": "Cockpitboard_efe2feaf.aag"
+  },
+  "Morning2_4d4ca5c4": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "spot_game+isop",
+    "timestamp": "2026-03-19T18:26:33Z",
+    "aiger_file": "Morning2_4d4ca5c4.aag"
+  },
+  "Morning2_9cac58d3": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "spot_game+isop",
+    "timestamp": "2026-03-19T18:26:34Z",
+    "aiger_file": "Morning2_9cac58d3.aag"
+  },
+  "SensorPart": {
+    "status": "realizable",
+    "and_gates": 43,
+    "method": "spot_game+both+ud+dc",
+    "timestamp": "2026-03-19T18:26:34Z",
+    "aiger_file": "SensorPart.aag"
+  },
+  "prioritized_arbiter_unreal1_pb_2_13_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:26:36Z",
+    "aiger_file": null
+  },
+  "TwoCountersDisButA6": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:26:38Z",
+    "aiger_file": null
+  },
+  "Window2_9cac58d3": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "spot_game+isop",
+    "timestamp": "2026-03-19T18:26:39Z",
+    "aiger_file": "Window2_9cac58d3.aag"
+  },
+  "TwoCountersDisButA7": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:26:41Z",
+    "aiger_file": null
+  },
+  "prioritized_arbiter_unreal1_pb_2_14_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:26:45Z",
+    "aiger_file": null
+  },
+  "Radarboard": {
+    "status": "realizable",
+    "and_gates": 6,
+    "method": "spot_game+ite",
+    "timestamp": "2026-03-19T18:26:50Z",
+    "aiger_file": "Radarboard.aag"
+  },
+  "SensorSelector": {
+    "status": "realizable",
+    "and_gates": 25,
+    "method": "spot_game+both+ud+dc",
+    "timestamp": "2026-03-19T18:26:51Z",
+    "aiger_file": "SensorSelector.aag"
+  },
+  "Gamelogic": {
+    "status": "realizable",
+    "and_gates": 47,
+    "method": "spot_game+both+ud+dc",
+    "timestamp": "2026-03-19T18:26:51Z",
+    "aiger_file": "Gamelogic.aag"
+  },
+  "prioritized_arbiter_unreal1_pb_2_15_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:27:05Z",
+    "aiger_file": null
+  },
+  "FelixSpecFixed2_fa4d4ce3": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "spot_game+isop",
+    "timestamp": "2026-03-19T18:27:41Z",
+    "aiger_file": "FelixSpecFixed2_fa4d4ce3.aag"
+  },
+  "Automata32S": {
+    "status": "realizable",
+    "and_gates": 142,
+    "method": "spot_game+both+dc",
+    "timestamp": "2026-03-19T18:27:41Z",
+    "aiger_file": "Automata32S.aag"
+  },
+  "FelixSpecFixed3_b0840146": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "spot_game+isop",
+    "timestamp": "2026-03-19T18:27:42Z",
+    "aiger_file": "FelixSpecFixed3_b0840146.aag"
+  },
+  "FelixSpecFixed4_3916ec59": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "spot_game+isop",
+    "timestamp": "2026-03-19T18:27:42Z",
+    "aiger_file": "FelixSpecFixed4_3916ec59.aag"
+  },
+  "FelixSpecFixed_2418b67e": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "spot_game+isop",
+    "timestamp": "2026-03-19T18:27:43Z",
+    "aiger_file": "FelixSpecFixed_2418b67e.aag"
+  },
+  "TwoCountersGui": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:27:52Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_unreal1_pb_3_1_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:28:10Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_unreal1_pb_3_2_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:28:13Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_unreal1_pb_3_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:28:13Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_unreal1_pb_3_4_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:28:14Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_unreal1_pb_3_5_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:28:17Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_unreal1_pb_3_6_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:28:28Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_unreal2_pb_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:28:46Z",
+    "aiger_file": null
+  },
+  "jarvis_gideon_a02758ea": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:28:50Z",
+    "aiger_file": null
+  },
+  "amba_decomposed_arbiter_pb_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:03Z",
+    "aiger_file": null
+  },
+  "arbiter-with-failure-real": {
+    "status": "realizable",
+    "and_gates": 177,
+    "method": "spot_game+simplify+both+ud+dc",
+    "timestamp": "2026-03-19T18:29:03Z",
+    "aiger_file": "arbiter-with-failure-real.aag"
+  },
+  "amba_decomposed_encode_pb_5_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:03Z",
+    "aiger_file": null
+  },
+  "g-unreal-11": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:03Z",
+    "aiger_file": null
+  },
+  "diagonal-real": {
+    "status": "realizable",
+    "and_gates": 13,
+    "method": "spot_game+minimize+both+dc",
+    "timestamp": "2026-03-19T18:29:03Z",
+    "aiger_file": "diagonal-real.aag"
+  },
+  "box-limited-real": {
+    "status": "realizable",
+    "and_gates": 4,
+    "method": "spot_game+minimize+both+dc",
+    "timestamp": "2026-03-19T18:29:03Z",
+    "aiger_file": "box-limited-real.aag"
+  },
+  "arbiter_with_cancel_pb_3_pe_": {
+    "status": "realizable",
+    "and_gates": 396,
+    "method": "spot_game+split+isop",
+    "timestamp": "2026-03-19T18:29:03Z",
+    "aiger_file": "arbiter_with_cancel_pb_3_pe_.aag"
+  },
+  "gf-unreal32": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:03Z",
+    "aiger_file": null
+  },
+  "gf-unreal35": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:04Z",
+    "aiger_file": null
+  },
+  "gf-unreal33": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:04Z",
+    "aiger_file": null
+  },
+  "gf-unreal36": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:04Z",
+    "aiger_file": null
+  },
+  "gf-unreal34": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:04Z",
+    "aiger_file": null
+  },
+  "gf-unreal37": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:04Z",
+    "aiger_file": null
+  },
+  "gf-unreal38": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:04Z",
+    "aiger_file": null
+  },
+  "gf-unreal39": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:05Z",
+    "aiger_file": null
+  },
+  "gf-unreal40": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:05Z",
+    "aiger_file": null
+  },
+  "gf-unreal42": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:05Z",
+    "aiger_file": null
+  },
+  "gf-unreal44": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:06Z",
+    "aiger_file": null
+  },
+  "gf-unreal41": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:06Z",
+    "aiger_file": null
+  },
+  "gf-unreal46": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:06Z",
+    "aiger_file": null
+  },
+  "gf-unreal45": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:06Z",
+    "aiger_file": null
+  },
+  "gf-unreal43": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:06Z",
+    "aiger_file": null
+  },
+  "gf-unreal47": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:06Z",
+    "aiger_file": null
+  },
+  "lift_wrong_physics_unreal_pb_4_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:06Z",
+    "aiger_file": null
+  },
+  "load_balancer_pb_4_pe_": {
+    "status": "realizable",
+    "and_gates": 277,
+    "method": "spot_game+minimize+ite",
+    "timestamp": "2026-03-19T18:29:07Z",
+    "aiger_file": "load_balancer_pb_4_pe_.aag"
+  },
+  "load_balancer_unreal1_pb_4_1_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:07Z",
+    "aiger_file": null
+  },
+  "lift_gr1_pb_3_pe_": {
+    "status": "realizable",
+    "and_gates": 1585,
+    "method": "spot_game+split+both+ud+dc",
+    "timestamp": "2026-03-19T18:29:07Z",
+    "aiger_file": "lift_gr1_pb_3_pe_.aag"
+  },
+  "load_balancer_unreal1_pb_4_2_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:07Z",
+    "aiger_file": null
+  },
+  "lift_unary_enc_pb_3_pe_": {
+    "status": "realizable",
+    "and_gates": 910,
+    "method": "spot_game+minimize+both+dc",
+    "timestamp": "2026-03-19T18:29:07Z",
+    "aiger_file": "lift_unary_enc_pb_3_pe_.aag"
+  },
+  "load_balancer_unreal1_pb_4_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:07Z",
+    "aiger_file": null
+  },
+  "load_balancer_unreal1_pb_4_4_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:08Z",
+    "aiger_file": null
+  },
+  "lift_gr1+_pb_2_pe_": {
+    "status": "realizable",
+    "and_gates": 3547,
+    "method": "spot_game+minimize+ite",
+    "timestamp": "2026-03-19T18:29:08Z",
+    "aiger_file": "lift_gr1+_pb_2_pe_.aag"
+  },
+  "load_balancer_unreal1_pb_4_5_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:09Z",
+    "aiger_file": null
+  },
+  "ltl2dba_C2_pb_8_pe_": {
+    "status": "realizable",
+    "and_gates": 167,
+    "method": "spot_game+simplify+both+ud+dc",
+    "timestamp": "2026-03-19T18:29:09Z",
+    "aiger_file": "ltl2dba_C2_pb_8_pe_.aag"
+  },
+  "ltl2dba_C2_unreal_pb_8_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:09Z",
+    "aiger_file": null
+  },
+  "round_robin_arbiter_unreal1_pb_3_7_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:10Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_3_1_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:10Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_3_2_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:11Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_3_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:11Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_3_4_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:11Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_3_5_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:12Z",
+    "aiger_file": null
+  },
+  "load_balancer_unreal1_pb_4_6_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:15Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal1_pb_3_6_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:18Z",
+    "aiger_file": null
+  },
+  "simple_arbiter_unreal2_pb_3_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:53Z",
+    "aiger_file": null
+  },
+  "01": {
+    "status": "realizable",
+    "and_gates": 48,
+    "method": "spot_game+minimize+both+ud+dc",
+    "timestamp": "2026-03-19T18:29:53Z",
+    "aiger_file": "01.aag"
+  },
+  "amba_decomposed_arbiter_pb_2_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:53Z",
+    "aiger_file": null
+  },
+  "amba_decomposed_encode_pb_4_pe_": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "spot_game",
+    "timestamp": "2026-03-19T18:29:54Z",
+    "aiger_file": null
   }
 }

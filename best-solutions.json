@@ -6459,5 +6459,621 @@
     "method": "ltlsynt+decompose",
     "timestamp": "2026-03-19T20:46:41Z",
     "aiger_file": "chomp_pb_3_3_pe_.aag"
+  },
+  "GF-G-contradiction2": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:29Z",
+    "aiger_file": null
+  },
+  "arbiter-paper-unreal-unreal": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:29Z",
+    "aiger_file": null
+  },
+  "heim-double-x1": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:29Z",
+    "aiger_file": null
+  },
+  "heim-double-x2": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:29Z",
+    "aiger_file": null
+  },
+  "heim-double-x3": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:29Z",
+    "aiger_file": null
+  },
+  "patrolling1": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:29Z",
+    "aiger_file": null
+  },
+  "patrolling2": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:30Z",
+    "aiger_file": null
+  },
+  "robot-resource-1d0": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:30Z",
+    "aiger_file": null
+  },
+  "box0": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:30Z",
+    "aiger_file": null
+  },
+  "box1": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:30Z",
+    "aiger_file": null
+  },
+  "buffer-storage-real": {
+    "status": "realizable",
+    "and_gates": 82,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:30Z",
+    "aiger_file": "buffer-storage-real.aag"
+  },
+  "heim-double-x4": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:30Z",
+    "aiger_file": null
+  },
+  "heim-double-x5": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:30Z",
+    "aiger_file": null
+  },
+  "heim-double-x6": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:30Z",
+    "aiger_file": null
+  },
+  "heim-double-x7": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:31Z",
+    "aiger_file": null
+  },
+  "infinite-race-unequal-1-real": {
+    "status": "realizable",
+    "and_gates": 129,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:31Z",
+    "aiger_file": "infinite-race-unequal-1-real.aag"
+  },
+  "patrolling-alarm0": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:31Z",
+    "aiger_file": null
+  },
+  "patrolling3": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:31Z",
+    "aiger_file": null
+  },
+  "patrolling4": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:31Z",
+    "aiger_file": null
+  },
+  "patrolling5": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:31Z",
+    "aiger_file": null
+  },
+  "patrolling6": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:31Z",
+    "aiger_file": null
+  },
+  "robot-resource-1d1": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:32Z",
+    "aiger_file": null
+  },
+  "tasks-real": {
+    "status": "realizable",
+    "and_gates": 0,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:32Z",
+    "aiger_file": "tasks-real.aag"
+  },
+  "box-real": {
+    "status": "realizable",
+    "and_gates": 84,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:32Z",
+    "aiger_file": "box-real.aag"
+  },
+  "f-real-real": {
+    "status": "realizable",
+    "and_gates": 814,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:32Z",
+    "aiger_file": "f-real-real.aag"
+  },
+  "heim-double-x8": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:32Z",
+    "aiger_file": null
+  },
+  "infinite-race-u2": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:32Z",
+    "aiger_file": null
+  },
+  "infinite-race-u3": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:33Z",
+    "aiger_file": null
+  },
+  "patrolling-alarm1": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:33Z",
+    "aiger_file": null
+  },
+  "patrolling-alarm2": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:33Z",
+    "aiger_file": null
+  },
+  "patrolling10": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:33Z",
+    "aiger_file": null
+  },
+  "patrolling11": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:33Z",
+    "aiger_file": null
+  },
+  "patrolling12": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:34Z",
+    "aiger_file": null
+  },
+  "patrolling13": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:34Z",
+    "aiger_file": null
+  },
+  "patrolling14": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:34Z",
+    "aiger_file": null
+  },
+  "patrolling7": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:35Z",
+    "aiger_file": null
+  },
+  "patrolling8": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:35Z",
+    "aiger_file": null
+  },
+  "patrolling9": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:35Z",
+    "aiger_file": null
+  },
+  "robot-resource-1d-unreal": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:51:35Z",
+    "aiger_file": null
+  },
+  "chain-simple-10-real": {
+    "status": "realizable",
+    "and_gates": 982,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:06Z",
+    "aiger_file": "chain-simple-10-real.aag"
+  },
+  "chain-simple-5-real": {
+    "status": "realizable",
+    "and_gates": 542,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:06Z",
+    "aiger_file": "chain-simple-5-real.aag"
+  },
+  "g-real0": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:06Z",
+    "aiger_file": null
+  },
+  "heim-buechi-real": {
+    "status": "realizable",
+    "and_gates": 1089,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:06Z",
+    "aiger_file": "heim-buechi-real.aag"
+  },
+  "heim-double-x-real": {
+    "status": "realizable",
+    "and_gates": 141,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:07Z",
+    "aiger_file": "heim-double-x-real.aag"
+  },
+  "heim-double-x10": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:08Z",
+    "aiger_file": null
+  },
+  "heim-double-x11": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:08Z",
+    "aiger_file": null
+  },
+  "heim-double-x12": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:09Z",
+    "aiger_file": null
+  },
+  "heim-double-x13": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:10Z",
+    "aiger_file": null
+  },
+  "heim-double-x9": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:10Z",
+    "aiger_file": null
+  },
+  "infinite-race-u4": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:11Z",
+    "aiger_file": null
+  },
+  "infinite-race-u5": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:11Z",
+    "aiger_file": null
+  },
+  "infinite-race-u6": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:11Z",
+    "aiger_file": null
+  },
+  "infinite-race-u7": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:11Z",
+    "aiger_file": null
+  },
+  "patrolling-alarm3": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:12Z",
+    "aiger_file": null
+  },
+  "patrolling-alarm4": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:12Z",
+    "aiger_file": null
+  },
+  "patrolling-alarm5": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:12Z",
+    "aiger_file": null
+  },
+  "patrolling-alarm6": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:12Z",
+    "aiger_file": null
+  },
+  "patrolling15": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:13Z",
+    "aiger_file": null
+  },
+  "patrolling16": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:13Z",
+    "aiger_file": null
+  },
+  "patrolling17": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:13Z",
+    "aiger_file": null
+  },
+  "patrolling18": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:14Z",
+    "aiger_file": null
+  },
+  "patrolling19": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:14Z",
+    "aiger_file": null
+  },
+  "patrolling20": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:15Z",
+    "aiger_file": null
+  },
+  "patrolling21": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:15Z",
+    "aiger_file": null
+  },
+  "patrolling22": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:16Z",
+    "aiger_file": null
+  },
+  "patrolling23": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:17Z",
+    "aiger_file": null
+  },
+  "patrolling24": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:17Z",
+    "aiger_file": null
+  },
+  "patrolling25": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:18Z",
+    "aiger_file": null
+  },
+  "robot-grid-commute-1d-real": {
+    "status": "realizable",
+    "and_gates": 448,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:18Z",
+    "aiger_file": "robot-grid-commute-1d-real.aag"
+  },
+  "thermostat-F-real": {
+    "status": "realizable",
+    "and_gates": 165,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:18Z",
+    "aiger_file": "thermostat-F-real.aag"
+  },
+  "unordered-visits-real": {
+    "status": "realizable",
+    "and_gates": 805,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:19Z",
+    "aiger_file": "unordered-visits-real.aag"
+  },
+  "chain-simple-20-real": {
+    "status": "realizable",
+    "and_gates": 1835,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:20Z",
+    "aiger_file": "chain-simple-20-real.aag"
+  },
+  "infinite-race-u10": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:20Z",
+    "aiger_file": null
+  },
+  "infinite-race-u11": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:21Z",
+    "aiger_file": null
+  },
+  "infinite-race-u12": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:22Z",
+    "aiger_file": null
+  },
+  "infinite-race-u13": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:22Z",
+    "aiger_file": null
+  },
+  "infinite-race-u14": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:23Z",
+    "aiger_file": null
+  },
+  "infinite-race-u15": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:24Z",
+    "aiger_file": null
+  },
+  "infinite-race-u8": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:24Z",
+    "aiger_file": null
+  },
+  "infinite-race-u9": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:25Z",
+    "aiger_file": null
+  },
+  "patrolling-alarm10": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:25Z",
+    "aiger_file": null
+  },
+  "patrolling-alarm11": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:25Z",
+    "aiger_file": null
+  },
+  "patrolling-alarm12": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:26Z",
+    "aiger_file": null
+  },
+  "patrolling-alarm13": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:26Z",
+    "aiger_file": null
+  },
+  "patrolling-alarm14": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:26Z",
+    "aiger_file": null
+  },
+  "patrolling-alarm7": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:26Z",
+    "aiger_file": null
+  },
+  "patrolling-alarm8": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:27Z",
+    "aiger_file": null
+  },
+  "patrolling-alarm9": {
+    "status": "unrealizable",
+    "and_gates": -1,
+    "method": "ltlsynt+decompose",
+    "timestamp": "2026-03-19T20:53:27Z",
+    "aiger_file": null
   }
 }

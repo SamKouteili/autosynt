@@ -1148,3 +1148,7 @@
 [2026-03-19 16:29:16] instance: Lights2_f3987563 | approach: reopt-simplified+sd | status: realizable | and_gates: 505 | time: 0s | notes: reopt-simplified from 86439
 [2026-03-19 16:29:31] instance: Lights2_0f5381e9 | approach: reopt-simplified+sd | status: realizable | and_gates: 428 | time: 0s | notes: reopt-simplified from 70549
 [2026-03-19 16:29:34] instance: amba_decomposed_arbiter_pb_5_pe_ | approach: reopt-simplified+sd | status: realizable | and_gates: 2484 | time: 0s | notes: reopt-simplified from 67968
+[2026-03-19 16:32:59] instance: amba_decomposed_lock_pb_5_pe_ | approach: ltlsynt-simplified+default | status: realizable | and_gates: 103 | time: 0.1s | notes: long-timeout
+[2026-03-19 16:33:19] instance: arbiter_with_buffer_pb_3_pe_ | approach: ltlsynt-simplified+default | status: realizable | and_gates: 162 | time: 0.1s | notes: long-timeout
+[2026-03-19 16:33:20] instance: arbiter_with_cancel_pb_4_pe_ | approach: ltlsynt-simplified+default | status: realizable | and_gates: 3603 | time: 1.2s | notes: long-timeout
+[2026-03-19 16:34:21] instance: mux_pb_8_pe_ | approach: ltlsynt-simplified+default | status: realizable | and_gates: 21 | time: 0.1s | notes: long-timeout

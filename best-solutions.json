@@ -6256,5 +6256,33 @@
     "method": "ltlsynt+decompose",
     "timestamp": "2026-03-19T20:20:34Z",
     "aiger_file": "shift_pb_500_pe_.aag"
+  },
+  "amba_decomposed_lock_pb_5_pe_": {
+    "status": "realizable",
+    "and_gates": 103,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:32:59Z",
+    "aiger_file": "amba_decomposed_lock_pb_5_pe_.aag"
+  },
+  "arbiter_with_buffer_pb_3_pe_": {
+    "status": "realizable",
+    "and_gates": 162,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:33:19Z",
+    "aiger_file": "arbiter_with_buffer_pb_3_pe_.aag"
+  },
+  "arbiter_with_cancel_pb_4_pe_": {
+    "status": "realizable",
+    "and_gates": 3603,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:33:20Z",
+    "aiger_file": "arbiter_with_cancel_pb_4_pe_.aag"
+  },
+  "mux_pb_8_pe_": {
+    "status": "realizable",
+    "and_gates": 21,
+    "method": "ltlsynt-simplified+default",
+    "timestamp": "2026-03-19T20:34:21Z",
+    "aiger_file": "mux_pb_8_pe_.aag"
   }
 }

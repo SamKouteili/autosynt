@@ -1386,3 +1386,9 @@
 [2026-03-19 18:54:17] instance: finding_nemo_pb_5_pe_ | approach: ltlsynt-sd+direct-extract | status: realizable | and_gates: 78 | time: 8.7s | notes: direct-extract
 [2026-03-19 19:02:43] instance: LightsTotal_d65ed84e | approach: simplified+sd | status: realizable | and_gates: 877 | time: 3.1s | notes: spectra-long
 [2026-03-19 19:02:48] instance: LightsTotal_06e9cad4 | approach: simplified+sd | status: realizable | and_gates: 860 | time: 5.0s | notes: spectra-long
+[2026-03-19 19:22:03] instance: Core_solved_974f4a68 | approach: sd+sat | status: realizable | and_gates: 34 | time: 0.3s | notes: sat-reopt from 8258
+[2026-03-19 19:22:05] instance: tmp_13cfc6f2 | approach: sd+sat | status: realizable | and_gates: 366 | time: 1.5s | notes: sat-reopt from 6989
+[2026-03-19 19:22:05] instance: Lights3_06e9cad4 | approach: sd+sat | status: realizable | and_gates: 98 | time: 0.3s | notes: sat-reopt from 5814
+[2026-03-19 19:22:05] instance: Coffee_06e9cad4 | approach: sd+bwoa-sat | status: realizable | and_gates: 12 | time: 0.3s | notes: sat-reopt from 2585
+[2026-03-19 19:24:11] instance: KitchenTimerV8 | approach: sd+sat | status: realizable | and_gates: 1198 | time: 35.1s | notes: sat-reopt from 2396
+[2026-03-19 19:24:11] instance: Coffee_d6376bf9 | approach: sd+bwoa-sat | status: realizable | and_gates: 45 | time: 0.3s | notes: sat-reopt from 1693

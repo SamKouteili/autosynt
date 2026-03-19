@@ -3074,9 +3074,9 @@
   },
   "Lights3_06e9cad4": {
     "status": "realizable",
-    "and_gates": 5814,
-    "method": "ltlsynt+bwoa-sat",
-    "timestamp": "2026-03-19T21:10:55Z",
+    "and_gates": 98,
+    "method": "sd+sat",
+    "timestamp": "2026-03-19T23:22:05Z",
     "aiger_file": "Lights3_06e9cad4.aag"
   },
   "Example1_d6376bf9": {
@@ -3095,9 +3095,9 @@
   },
   "Coffee_d6376bf9": {
     "status": "realizable",
-    "and_gates": 1693,
-    "method": "ltlsynt+bwoa-sat",
-    "timestamp": "2026-03-19T21:09:55Z",
+    "and_gates": 45,
+    "method": "sd+bwoa-sat",
+    "timestamp": "2026-03-19T23:24:11Z",
     "aiger_file": "Coffee_d6376bf9.aag"
   },
   "TwoCountersRefinedRefined": {
@@ -3144,9 +3144,9 @@
   },
   "Coffee_06e9cad4": {
     "status": "realizable",
-    "and_gates": 2585,
-    "method": "spot_game+simplify+both+ud+dc",
-    "timestamp": "2026-03-19T18:31:52Z",
+    "and_gates": 12,
+    "method": "sd+bwoa-sat",
+    "timestamp": "2026-03-19T23:22:05Z",
     "aiger_file": "Coffee_06e9cad4.aag"
   },
   "Lights3_2c5b09da": {
@@ -3165,9 +3165,9 @@
   },
   "KitchenTimerV8": {
     "status": "realizable",
-    "and_gates": 2396,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:23:18Z",
+    "and_gates": 1198,
+    "method": "sd+sat",
+    "timestamp": "2026-03-19T23:24:11Z",
     "aiger_file": "KitchenTimerV8.aag"
   },
   "KitchenTimerV9": {
@@ -3200,9 +3200,9 @@
   },
   "tmp_13cfc6f2": {
     "status": "realizable",
-    "and_gates": 6989,
-    "method": "ltlsynt+bwoa-sat",
-    "timestamp": "2026-03-19T21:09:55Z",
+    "and_gates": 366,
+    "method": "sd+sat",
+    "timestamp": "2026-03-19T23:22:05Z",
     "aiger_file": "tmp_13cfc6f2.aag"
   },
   "FelixSpecFixed3.core_b209ff21": {
@@ -3284,9 +3284,9 @@
   },
   "Core_solved_974f4a68": {
     "status": "realizable",
-    "and_gates": 8258,
-    "method": "spot_game+both+ud+dc",
-    "timestamp": "2026-03-19T18:24:40Z",
+    "and_gates": 34,
+    "method": "sd+sat",
+    "timestamp": "2026-03-19T23:22:03Z",
     "aiger_file": "Core_solved_974f4a68.aag"
   },
   "full_arbiter_unreal1_pb_3_1_pe_": {

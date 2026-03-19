@@ -7754,5 +7754,12 @@
     "method": "quick-probe",
     "timestamp": "2026-03-19T21:47:30Z",
     "aiger_file": null
+  },
+  "LightsTotal_9cbf2546": {
+    "status": "realizable",
+    "and_gates": 2360,
+    "method": "sd+decompose",
+    "timestamp": "2026-03-19T22:08:58Z",
+    "aiger_file": "LightsTotal_9cbf2546.aag"
   }
 }

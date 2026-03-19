@@ -1375,3 +1375,4 @@
 [2026-03-19 17:55:24] instance: lift_pb_6_pe_ | approach: reopt-ds | status: realizable | and_gates: 832 | time: 0s | notes: reopt from 117030
 [2026-03-19 17:55:30] instance: ltl2dba_U1_pb_10_pe_ | approach: reopt-sd | status: realizable | and_gates: 22480 | time: 0s | notes: reopt from 81638
 [2026-03-19 17:55:57] instance: ltl2dba_Q_pb_7_pe_ | approach: reopt-sd | status: realizable | and_gates: 32065 | time: 0s | notes: reopt from 80540
+[2026-03-19 18:08:58] instance: LightsTotal_9cbf2546 | approach: sd+decompose | status: realizable | and_gates: 2360 | time: 0.9s | notes: known-status
